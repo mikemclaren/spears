@@ -1,12 +1,27 @@
-angular.module("app").controller('HomeController', function($scope, $location, AuthenticationService) {
-  $scope.title = "Home";
-  $scope.message = "Mouse Over these images to see a directive at work";
+angular.module("app").controller('HomeController', ['$scope', '$location', 'CurrentUser', function($scope, $location, CurrentUser) {
+  $scope.users = [
+    {
+      name: 'Matt',
+      points: 301,
+      rounds: []
+    },
+    {
+      name: 'Mike',
+      points: 12,
+      rounds: []
+    }
+  ];
 
-  var onLogoutSuccess = function(response) {
-    $location.path('/login');
-  };
+  $scope.throwDart = function(num) {
+    CurrentUser.id = 0;
+    CurrentUser.user.points = CurrentUser.user.points - num;
+    CurrentUser.darts  = CurrentUser.user.darts - 1;
 
-  $scope.logout = function() {
-    AuthenticationService.logout().success(onLogoutSuccess);
+    console.log(CurrentUser.user.points);
+
+    if(CurrentUser.user.darts === 0) {
+      CurrentUser.user = $scope.users[CurrentUser.id];
+      CurrentUser.id++;
+    }
   };
-});
+}]);
