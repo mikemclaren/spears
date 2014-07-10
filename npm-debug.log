@@ -1,0 +1,3453 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.16
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/mimclaren/Sites/hack-night/dartboard-app',
+6 verbose install   [ 'coffee-script',
+6 verbose install     'jasmine-given',
+6 verbose install     'lineman',
+6 verbose install     'lineman-angular',
+6 verbose install     'lineman-less',
+6 verbose install     'protractor' ] ]
+7 info preinstall lineman-angular-template@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'lineman@>= 0.28.0', null ]
+10 verbose cache add name=undefined spec="lineman@>= 0.28.0" args=["lineman@>= 0.28.0",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'lineman@%3E=%200.28.0',
+11 verbose parsed url   path: 'lineman@%3E=%200.28.0',
+11 verbose parsed url   href: 'lineman@%3E=%200.28.0' }
+12 verbose cache add [ 'lineman-angular@>= 0.2.0', null ]
+13 verbose cache add name=undefined spec="lineman-angular@>= 0.2.0" args=["lineman-angular@>= 0.2.0",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'lineman-angular@%3E=%200.2.0',
+14 verbose parsed url   path: 'lineman-angular@%3E=%200.2.0',
+14 verbose parsed url   href: 'lineman-angular@%3E=%200.2.0' }
+15 verbose cache add name="lineman" spec=">= 0.28.0" args=["lineman",">= 0.28.0"]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '%3E=%200.28.0',
+16 verbose parsed url   path: '%3E=%200.28.0',
+16 verbose parsed url   href: '%3E=%200.28.0' }
+17 verbose addNamed [ 'lineman', '>= 0.28.0' ]
+18 verbose addNamed [ null, '>=0.28.0' ]
+19 verbose cache add [ 'lineman-less@0.0.1', null ]
+20 verbose cache add name=undefined spec="lineman-less@0.0.1" args=["lineman-less@0.0.1",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'lineman-less@0.0.1',
+21 verbose parsed url   path: 'lineman-less@0.0.1',
+21 verbose parsed url   href: 'lineman-less@0.0.1' }
+22 verbose cache add [ 'protractor@^0.23.1', null ]
+23 verbose cache add name=undefined spec="protractor@^0.23.1" args=["protractor@^0.23.1",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'protractor@^0.23.1',
+24 verbose parsed url   path: 'protractor@^0.23.1',
+24 verbose parsed url   href: 'protractor@^0.23.1' }
+25 verbose cache add [ 'coffee-script@~1.6.3', null ]
+26 verbose cache add name=undefined spec="coffee-script@~1.6.3" args=["coffee-script@~1.6.3",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'coffee-script@~1.6.3',
+27 verbose parsed url   path: 'coffee-script@~1.6.3',
+27 verbose parsed url   href: 'coffee-script@~1.6.3' }
+28 verbose cache add name="lineman-angular" spec=">= 0.2.0" args=["lineman-angular",">= 0.2.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '%3E=%200.2.0',
+29 verbose parsed url   path: '%3E=%200.2.0',
+29 verbose parsed url   href: '%3E=%200.2.0' }
+30 verbose addNamed [ 'lineman-angular', '>= 0.2.0' ]
+31 verbose addNamed [ null, '>=0.2.0' ]
+32 silly lockFile ca46b164-lineman-0-28-0 lineman@>= 0.28.0
+33 verbose lock lineman@>= 0.28.0 /Users/mimclaren/.npm/ca46b164-lineman-0-28-0.lock
+34 silly lockFile 12fbef9a-lineman-angular-0-2-0 lineman-angular@>= 0.2.0
+35 verbose lock lineman-angular@>= 0.2.0 /Users/mimclaren/.npm/12fbef9a-lineman-angular-0-2-0.lock
+36 verbose cache add name="lineman-less" spec="0.0.1" args=["lineman-less","0.0.1"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '0.0.1',
+37 verbose parsed url   path: '0.0.1',
+37 verbose parsed url   href: '0.0.1' }
+38 verbose addNamed [ 'lineman-less', '0.0.1' ]
+39 verbose addNamed [ '0.0.1', '0.0.1' ]
+40 silly lockFile 767efc48-lineman-less-0-0-1 lineman-less@0.0.1
+41 verbose lock lineman-less@0.0.1 /Users/mimclaren/.npm/767efc48-lineman-less-0-0-1.lock
+42 verbose cache add name="protractor" spec="^0.23.1" args=["protractor","^0.23.1"]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: '^0.23.1',
+43 verbose parsed url   path: '^0.23.1',
+43 verbose parsed url   href: '^0.23.1' }
+44 verbose addNamed [ 'protractor', '^0.23.1' ]
+45 verbose addNamed [ null, '>=0.23.1-0 <0.24.0-0' ]
+46 silly lockFile 2bc0467d-protractor-0-23-1 protractor@^0.23.1
+47 verbose lock protractor@^0.23.1 /Users/mimclaren/.npm/2bc0467d-protractor-0-23-1.lock
+48 verbose cache add name="coffee-script" spec="~1.6.3" args=["coffee-script","~1.6.3"]
+49 verbose parsed url { protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: '~1.6.3',
+49 verbose parsed url   path: '~1.6.3',
+49 verbose parsed url   href: '~1.6.3' }
+50 verbose addNamed [ 'coffee-script', '~1.6.3' ]
+51 verbose addNamed [ null, '>=1.6.3-0 <1.7.0-0' ]
+52 silly lockFile 2faa65d6-coffee-script-1-6-3 coffee-script@~1.6.3
+53 verbose lock coffee-script@~1.6.3 /Users/mimclaren/.npm/2faa65d6-coffee-script-1-6-3.lock
+54 verbose cache add [ 'jasmine-given@~2.1.0', null ]
+55 verbose cache add name=undefined spec="jasmine-given@~2.1.0" args=["jasmine-given@~2.1.0",null]
+56 verbose parsed url { protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'jasmine-given@~2.1.0',
+56 verbose parsed url   path: 'jasmine-given@~2.1.0',
+56 verbose parsed url   href: 'jasmine-given@~2.1.0' }
+57 verbose cache add name="jasmine-given" spec="~2.1.0" args=["jasmine-given","~2.1.0"]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '~2.1.0',
+58 verbose parsed url   path: '~2.1.0',
+58 verbose parsed url   href: '~2.1.0' }
+59 verbose addNamed [ 'jasmine-given', '~2.1.0' ]
+60 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+61 silly lockFile ecdacbdb-jasmine-given-2-1-0 jasmine-given@~2.1.0
+62 verbose lock jasmine-given@~2.1.0 /Users/mimclaren/.npm/ecdacbdb-jasmine-given-2-1-0.lock
+63 silly addNameRange { name: 'lineman-angular', range: '>=0.2.0', hasData: false }
+64 silly addNameRange { name: 'lineman', range: '>=0.28.0', hasData: false }
+65 silly addNameRange { name: 'protractor',
+65 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+65 silly addNameRange   hasData: false }
+66 silly addNameRange { name: 'coffee-script',
+66 silly addNameRange   range: '>=1.6.3-0 <1.7.0-0',
+66 silly addNameRange   hasData: false }
+67 silly addNameRange { name: 'jasmine-given',
+67 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
+67 silly addNameRange   hasData: false }
+68 verbose request where is /lineman
+69 verbose request registry https://registry.npmjs.org/
+70 verbose request id 3ac5986724bf73ed
+71 verbose url raw /lineman
+72 verbose url resolving [ 'https://registry.npmjs.org/', './lineman' ]
+73 verbose url resolved https://registry.npmjs.org/lineman
+74 verbose request where is https://registry.npmjs.org/lineman
+75 info trying registry request attempt 1 at 20:29:44
+76 verbose etag "1GZQEI7MNO6XPD0P6S0AB5UE2"
+77 http GET https://registry.npmjs.org/lineman
+78 verbose request where is /coffee-script
+79 verbose request registry https://registry.npmjs.org/
+80 verbose url raw /coffee-script
+81 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+82 verbose url resolved https://registry.npmjs.org/coffee-script
+83 verbose request where is https://registry.npmjs.org/coffee-script
+84 info trying registry request attempt 1 at 20:29:44
+85 verbose etag "7ZLBS2DO8VQR0WOEFNGUVGMU6"
+86 http GET https://registry.npmjs.org/coffee-script
+87 verbose request where is /lineman-angular
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /lineman-angular
+90 verbose url resolving [ 'https://registry.npmjs.org/', './lineman-angular' ]
+91 verbose url resolved https://registry.npmjs.org/lineman-angular
+92 verbose request where is https://registry.npmjs.org/lineman-angular
+93 info trying registry request attempt 1 at 20:29:44
+94 verbose etag "ANLU7ME7G7Z4VB643GUPTTYH0"
+95 http GET https://registry.npmjs.org/lineman-angular
+96 verbose request where is /lineman-less
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /lineman-less
+99 verbose url resolving [ 'https://registry.npmjs.org/', './lineman-less' ]
+100 verbose url resolved https://registry.npmjs.org/lineman-less
+101 verbose request where is https://registry.npmjs.org/lineman-less
+102 info trying registry request attempt 1 at 20:29:44
+103 verbose etag "4NBASLBU23EIK6NQK6JKIS1E1"
+104 http GET https://registry.npmjs.org/lineman-less
+105 verbose request where is /jasmine-given
+106 verbose request registry https://registry.npmjs.org/
+107 verbose url raw /jasmine-given
+108 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-given' ]
+109 verbose url resolved https://registry.npmjs.org/jasmine-given
+110 verbose request where is https://registry.npmjs.org/jasmine-given
+111 info trying registry request attempt 1 at 20:29:44
+112 verbose etag "46R2YVQCCJU6IG3YWNEQJOYUV"
+113 http GET https://registry.npmjs.org/jasmine-given
+114 verbose request where is /protractor
+115 verbose request registry https://registry.npmjs.org/
+116 verbose url raw /protractor
+117 verbose url resolving [ 'https://registry.npmjs.org/', './protractor' ]
+118 verbose url resolved https://registry.npmjs.org/protractor
+119 verbose request where is https://registry.npmjs.org/protractor
+120 info trying registry request attempt 1 at 20:29:44
+121 verbose etag "5KW5T9SEJHBPDTQUN72O5E5OV"
+122 http GET https://registry.npmjs.org/protractor
+123 http 304 https://registry.npmjs.org/coffee-script
+124 silly registry.get cb [ 304,
+124 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+124 silly registry.get     server: 'Apache',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:44 GMT',
+124 silly registry.get     'cache-control': 'max-age=30',
+124 silly registry.get     etag: '"7ZLBS2DO8VQR0WOEFNGUVGMU6"',
+124 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '1',
+124 silly registry.get     'x-timer': 'S1404955784.484072,VS0,VE0',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'content-length': '0',
+124 silly registry.get     'keep-alive': 'timeout=10, max=50',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 verbose etag https://registry.npmjs.org/coffee-script from cache
+126 silly addNameRange number 2 { name: 'coffee-script',
+126 silly addNameRange   range: '>=1.6.3-0 <1.7.0-0',
+126 silly addNameRange   hasData: true }
+127 silly addNameRange versions [ 'coffee-script',
+127 silly addNameRange   [ '0.7.0',
+127 silly addNameRange     '0.7.1',
+127 silly addNameRange     '0.7.2',
+127 silly addNameRange     '0.9.0',
+127 silly addNameRange     '0.9.1',
+127 silly addNameRange     '0.9.2',
+127 silly addNameRange     '0.9.3',
+127 silly addNameRange     '0.9.4',
+127 silly addNameRange     '0.9.5',
+127 silly addNameRange     '0.9.6',
+127 silly addNameRange     '1.0.0',
+127 silly addNameRange     '1.0.1',
+127 silly addNameRange     '1.1.0',
+127 silly addNameRange     '1.1.1',
+127 silly addNameRange     '1.1.2',
+127 silly addNameRange     '1.1.3',
+127 silly addNameRange     '1.2.0',
+127 silly addNameRange     '1.3.0',
+127 silly addNameRange     '1.3.1',
+127 silly addNameRange     '1.3.2',
+127 silly addNameRange     '1.3.3',
+127 silly addNameRange     '1.4.0',
+127 silly addNameRange     '1.5.0',
+127 silly addNameRange     '1.6.0',
+127 silly addNameRange     '1.6.1',
+127 silly addNameRange     '1.6.2',
+127 silly addNameRange     '1.6.3',
+127 silly addNameRange     '1.7.0',
+127 silly addNameRange     '1.7.1' ] ]
+128 verbose addNamed [ 'coffee-script', '1.6.3' ]
+129 verbose addNamed [ '1.6.3', '1.6.3' ]
+130 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+131 verbose lock coffee-script@1.6.3 /Users/mimclaren/.npm/15ab88ca-coffee-script-1-6-3.lock
+132 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+133 silly lockFile 15ab88ca-coffee-script-1-6-3 coffee-script@1.6.3
+134 silly lockFile 2faa65d6-coffee-script-1-6-3 coffee-script@~1.6.3
+135 silly lockFile 2faa65d6-coffee-script-1-6-3 coffee-script@~1.6.3
+136 http 200 https://registry.npmjs.org/lineman-less
+137 silly registry.get cb [ 200,
+137 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+137 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+137 silly registry.get     etag: '"A3Y8WWH0CNLBAQSV062Q9RS9L"',
+137 silly registry.get     'content-type': 'application/json',
+137 silly registry.get     'cache-control': 'max-age=30',
+137 silly registry.get     'content-length': '3659',
+137 silly registry.get     'accept-ranges': 'bytes',
+137 silly registry.get     via: '1.1 varnish',
+137 silly registry.get     age: '0',
+137 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+137 silly registry.get     'x-cache': 'MISS',
+137 silly registry.get     'x-cache-hits': '0',
+137 silly registry.get     'x-timer': 'S1404955784.484697,VS0,VE44',
+137 silly registry.get     vary: 'Accept',
+137 silly registry.get     'keep-alive': 'timeout=10, max=50',
+137 silly registry.get     connection: 'Keep-Alive' } ]
+138 silly lockFile c5ccc32f-eman-less-lineman-less-0-0-1-tgz https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+139 verbose lock https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz /Users/mimclaren/.npm/c5ccc32f-eman-less-lineman-less-0-0-1-tgz.lock
+140 verbose addRemoteTarball [ 'https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz',
+140 verbose addRemoteTarball   'b534a0c971f600ac0a43600f4187475e99c2d4f7' ]
+141 info retry fetch attempt 1 at 20:29:44
+142 verbose fetch to= /var/folders/s7/ccngl_g111v7y5zqr67r0qc80000gp/T/npm-1772-CyNOHM7f/registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+143 http GET https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+144 http 200 https://registry.npmjs.org/protractor
+145 silly registry.get cb [ 200,
+145 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+145 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+145 silly registry.get     etag: '"1ME2LWIQF3E3RUAXXT8WKDIQX"',
+145 silly registry.get     'content-type': 'application/json',
+145 silly registry.get     'cache-control': 'max-age=30',
+145 silly registry.get     'content-length': '57000',
+145 silly registry.get     'accept-ranges': 'bytes',
+145 silly registry.get     via: '1.1 varnish',
+145 silly registry.get     age: '201',
+145 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+145 silly registry.get     'x-cache': 'MISS',
+145 silly registry.get     'x-cache-hits': '0',
+145 silly registry.get     'x-timer': 'S1404955784.492550,VS0,VE54',
+145 silly registry.get     vary: 'Accept',
+145 silly registry.get     'keep-alive': 'timeout=10, max=49',
+145 silly registry.get     connection: 'Keep-Alive' } ]
+146 http 200 https://registry.npmjs.org/lineman-angular
+147 silly registry.get cb [ 200,
+147 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+147 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly registry.get     etag: '"C0RC0245QKHN3C0Z0EZU3KFPJ"',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'cache-control': 'max-age=30',
+147 silly registry.get     'content-length': '11183',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '0',
+147 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+147 silly registry.get     'x-cache': 'MISS',
+147 silly registry.get     'x-cache-hits': '0',
+147 silly registry.get     'x-timer': 'S1404955784.487033,VS0,VE78',
+147 silly registry.get     vary: 'Accept',
+147 silly registry.get     'keep-alive': 'timeout=10, max=50',
+147 silly registry.get     connection: 'Keep-Alive' } ]
+148 silly addNameRange number 2 { name: 'protractor',
+148 silly addNameRange   range: '>=0.23.1-0 <0.24.0-0',
+148 silly addNameRange   hasData: true }
+149 silly addNameRange versions [ 'protractor',
+149 silly addNameRange   [ '0.1.0',
+149 silly addNameRange     '0.1.1',
+149 silly addNameRange     '0.1.2',
+149 silly addNameRange     '0.1.3',
+149 silly addNameRange     '0.2.0',
+149 silly addNameRange     '0.2.1',
+149 silly addNameRange     '0.3.0',
+149 silly addNameRange     '0.4.0',
+149 silly addNameRange     '0.4.1',
+149 silly addNameRange     '0.5.0',
+149 silly addNameRange     '0.6.1',
+149 silly addNameRange     '0.7.0',
+149 silly addNameRange     '0.8.0',
+149 silly addNameRange     '0.9.0',
+149 silly addNameRange     '0.10.0',
+149 silly addNameRange     '0.11.0',
+149 silly addNameRange     '0.12.0',
+149 silly addNameRange     '0.12.1',
+149 silly addNameRange     '0.13.0',
+149 silly addNameRange     '0.14.0',
+149 silly addNameRange     '0.15.0',
+149 silly addNameRange     '0.16.0',
+149 silly addNameRange     '0.16.1',
+149 silly addNameRange     '0.17.0',
+149 silly addNameRange     '0.18.0',
+149 silly addNameRange     '0.18.1',
+149 silly addNameRange     '0.19.0',
+149 silly addNameRange     '0.20.0',
+149 silly addNameRange     '0.20.1',
+149 silly addNameRange     '0.21.0',
+149 silly addNameRange     '0.22.0',
+149 silly addNameRange     '0.23.0',
+149 silly addNameRange     '0.23.1',
+149 silly addNameRange     '0.24.0',
+149 silly addNameRange     '0.24.1',
+149 silly addNameRange     '0.24.2',
+149 silly addNameRange     '1.0.0-rc1',
+149 silly addNameRange     '1.0.0-rc2',
+149 silly addNameRange     '1.0.0-rc3',
+149 silly addNameRange     '1.0.0-rc4' ] ]
+150 verbose addNamed [ 'protractor', '0.23.1' ]
+151 verbose addNamed [ '0.23.1', '0.23.1' ]
+152 silly lockFile 73b41e2a-protractor-0-23-1 protractor@0.23.1
+153 verbose lock protractor@0.23.1 /Users/mimclaren/.npm/73b41e2a-protractor-0-23-1.lock
+154 silly addNameRange number 2 { name: 'lineman-angular', range: '>=0.2.0', hasData: true }
+155 silly addNameRange versions [ 'lineman-angular',
+155 silly addNameRange   [ '0.0.1',
+155 silly addNameRange     '0.0.2',
+155 silly addNameRange     '0.0.3',
+155 silly addNameRange     '0.1.0',
+155 silly addNameRange     '0.1.1',
+155 silly addNameRange     '0.1.2',
+155 silly addNameRange     '0.1.3',
+155 silly addNameRange     '0.2.0' ] ]
+156 verbose addNamed [ 'lineman-angular', '0.2.0' ]
+157 verbose addNamed [ '0.2.0', '0.2.0' ]
+158 silly lockFile ea5eeff6-lineman-angular-0-2-0 lineman-angular@0.2.0
+159 verbose lock lineman-angular@0.2.0 /Users/mimclaren/.npm/ea5eeff6-lineman-angular-0-2-0.lock
+160 silly lockFile ceea5b9d-protractor-protractor-0-23-1-tgz https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+161 verbose lock https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz /Users/mimclaren/.npm/ceea5b9d-protractor-protractor-0-23-1-tgz.lock
+162 verbose addRemoteTarball [ 'https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz',
+162 verbose addRemoteTarball   '429f0ab453e817feba9f838e41acb142feb5a978' ]
+163 http 200 https://registry.npmjs.org/jasmine-given
+164 silly registry.get cb [ 200,
+164 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+164 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+164 silly registry.get     etag: '"58KLSAA1ZJL9QP3LPRJVJWRS7"',
+164 silly registry.get     'content-type': 'application/json',
+164 silly registry.get     'cache-control': 'max-age=30',
+164 silly registry.get     'content-length': '22695',
+164 silly registry.get     'accept-ranges': 'bytes',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     age: '0',
+164 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+164 silly registry.get     'x-cache': 'MISS',
+164 silly registry.get     'x-cache-hits': '0',
+164 silly registry.get     'x-timer': 'S1404955784.487107,VS0,VE108',
+164 silly registry.get     vary: 'Accept',
+164 silly registry.get     'keep-alive': 'timeout=10, max=50',
+164 silly registry.get     connection: 'Keep-Alive' } ]
+165 info retry fetch attempt 1 at 20:29:44
+166 verbose fetch to= /var/folders/s7/ccngl_g111v7y5zqr67r0qc80000gp/T/npm-1772-CyNOHM7f/registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+167 http GET https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+168 silly lockFile ea5eeff6-lineman-angular-0-2-0 lineman-angular@0.2.0
+169 silly lockFile ea5eeff6-lineman-angular-0-2-0 lineman-angular@0.2.0
+170 silly addNameRange number 2 { name: 'jasmine-given',
+170 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
+170 silly addNameRange   hasData: true }
+171 silly addNameRange versions [ 'jasmine-given',
+171 silly addNameRange   [ '2.1.0',
+171 silly addNameRange     '2.2.0',
+171 silly addNameRange     '2.3.0',
+171 silly addNameRange     '2.4.0',
+171 silly addNameRange     '2.5.0',
+171 silly addNameRange     '2.5.1',
+171 silly addNameRange     '2.6.0',
+171 silly addNameRange     '2.6.2' ] ]
+172 verbose addNamed [ 'jasmine-given', '2.1.0' ]
+173 verbose addNamed [ '2.1.0', '2.1.0' ]
+174 silly lockFile 5776247a-jasmine-given-2-1-0 jasmine-given@2.1.0
+175 verbose lock jasmine-given@2.1.0 /Users/mimclaren/.npm/5776247a-jasmine-given-2-1-0.lock
+176 silly lockFile 12fbef9a-lineman-angular-0-2-0 lineman-angular@>= 0.2.0
+177 silly lockFile 12fbef9a-lineman-angular-0-2-0 lineman-angular@>= 0.2.0
+178 silly lockFile 5776247a-jasmine-given-2-1-0 jasmine-given@2.1.0
+179 silly lockFile 5776247a-jasmine-given-2-1-0 jasmine-given@2.1.0
+180 silly lockFile ecdacbdb-jasmine-given-2-1-0 jasmine-given@~2.1.0
+181 silly lockFile ecdacbdb-jasmine-given-2-1-0 jasmine-given@~2.1.0
+182 http 200 https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+183 silly lockFile c5ccc32f-eman-less-lineman-less-0-0-1-tgz https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+184 silly lockFile c5ccc32f-eman-less-lineman-less-0-0-1-tgz https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz
+185 silly lockFile 767efc48-lineman-less-0-0-1 lineman-less@0.0.1
+186 silly lockFile 767efc48-lineman-less-0-0-1 lineman-less@0.0.1
+187 http 200 https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+188 http 304 https://registry.npmjs.org/lineman
+189 silly registry.get cb [ 304,
+189 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:44 GMT',
+189 silly registry.get     server: 'Apache',
+189 silly registry.get     via: '1.1 varnish',
+189 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:44 GMT',
+189 silly registry.get     'cache-control': 'max-age=30',
+189 silly registry.get     etag: '"1GZQEI7MNO6XPD0P6S0AB5UE2"',
+189 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+189 silly registry.get     'x-cache': 'MISS',
+189 silly registry.get     'x-cache-hits': '0',
+189 silly registry.get     'x-timer': 'S1404955784.486138,VS0,VE368',
+189 silly registry.get     vary: 'Accept',
+189 silly registry.get     'content-length': '0',
+189 silly registry.get     'keep-alive': 'timeout=10, max=50',
+189 silly registry.get     connection: 'Keep-Alive' } ]
+190 verbose etag https://registry.npmjs.org/lineman from cache
+191 silly addNameRange number 2 { name: 'lineman', range: '>=0.28.0', hasData: true }
+192 silly addNameRange versions [ 'lineman',
+192 silly addNameRange   [ '0.0.1',
+192 silly addNameRange     '0.0.2',
+192 silly addNameRange     '0.0.3',
+192 silly addNameRange     '0.0.4',
+192 silly addNameRange     '0.0.5',
+192 silly addNameRange     '0.1.0',
+192 silly addNameRange     '0.1.1',
+192 silly addNameRange     '0.1.2',
+192 silly addNameRange     '0.1.3',
+192 silly addNameRange     '0.1.4',
+192 silly addNameRange     '0.1.5',
+192 silly addNameRange     '0.1.6',
+192 silly addNameRange     '0.1.7',
+192 silly addNameRange     '0.1.8',
+192 silly addNameRange     '0.1.9',
+192 silly addNameRange     '0.2.0',
+192 silly addNameRange     '0.2.1',
+192 silly addNameRange     '0.2.2',
+192 silly addNameRange     '0.2.3',
+192 silly addNameRange     '0.2.4',
+192 silly addNameRange     '0.3.0',
+192 silly addNameRange     '0.3.1',
+192 silly addNameRange     '0.3.2',
+192 silly addNameRange     '0.4.0',
+192 silly addNameRange     '0.4.1',
+192 silly addNameRange     '0.4.2',
+192 silly addNameRange     '0.4.3',
+192 silly addNameRange     '0.4.4',
+192 silly addNameRange     '0.4.5',
+192 silly addNameRange     '0.4.6',
+192 silly addNameRange     '0.4.7',
+192 silly addNameRange     '0.4.8',
+192 silly addNameRange     '0.4.9',
+192 silly addNameRange     '0.4.10',
+192 silly addNameRange     '0.4.11',
+192 silly addNameRange     '0.5.0',
+192 silly addNameRange     '0.5.1',
+192 silly addNameRange     '0.5.2',
+192 silly addNameRange     '0.6.0',
+192 silly addNameRange     '0.6.1',
+192 silly addNameRange     '0.6.2',
+192 silly addNameRange     '0.6.3',
+192 silly addNameRange     '0.6.4',
+192 silly addNameRange     '0.6.5',
+192 silly addNameRange     '0.6.6',
+192 silly addNameRange     '0.7.0',
+192 silly addNameRange     '0.7.1',
+192 silly addNameRange     '0.8.0',
+192 silly addNameRange     '0.8.1',
+192 silly addNameRange     '0.8.2',
+192 silly addNameRange     '0.8.3',
+192 silly addNameRange     '0.8.4',
+192 silly addNameRange     '0.9.0',
+192 silly addNameRange     '0.10.0',
+192 silly addNameRange     '0.10.1',
+192 silly addNameRange     '0.11.0',
+192 silly addNameRange     '0.11.1',
+192 silly addNameRange     '0.11.2',
+192 silly addNameRange     '0.11.3',
+192 silly addNameRange     '0.11.4',
+192 silly addNameRange     '0.11.5',
+192 silly addNameRange     '0.11.6',
+192 silly addNameRange     '0.12.0',
+192 silly addNameRange     '0.12.1',
+192 silly addNameRange     '0.12.2',
+192 silly addNameRange     '0.12.3',
+192 silly addNameRange     '0.12.4',
+192 silly addNameRange     '0.12.5',
+192 silly addNameRange     '0.13.0',
+192 silly addNameRange     '0.13.1',
+192 silly addNameRange     '0.14.0',
+192 silly addNameRange     '0.14.1',
+192 silly addNameRange     '0.14.2',
+192 silly addNameRange     '0.14.3',
+192 silly addNameRange     '0.14.4',
+192 silly addNameRange     '0.15.0-beta1',
+192 silly addNameRange     '0.14.5',
+192 silly addNameRange     '0.15.0-beta2',
+192 silly addNameRange     '0.15.0',
+192 silly addNameRange     '0.15.1',
+192 silly addNameRange     '0.16.0',
+192 silly addNameRange     '0.16.1',
+192 silly addNameRange     '0.17.0',
+192 silly addNameRange     '0.18.0',
+192 silly addNameRange     '0.18.1',
+192 silly addNameRange     '0.18.2',
+192 silly addNameRange     '0.18.3',
+192 silly addNameRange     '0.19.0',
+192 silly addNameRange     '0.19.1',
+192 silly addNameRange     '0.19.2',
+192 silly addNameRange     '0.19.3',
+192 silly addNameRange     '0.19.4',
+192 silly addNameRange     '0.20.0',
+192 silly addNameRange     '0.21.0',
+192 silly addNameRange     '0.21.1',
+192 silly addNameRange     '0.21.2',
+192 silly addNameRange     '0.21.3',
+192 silly addNameRange     '0.22.0',
+192 silly addNameRange     '0.23.0',
+192 silly addNameRange     '0.23.1',
+192 silly addNameRange     '0.23.2',
+192 silly addNameRange     '0.23.3',
+192 silly addNameRange     '0.24.0',
+192 silly addNameRange     '0.24.1',
+192 silly addNameRange     '0.24.2',
+192 silly addNameRange     '0.24.3',
+192 silly addNameRange     '0.24.4',
+192 silly addNameRange     '0.24.5',
+192 silly addNameRange     '0.24.7',
+192 silly addNameRange     '0.24.8',
+192 silly addNameRange     '0.24.9',
+192 silly addNameRange     '0.24.10',
+192 silly addNameRange     '0.25.0',
+192 silly addNameRange     '0.26.0',
+192 silly addNameRange     '0.27.0',
+192 silly addNameRange     '0.27.1',
+192 silly addNameRange     '0.27.2',
+192 silly addNameRange     '0.28.0',
+192 silly addNameRange     '0.28.1',
+192 silly addNameRange     '0.28.2',
+192 silly addNameRange     '0.28.3',
+192 silly addNameRange     '0.29.0',
+192 silly addNameRange     '0.29.1',
+192 silly addNameRange     '0.29.2',
+192 silly addNameRange     '0.29.3',
+192 silly addNameRange     '0.30.0',
+192 silly addNameRange     '0.31.0',
+192 silly addNameRange     '0.32.0',
+192 silly addNameRange     '0.32.1',
+192 silly addNameRange     '0.32.2',
+192 silly addNameRange     '0.33.0',
+192 silly addNameRange     '0.33.1',
+192 silly addNameRange     '0.33.2',
+192 silly addNameRange     '0.33.3',
+192 silly addNameRange     '0.33.4' ] ]
+193 verbose addNamed [ 'lineman', '0.33.4' ]
+194 verbose addNamed [ '0.33.4', '0.33.4' ]
+195 silly lockFile cd4bb82a-lineman-0-33-4 lineman@0.33.4
+196 verbose lock lineman@0.33.4 /Users/mimclaren/.npm/cd4bb82a-lineman-0-33-4.lock
+197 silly lockFile cd4bb82a-lineman-0-33-4 lineman@0.33.4
+198 silly lockFile cd4bb82a-lineman-0-33-4 lineman@0.33.4
+199 silly lockFile ca46b164-lineman-0-28-0 lineman@>= 0.28.0
+200 silly lockFile ca46b164-lineman-0-28-0 lineman@>= 0.28.0
+201 silly lockFile ceea5b9d-protractor-protractor-0-23-1-tgz https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+202 silly lockFile ceea5b9d-protractor-protractor-0-23-1-tgz https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz
+203 silly lockFile 73b41e2a-protractor-0-23-1 protractor@0.23.1
+204 silly lockFile 73b41e2a-protractor-0-23-1 protractor@0.23.1
+205 silly lockFile 2bc0467d-protractor-0-23-1 protractor@^0.23.1
+206 silly lockFile 2bc0467d-protractor-0-23-1 protractor@^0.23.1
+207 silly resolved [ { name: 'coffee-script',
+207 silly resolved     description: 'Unfancy JavaScript',
+207 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+207 silly resolved     author: { name: 'Jeremy Ashkenas' },
+207 silly resolved     version: '1.6.3',
+207 silly resolved     licenses: [ [Object] ],
+207 silly resolved     engines: { node: '>=0.8.0' },
+207 silly resolved     directories: { lib: './lib/coffee-script' },
+207 silly resolved     main: './lib/coffee-script/coffee-script',
+207 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+207 silly resolved     scripts: { test: 'node ./bin/cake test' },
+207 silly resolved     homepage: 'http://coffeescript.org',
+207 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffee-script/issues' },
+207 silly resolved     repository:
+207 silly resolved      { type: 'git',
+207 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+207 silly resolved     devDependencies: { 'uglify-js': '~2.2', jison: '>=0.2.0' },
+207 silly resolved     _id: 'coffee-script@1.6.3',
+207 silly resolved     dist:
+207 silly resolved      { shasum: '6355d32cf1b04cdff6b484e5e711782b2f0c39be',
+207 silly resolved        tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz' },
+207 silly resolved     _from: 'coffee-script@~1.6.3',
+207 silly resolved     _npmVersion: '1.2.24',
+207 silly resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+207 silly resolved     maintainers: [ [Object], [Object] ],
+207 silly resolved     _shasum: '6355d32cf1b04cdff6b484e5e711782b2f0c39be',
+207 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.6.3.tgz',
+207 silly resolved     readme: 'ERROR: No README data found!' },
+207 silly resolved   { name: 'lineman-angular',
+207 silly resolved     title: 'An Angular.js plugin for Lineman',
+207 silly resolved     version: '0.2.0',
+207 silly resolved     homepage: 'https://github.com/linemanjs/lineman-angular',
+207 silly resolved     author: { name: 'Justin Searls' },
+207 silly resolved     repository:
+207 silly resolved      { type: 'git',
+207 silly resolved        url: 'git://github.com/linemanjs/lineman-angular.git' },
+207 silly resolved     main: 'main.js',
+207 silly resolved     dependencies:
+207 silly resolved      { 'grunt-angular-templates': '~0.3.8',
+207 silly resolved        'grunt-ngmin': '~0.0.3',
+207 silly resolved        'coffee-script': '~1.6.3',
+207 silly resolved        underscore: '~1.5.2' },
+207 silly resolved     devDependencies: {},
+207 silly resolved     peerDependencies: { lineman: '>= 0.23.0' },
+207 silly resolved     licenses: [ [Object] ],
+207 silly resolved     description: 'This is a plugin to get started with Angular.js using [Lineman](http://linemanjs.com). We recommend you look at our [Angular template project](https://github.com/linemanjs/lineman-angular-template/) as a starting point.',
+207 silly resolved     bugs: { url: 'https://github.com/linemanjs/lineman-angular/issues' },
+207 silly resolved     _id: 'lineman-angular@0.2.0',
+207 silly resolved     dist:
+207 silly resolved      { shasum: '134405df7b7e1c207bff3a43238d8a236f702ddd',
+207 silly resolved        tarball: 'http://registry.npmjs.org/lineman-angular/-/lineman-angular-0.2.0.tgz' },
+207 silly resolved     _from: 'lineman-angular@>= 0.2.0',
+207 silly resolved     _npmVersion: '1.3.11',
+207 silly resolved     _npmUser: { name: 'searls', email: 'searls@gmail.com' },
+207 silly resolved     maintainers: [ [Object] ],
+207 silly resolved     directories: {},
+207 silly resolved     _shasum: '134405df7b7e1c207bff3a43238d8a236f702ddd',
+207 silly resolved     _resolved: 'https://registry.npmjs.org/lineman-angular/-/lineman-angular-0.2.0.tgz',
+207 silly resolved     readme: 'ERROR: No README data found!' },
+207 silly resolved   { name: 'jasmine-given',
+207 silly resolved     version: '2.1.0',
+207 silly resolved     description: 'Adds a Given-When-Then DSL to jasmine as an alternative style for specs',
+207 silly resolved     homepage: 'https://github.com/searls/jasmine-given',
+207 silly resolved     author: { name: 'Justin Searls' },
+207 silly resolved     main: 'main.js',
+207 silly resolved     dependencies: { 'coffee-script': '~ 1.6.3', minijasminenode: '~0.2.4' },
+207 silly resolved     devDependencies: { lineman: '>=0.11.0' },
+207 silly resolved     keywords: [ 'jasmine', 'bdd' ],
+207 silly resolved     bugs: { url: 'https://github.com/searls/jasmine-given/issues' },
+207 silly resolved     repository:
+207 silly resolved      { type: 'git',
+207 silly resolved        url: 'https://github.com/searls/jasmine-given.git' },
+207 silly resolved     licenses: [ [Object] ],
+207 silly resolved     _id: 'jasmine-given@2.1.0',
+207 silly resolved     dist:
+207 silly resolved      { shasum: 'bec132bf0f42b2564ddfb2d3d47a881239792338',
+207 silly resolved        tarball: 'http://registry.npmjs.org/jasmine-given/-/jasmine-given-2.1.0.tgz' },
+207 silly resolved     _from: 'jasmine-given@~2.1.0',
+207 silly resolved     _npmVersion: '1.2.32',
+207 silly resolved     _npmUser: { name: 'searls', email: 'searls@gmail.com' },
+207 silly resolved     maintainers: [ [Object] ],
+207 silly resolved     directories: {},
+207 silly resolved     _shasum: 'bec132bf0f42b2564ddfb2d3d47a881239792338',
+207 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine-given/-/jasmine-given-2.1.0.tgz',
+207 silly resolved     readme: 'ERROR: No README data found!' },
+207 silly resolved   { name: 'lineman-less',
+207 silly resolved     title: 'less plugin for Lineman, using grunt-contrib-less',
+207 silly resolved     description: 'Compiles less templates to CSS in your Lineman application.',
+207 silly resolved     keywords: [ 'lineman', 'grunt', 'less' ],
+207 silly resolved     version: '0.0.1',
+207 silly resolved     homepage: 'http://www.linemanjs.com',
+207 silly resolved     author: { name: 'Justin Searls', email: 'justin@testdouble.com' },
+207 silly resolved     contributors: [ [Object] ],
+207 silly resolved     repository:
+207 silly resolved      { type: 'git',
+207 silly resolved        url: 'git://github.com/linemanjs/lineman-less.git' },
+207 silly resolved     bugs: { url: 'https://github.com/linemanjs/lineman-less/issues' },
+207 silly resolved     main: 'index',
+207 silly resolved     dependencies:
+207 silly resolved      { 'grunt-contrib-less': '~0.10.0',
+207 silly resolved        'coffee-script': '~1.7.1',
+207 silly resolved        'find-root-package': '0.0.1' },
+207 silly resolved     peerDependencies: { lineman: '>= 0.27.0' },
+207 silly resolved     scripts: { postinstall: 'node script/postinstall.js' },
+207 silly resolved     licenses: [ [Object] ],
+207 silly resolved     _id: 'lineman-less@0.0.1',
+207 silly resolved     dist:
+207 silly resolved      { shasum: 'b534a0c971f600ac0a43600f4187475e99c2d4f7',
+207 silly resolved        tarball: 'http://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz' },
+207 silly resolved     _from: 'lineman-less@0.0.1',
+207 silly resolved     _npmVersion: '1.3.11',
+207 silly resolved     _npmUser: { name: 'searls', email: 'searls@gmail.com' },
+207 silly resolved     maintainers: [ [Object] ],
+207 silly resolved     directories: {},
+207 silly resolved     _shasum: 'b534a0c971f600ac0a43600f4187475e99c2d4f7',
+207 silly resolved     _resolved: 'https://registry.npmjs.org/lineman-less/-/lineman-less-0.0.1.tgz' },
+207 silly resolved   { name: 'lineman',
+207 silly resolved     description: 'A grunt-based project scaffold for HTML/CSS/JS apps',
+207 silly resolved     version: '0.33.4',
+207 silly resolved     homepage: 'http://linemanjs.com',
+207 silly resolved     author: { name: 'Justin Searls', email: 'justin@testdouble.com' },
+207 silly resolved     preferGlobal: true,
+207 silly resolved     repository: { type: 'git', url: 'https://github.com/linemanjs/lineman.git' },
+207 silly resolved     bugs: { url: 'https://github.com/linemanjs/lineman/issues' },
+207 silly resolved     bin: { lineman: './cli.js' },
+207 silly resolved     main: 'lineman',
+207 silly resolved     dependencies:
+207 silly resolved      { 'coffee-script': '1.6.3',
+207 silly resolved        commander: '1.3.2',
+207 silly resolved        'config-extend': '0.0.6',
+207 silly resolved        'connect-livereload': '^0.4.0',
+207 silly resolved        express: '3.4.0',
+207 silly resolved        fetcher: '~0.2.0',
+207 silly resolved        grunt: '0.4.1',
+207 silly resolved        'grunt-asset-fingerprint': '~0.2.0',
+207 silly resolved        'grunt-concat-sourcemap': '~0.4.0',
+207 silly resolved        'grunt-contrib-clean': '0.5.0',
+207 silly resolved        'grunt-contrib-coffee': '0.7.0',
+207 silly resolved        'grunt-contrib-copy': '0.4.1',
+207 silly resolved        'grunt-contrib-cssmin': '0.6.1',
+207 silly resolved        'grunt-contrib-handlebars': '0.8.0',
+207 silly resolved        'grunt-contrib-jshint': '0.6.4',
+207 silly resolved        'grunt-contrib-jst': '0.5.1',
+207 silly resolved        'grunt-contrib-sass': '0.5.0',
+207 silly resolved        'grunt-contrib-uglify': '0.2.4',
+207 silly resolved        'grunt-watch-nospawn': '0.0.7',
+207 silly resolved        'http-proxy': '0.10.3',
+207 silly resolved        js2coffee: '~0.2.7',
+207 silly resolved        lodash: '~0.9.0',
+207 silly resolved        'normalize-package-data': '~0.2.9',
+207 silly resolved        resolve: '~0.6.1',
+207 silly resolved        semver: '2.1.0',
+207 silly resolved        testem: '0.6.15',
+207 silly resolved        'underscore.string': '~2.3.3',
+207 silly resolved        'watch_r-structr-lock': '0.0.1' },
+207 silly resolved     devDependencies: { 'grunt-release': '~0.7.0' },
+207 silly resolved     licenses: [ [Object] ],
+207 silly resolved     keywords: [ 'lineman', 'grunt', 'yeoman', 'build', 'happiness', 'scaffold' ],
+207 silly resolved     _id: 'lineman@0.33.4',
+207 silly resolved     _shasum: '3c694866d722858c7749705a48372f7b85790397',
+207 silly resolved     _from: 'lineman@>= 0.28.0',
+207 silly resolved     _npmVersion: '1.4.9',
+207 silly resolved     _npmUser: { name: 'searls', email: 'searls@gmail.com' },
+207 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+207 silly resolved     dist:
+207 silly resolved      { shasum: '3c694866d722858c7749705a48372f7b85790397',
+207 silly resolved        tarball: 'http://registry.npmjs.org/lineman/-/lineman-0.33.4.tgz' },
+207 silly resolved     directories: {},
+207 silly resolved     _resolved: 'https://registry.npmjs.org/lineman/-/lineman-0.33.4.tgz',
+207 silly resolved     readme: 'ERROR: No README data found!' },
+207 silly resolved   { name: 'protractor',
+207 silly resolved     description: 'Webdriver E2E test wrapper for Angular.',
+207 silly resolved     homepage: 'https://github.com/angular/protractor',
+207 silly resolved     keywords:
+207 silly resolved      [ 'angular',
+207 silly resolved        'test',
+207 silly resolved        'testing',
+207 silly resolved        'webdriver',
+207 silly resolved        'webdriverjs',
+207 silly resolved        'selenium' ],
+207 silly resolved     author: { name: 'Julie Ralph', email: 'ju.ralph@gmail.com' },
+207 silly resolved     dependencies:
+207 silly resolved      { request: '^2.36.0',
+207 silly resolved        'selenium-webdriver': '2.41.0',
+207 silly resolved        minijasminenode: '0.4.0',
+207 silly resolved        saucelabs: '~0.1.0',
+207 silly resolved        glob: '~3.2',
+207 silly resolved        'adm-zip': '0.4.4',
+207 silly resolved        optimist: '~0.6.0',
+207 silly resolved        q: '1.0.0',
+207 silly resolved        lodash: '~2.4.1' },
+207 silly resolved     devDependencies:
+207 silly resolved      { 'expect.js': '~0.2.0',
+207 silly resolved        chai: '~1.8.1',
+207 silly resolved        'chai-as-promised': '~4.1.0',
+207 silly resolved        'jasmine-reporters': '~0.2.1',
+207 silly resolved        jshint: '2.5.0',
+207 silly resolved        mocha: '~1.18.0',
+207 silly resolved        cucumber: '~0.3.3',
+207 silly resolved        express: '~3.3.4',
+207 silly resolved        lodash: '~2.4.1',
+207 silly resolved        rimraf: '~2.2.6',
+207 silly resolved        dgeni: '~0.2.2',
+207 silly resolved        'dgeni-packages': '~0.6.0' },
+207 silly resolved     repository: { type: 'git', url: 'git://github.com/angular/protractor.git' },
+207 silly resolved     bin:
+207 silly resolved      { protractor: 'bin/protractor',
+207 silly resolved        'webdriver-manager': 'bin/webdriver-manager' },
+207 silly resolved     main: 'lib/protractor.js',
+207 silly resolved     scripts:
+207 silly resolved      { pretest: 'jshint lib spec',
+207 silly resolved        test: 'scripts/test.js',
+207 silly resolved        start: 'testapp/scripts/web-server.js' },
+207 silly resolved     license: 'MIT',
+207 silly resolved     version: '0.23.1',
+207 silly resolved     webdriverVersions: { selenium: '2.41.0', chromedriver: '2.9', iedriver: '2.40.0' },
+207 silly resolved     bugs: { url: 'https://github.com/angular/protractor/issues' },
+207 silly resolved     _id: 'protractor@0.23.1',
+207 silly resolved     dist:
+207 silly resolved      { shasum: '429f0ab453e817feba9f838e41acb142feb5a978',
+207 silly resolved        tarball: 'http://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz' },
+207 silly resolved     _from: 'protractor@^0.23.1',
+207 silly resolved     _npmVersion: '1.4.6',
+207 silly resolved     _npmUser: { name: 'juliemr', email: 'ju.ralph@gmail.com' },
+207 silly resolved     maintainers: [ [Object] ],
+207 silly resolved     directories: {},
+207 silly resolved     _shasum: '429f0ab453e817feba9f838e41acb142feb5a978',
+207 silly resolved     _resolved: 'https://registry.npmjs.org/protractor/-/protractor-0.23.1.tgz' } ]
+208 info install coffee-script@1.6.3 into /Users/mimclaren/Sites/hack-night/dartboard-app
+209 info install lineman-angular@0.2.0 into /Users/mimclaren/Sites/hack-night/dartboard-app
+210 info install jasmine-given@2.1.0 into /Users/mimclaren/Sites/hack-night/dartboard-app
+211 info install lineman-less@0.0.1 into /Users/mimclaren/Sites/hack-night/dartboard-app
+212 info install lineman@0.33.4 into /Users/mimclaren/Sites/hack-night/dartboard-app
+213 info install protractor@0.23.1 into /Users/mimclaren/Sites/hack-night/dartboard-app
+214 info installOne coffee-script@1.6.3
+215 info installOne lineman-angular@0.2.0
+216 info installOne jasmine-given@2.1.0
+217 info installOne lineman-less@0.0.1
+218 info installOne lineman@0.33.4
+219 info installOne protractor@0.23.1
+220 verbose node_modules/coffee-script unbuild
+221 verbose node_modules/lineman-angular unbuild
+222 verbose node_modules/jasmine-given unbuild
+223 verbose node_modules/lineman unbuild
+224 verbose tar unpack /Users/mimclaren/.npm/coffee-script/1.6.3/package.tgz
+225 silly lockFile 9793da66-d-app-node-modules-coffee-script tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script
+226 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script /Users/mimclaren/.npm/9793da66-d-app-node-modules-coffee-script.lock
+227 silly lockFile 0749d419--coffee-script-1-6-3-package-tgz tar:///Users/mimclaren/.npm/coffee-script/1.6.3/package.tgz
+228 verbose lock tar:///Users/mimclaren/.npm/coffee-script/1.6.3/package.tgz /Users/mimclaren/.npm/0749d419--coffee-script-1-6-3-package-tgz.lock
+229 verbose tar unpack /Users/mimclaren/.npm/lineman-angular/0.2.0/package.tgz
+230 silly lockFile c0060da5-app-node-modules-lineman-angular tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+231 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular /Users/mimclaren/.npm/c0060da5-app-node-modules-lineman-angular.lock
+232 silly lockFile 81b27846-ineman-angular-0-2-0-package-tgz tar:///Users/mimclaren/.npm/lineman-angular/0.2.0/package.tgz
+233 verbose lock tar:///Users/mimclaren/.npm/lineman-angular/0.2.0/package.tgz /Users/mimclaren/.npm/81b27846-ineman-angular-0-2-0-package-tgz.lock
+234 verbose tar unpack /Users/mimclaren/.npm/jasmine-given/2.1.0/package.tgz
+235 silly lockFile a965f964-d-app-node-modules-jasmine-given tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+236 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given /Users/mimclaren/.npm/a965f964-d-app-node-modules-jasmine-given.lock
+237 silly lockFile 22ef9014--jasmine-given-2-1-0-package-tgz tar:///Users/mimclaren/.npm/jasmine-given/2.1.0/package.tgz
+238 verbose lock tar:///Users/mimclaren/.npm/jasmine-given/2.1.0/package.tgz /Users/mimclaren/.npm/22ef9014--jasmine-given-2-1-0-package-tgz.lock
+239 verbose tar unpack /Users/mimclaren/.npm/lineman/0.33.4/package.tgz
+240 silly lockFile 018454c4-rtboard-app-node-modules-lineman tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman
+241 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman /Users/mimclaren/.npm/018454c4-rtboard-app-node-modules-lineman.lock
+242 silly lockFile 568a46b4-n-npm-lineman-0-33-4-package-tgz tar:///Users/mimclaren/.npm/lineman/0.33.4/package.tgz
+243 verbose lock tar:///Users/mimclaren/.npm/lineman/0.33.4/package.tgz /Users/mimclaren/.npm/568a46b4-n-npm-lineman-0-33-4-package-tgz.lock
+244 verbose node_modules/lineman-less unbuild
+245 verbose node_modules/protractor unbuild
+246 silly gunzTarPerm modes [ '755', '644' ]
+247 silly gunzTarPerm modes [ '755', '644' ]
+248 silly gunzTarPerm modes [ '755', '644' ]
+249 silly gunzTarPerm modes [ '755', '644' ]
+250 verbose tar unpack /Users/mimclaren/.npm/lineman-less/0.0.1/package.tgz
+251 silly lockFile ae247b6f-rd-app-node-modules-lineman-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+252 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less /Users/mimclaren/.npm/ae247b6f-rd-app-node-modules-lineman-less.lock
+253 silly lockFile b24fd669-m-lineman-less-0-0-1-package-tgz tar:///Users/mimclaren/.npm/lineman-less/0.0.1/package.tgz
+254 verbose lock tar:///Users/mimclaren/.npm/lineman-less/0.0.1/package.tgz /Users/mimclaren/.npm/b24fd669-m-lineman-less-0-0-1-package-tgz.lock
+255 verbose tar unpack /Users/mimclaren/.npm/protractor/0.23.1/package.tgz
+256 silly lockFile a725c0b2-oard-app-node-modules-protractor tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/protractor
+257 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/protractor /Users/mimclaren/.npm/a725c0b2-oard-app-node-modules-protractor.lock
+258 silly lockFile d87e0337-pm-protractor-0-23-1-package-tgz tar:///Users/mimclaren/.npm/protractor/0.23.1/package.tgz
+259 verbose lock tar:///Users/mimclaren/.npm/protractor/0.23.1/package.tgz /Users/mimclaren/.npm/d87e0337-pm-protractor-0-23-1-package-tgz.lock
+260 silly gunzTarPerm extractEntry package.json
+261 silly gunzTarPerm modes [ '755', '644' ]
+262 silly gunzTarPerm modes [ '755', '644' ]
+263 silly gunzTarPerm extractEntry package.json
+264 silly gunzTarPerm extractEntry package.json
+265 silly gunzTarPerm extractEntry .npmignore
+266 silly gunzTarPerm extractEntry README
+267 silly gunzTarPerm extractEntry .npmignore
+268 silly gunzTarPerm extractEntry README.md
+269 silly gunzTarPerm extractEntry .npmignore
+270 silly gunzTarPerm extractEntry README.md
+271 silly gunzTarPerm extractEntry package.json
+272 silly gunzTarPerm extractEntry package.json
+273 silly gunzTarPerm extractEntry .npmignore
+274 silly gunzTarPerm extractEntry README.md
+275 silly gunzTarPerm extractEntry README.md
+276 silly gunzTarPerm extractEntry LICENSE
+277 silly gunzTarPerm extractEntry LICENSE
+278 silly gunzTarPerm extractEntry CNAME
+279 silly gunzTarPerm extractEntry main.js
+280 silly gunzTarPerm extractEntry config/plugins/concat_sourcemap.coffee
+281 silly gunzTarPerm extractEntry package.json
+282 silly gunzTarPerm extractEntry lineman.js
+283 silly gunzTarPerm extractEntry cli.js
+284 silly gunzTarPerm extractEntry .npmignore
+285 silly gunzTarPerm extractEntry README.md
+286 silly gunzTarPerm extractEntry index.js
+287 silly gunzTarPerm extractEntry config/plugins/less.coffee
+288 silly gunzTarPerm extractEntry referenceConf.js
+289 silly gunzTarPerm extractEntry CONTRIBUTING.md
+290 silly gunzTarPerm extractEntry Rakefile
+291 silly gunzTarPerm extractEntry example/chromeOnlyConf.js
+292 silly gunzTarPerm extractEntry config/plugins/ngmin.coffee
+293 silly gunzTarPerm extractEntry config/plugins/ngtemplates.coffee
+294 silly gunzTarPerm extractEntry LICENSE.txt
+295 silly gunzTarPerm extractEntry archetype/package.json
+296 silly gunzTarPerm extractEntry Gruntfile.js
+297 silly gunzTarPerm extractEntry main.js
+298 silly gunzTarPerm extractEntry .travis.yml
+299 silly gunzTarPerm extractEntry app/js/.gitkeep
+300 silly gunzTarPerm extractEntry app/js/jasmine-given.coffee
+301 silly gunzTarPerm extractEntry config/application.coffee
+302 silly gunzTarPerm extractEntry config/files.coffee
+303 silly gunzTarPerm extractEntry config/spec.json
+304 silly gunzTarPerm extractEntry spec/jasmine-given-js-spec.js
+305 silly gunzTarPerm extractEntry spec/helpers/helper.js
+306 silly gunzTarPerm extractEntry spec/helpers/jasmine-fixture.js
+307 silly gunzTarPerm extractEntry spec/helpers/jasmine-stealth.js
+308 silly gunzTarPerm extractEntry spec/jasmine-given-spec.coffee
+309 silly gunzTarPerm extractEntry tasks/.gitkeep
+310 silly gunzTarPerm extractEntry lib/initializes-main-less-file.coffee
+311 silly gunzTarPerm extractEntry script/postinstall.js
+312 silly gunzTarPerm extractEntry bin/cake
+313 silly gunzTarPerm extractEntry bin/coffee
+314 silly gunzTarPerm extractEntry archetype/.npmignore
+315 silly gunzTarPerm extractEntry archetype/README.md
+316 silly gunzTarPerm extractEntry example/conf.js
+317 silly gunzTarPerm extractEntry example/example_spec.js
+318 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+319 silly gunzTarPerm extractEntry archetype/Gruntfile.js
+320 silly gunzTarPerm extractEntry archetype/.travis.yml
+321 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+322 silly gunzTarPerm extractEntry bin/elementexplorer.js
+323 silly gunzTarPerm extractEntry bin/protractor
+324 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+325 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+326 silly gunzTarPerm extractEntry archetype/app/css/style.css
+327 silly gunzTarPerm extractEntry archetype/app/img/.keep
+328 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+329 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+330 silly gunzTarPerm extractEntry archetype/app/js/hello.js
+331 silly gunzTarPerm extractEntry bin/webdriver-manager
+332 silly gunzTarPerm extractEntry docs/dgeni-config.js
+333 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+334 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+335 silly gunzTarPerm extractEntry archetype/app/js/.keep
+336 silly gunzTarPerm extractEntry archetype/app/pages/index.us
+337 silly lockFile c0060da5-app-node-modules-lineman-angular tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+338 silly lockFile c0060da5-app-node-modules-lineman-angular tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+339 silly gunzTarPerm extractEntry docs/faq.md
+340 silly gunzTarPerm extractEntry docs/contributing.md
+341 silly gunzTarPerm extractEntry archetype/app/static/favicon.ico
+342 silly gunzTarPerm extractEntry archetype/app/templates/hello.us
+343 silly lockFile 81b27846-ineman-angular-0-2-0-package-tgz tar:///Users/mimclaren/.npm/lineman-angular/0.2.0/package.tgz
+344 silly lockFile 81b27846-ineman-angular-0-2-0-package-tgz tar:///Users/mimclaren/.npm/lineman-angular/0.2.0/package.tgz
+345 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+346 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+347 info preinstall lineman-angular@0.2.0
+348 silly lockFile ae247b6f-rd-app-node-modules-lineman-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+349 silly lockFile ae247b6f-rd-app-node-modules-lineman-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+350 silly lockFile b24fd669-m-lineman-less-0-0-1-package-tgz tar:///Users/mimclaren/.npm/lineman-less/0.0.1/package.tgz
+351 silly lockFile b24fd669-m-lineman-less-0-0-1-package-tgz tar:///Users/mimclaren/.npm/lineman-less/0.0.1/package.tgz
+352 verbose readDependencies using package.json deps
+353 silly gunzTarPerm extractEntry archetype/config/application.js
+354 silly gunzTarPerm extractEntry archetype/config/files.js
+355 silly gunzTarPerm extractEntry docs/control-flow.md
+356 silly gunzTarPerm extractEntry docs/debugging.md
+357 verbose readDependencies using package.json deps
+358 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+359 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+360 verbose cache add [ 'underscore@~1.5.2', null ]
+361 verbose cache add name=undefined spec="underscore@~1.5.2" args=["underscore@~1.5.2",null]
+362 verbose parsed url { protocol: null,
+362 verbose parsed url   slashes: null,
+362 verbose parsed url   auth: null,
+362 verbose parsed url   host: null,
+362 verbose parsed url   port: null,
+362 verbose parsed url   hostname: null,
+362 verbose parsed url   hash: null,
+362 verbose parsed url   search: null,
+362 verbose parsed url   query: null,
+362 verbose parsed url   pathname: 'underscore@~1.5.2',
+362 verbose parsed url   path: 'underscore@~1.5.2',
+362 verbose parsed url   href: 'underscore@~1.5.2' }
+363 verbose cache add [ 'grunt-angular-templates@~0.3.8', null ]
+364 verbose cache add name=undefined spec="grunt-angular-templates@~0.3.8" args=["grunt-angular-templates@~0.3.8",null]
+365 verbose parsed url { protocol: null,
+365 verbose parsed url   slashes: null,
+365 verbose parsed url   auth: null,
+365 verbose parsed url   host: null,
+365 verbose parsed url   port: null,
+365 verbose parsed url   hostname: null,
+365 verbose parsed url   hash: null,
+365 verbose parsed url   search: null,
+365 verbose parsed url   query: null,
+365 verbose parsed url   pathname: 'grunt-angular-templates@~0.3.8',
+365 verbose parsed url   path: 'grunt-angular-templates@~0.3.8',
+365 verbose parsed url   href: 'grunt-angular-templates@~0.3.8' }
+366 verbose cache add name="underscore" spec="~1.5.2" args=["underscore","~1.5.2"]
+367 verbose parsed url { protocol: null,
+367 verbose parsed url   slashes: null,
+367 verbose parsed url   auth: null,
+367 verbose parsed url   host: null,
+367 verbose parsed url   port: null,
+367 verbose parsed url   hostname: null,
+367 verbose parsed url   hash: null,
+367 verbose parsed url   search: null,
+367 verbose parsed url   query: null,
+367 verbose parsed url   pathname: '~1.5.2',
+367 verbose parsed url   path: '~1.5.2',
+367 verbose parsed url   href: '~1.5.2' }
+368 verbose addNamed [ 'underscore', '~1.5.2' ]
+369 verbose addNamed [ null, '>=1.5.2-0 <1.6.0-0' ]
+370 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+371 verbose lock underscore@~1.5.2 /Users/mimclaren/.npm/dba44b4a-underscore-1-5-2.lock
+372 info preinstall lineman-less@0.0.1
+373 verbose cache add [ 'grunt-ngmin@~0.0.3', null ]
+374 verbose cache add name=undefined spec="grunt-ngmin@~0.0.3" args=["grunt-ngmin@~0.0.3",null]
+375 verbose parsed url { protocol: null,
+375 verbose parsed url   slashes: null,
+375 verbose parsed url   auth: null,
+375 verbose parsed url   host: null,
+375 verbose parsed url   port: null,
+375 verbose parsed url   hostname: null,
+375 verbose parsed url   hash: null,
+375 verbose parsed url   search: null,
+375 verbose parsed url   query: null,
+375 verbose parsed url   pathname: 'grunt-ngmin@~0.0.3',
+375 verbose parsed url   path: 'grunt-ngmin@~0.0.3',
+375 verbose parsed url   href: 'grunt-ngmin@~0.0.3' }
+376 verbose cache add name="grunt-angular-templates" spec="~0.3.8" args=["grunt-angular-templates","~0.3.8"]
+377 verbose parsed url { protocol: null,
+377 verbose parsed url   slashes: null,
+377 verbose parsed url   auth: null,
+377 verbose parsed url   host: null,
+377 verbose parsed url   port: null,
+377 verbose parsed url   hostname: null,
+377 verbose parsed url   hash: null,
+377 verbose parsed url   search: null,
+377 verbose parsed url   query: null,
+377 verbose parsed url   pathname: '~0.3.8',
+377 verbose parsed url   path: '~0.3.8',
+377 verbose parsed url   href: '~0.3.8' }
+378 verbose addNamed [ 'grunt-angular-templates', '~0.3.8' ]
+379 verbose addNamed [ null, '>=0.3.8-0 <0.4.0-0' ]
+380 silly lockFile f8c6855b-grunt-angular-templates-0-3-8 grunt-angular-templates@~0.3.8
+381 verbose lock grunt-angular-templates@~0.3.8 /Users/mimclaren/.npm/f8c6855b-grunt-angular-templates-0-3-8.lock
+382 verbose cache add name="grunt-ngmin" spec="~0.0.3" args=["grunt-ngmin","~0.0.3"]
+383 verbose parsed url { protocol: null,
+383 verbose parsed url   slashes: null,
+383 verbose parsed url   auth: null,
+383 verbose parsed url   host: null,
+383 verbose parsed url   port: null,
+383 verbose parsed url   hostname: null,
+383 verbose parsed url   hash: null,
+383 verbose parsed url   search: null,
+383 verbose parsed url   query: null,
+383 verbose parsed url   pathname: '~0.0.3',
+383 verbose parsed url   path: '~0.0.3',
+383 verbose parsed url   href: '~0.0.3' }
+384 verbose addNamed [ 'grunt-ngmin', '~0.0.3' ]
+385 verbose addNamed [ null, '>=0.0.3-0 <0.1.0-0' ]
+386 silly lockFile aa0b4617-grunt-ngmin-0-0-3 grunt-ngmin@~0.0.3
+387 verbose lock grunt-ngmin@~0.0.3 /Users/mimclaren/.npm/aa0b4617-grunt-ngmin-0-0-3.lock
+388 silly addNameRange { name: 'underscore',
+388 silly addNameRange   range: '>=1.5.2-0 <1.6.0-0',
+388 silly addNameRange   hasData: false }
+389 silly addNameRange { name: 'grunt-angular-templates',
+389 silly addNameRange   range: '>=0.3.8-0 <0.4.0-0',
+389 silly addNameRange   hasData: false }
+390 verbose readDependencies using package.json deps
+391 silly addNameRange { name: 'grunt-ngmin',
+391 silly addNameRange   range: '>=0.0.3-0 <0.1.0-0',
+391 silly addNameRange   hasData: false }
+392 verbose readDependencies using package.json deps
+393 silly gunzTarPerm extractEntry archetype/config/lineman.js
+394 silly gunzTarPerm extractEntry archetype/config/server.js
+395 silly gunzTarPerm extractEntry docs/api.md
+396 silly gunzTarPerm extractEntry docs/browser-setup.md
+397 verbose cache add [ 'find-root-package@0.0.1', null ]
+398 verbose cache add name=undefined spec="find-root-package@0.0.1" args=["find-root-package@0.0.1",null]
+399 verbose parsed url { protocol: null,
+399 verbose parsed url   slashes: null,
+399 verbose parsed url   auth: null,
+399 verbose parsed url   host: null,
+399 verbose parsed url   port: null,
+399 verbose parsed url   hostname: null,
+399 verbose parsed url   hash: null,
+399 verbose parsed url   search: null,
+399 verbose parsed url   query: null,
+399 verbose parsed url   pathname: 'find-root-package@0.0.1',
+399 verbose parsed url   path: 'find-root-package@0.0.1',
+399 verbose parsed url   href: 'find-root-package@0.0.1' }
+400 verbose request where is /underscore
+401 verbose request registry https://registry.npmjs.org/
+402 verbose url raw /underscore
+403 verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+404 verbose url resolved https://registry.npmjs.org/underscore
+405 verbose request where is https://registry.npmjs.org/underscore
+406 info trying registry request attempt 1 at 20:29:45
+407 verbose etag "8V4P3GOOX5WDTWWV9LHMN3CRO"
+408 http GET https://registry.npmjs.org/underscore
+409 verbose cache add [ 'grunt-contrib-less@~0.10.0', null ]
+410 verbose cache add name=undefined spec="grunt-contrib-less@~0.10.0" args=["grunt-contrib-less@~0.10.0",null]
+411 verbose parsed url { protocol: null,
+411 verbose parsed url   slashes: null,
+411 verbose parsed url   auth: null,
+411 verbose parsed url   host: null,
+411 verbose parsed url   port: null,
+411 verbose parsed url   hostname: null,
+411 verbose parsed url   hash: null,
+411 verbose parsed url   search: null,
+411 verbose parsed url   query: null,
+411 verbose parsed url   pathname: 'grunt-contrib-less@~0.10.0',
+411 verbose parsed url   path: 'grunt-contrib-less@~0.10.0',
+411 verbose parsed url   href: 'grunt-contrib-less@~0.10.0' }
+412 verbose cache add [ 'coffee-script@~1.7.1', null ]
+413 verbose cache add name=undefined spec="coffee-script@~1.7.1" args=["coffee-script@~1.7.1",null]
+414 verbose parsed url { protocol: null,
+414 verbose parsed url   slashes: null,
+414 verbose parsed url   auth: null,
+414 verbose parsed url   host: null,
+414 verbose parsed url   port: null,
+414 verbose parsed url   hostname: null,
+414 verbose parsed url   hash: null,
+414 verbose parsed url   search: null,
+414 verbose parsed url   query: null,
+414 verbose parsed url   pathname: 'coffee-script@~1.7.1',
+414 verbose parsed url   path: 'coffee-script@~1.7.1',
+414 verbose parsed url   href: 'coffee-script@~1.7.1' }
+415 verbose cache add name="find-root-package" spec="0.0.1" args=["find-root-package","0.0.1"]
+416 verbose parsed url { protocol: null,
+416 verbose parsed url   slashes: null,
+416 verbose parsed url   auth: null,
+416 verbose parsed url   host: null,
+416 verbose parsed url   port: null,
+416 verbose parsed url   hostname: null,
+416 verbose parsed url   hash: null,
+416 verbose parsed url   search: null,
+416 verbose parsed url   query: null,
+416 verbose parsed url   pathname: '0.0.1',
+416 verbose parsed url   path: '0.0.1',
+416 verbose parsed url   href: '0.0.1' }
+417 verbose addNamed [ 'find-root-package', '0.0.1' ]
+418 verbose addNamed [ '0.0.1', '0.0.1' ]
+419 silly lockFile ee4bfc3a-find-root-package-0-0-1 find-root-package@0.0.1
+420 verbose lock find-root-package@0.0.1 /Users/mimclaren/.npm/ee4bfc3a-find-root-package-0-0-1.lock
+421 verbose cache add name="grunt-contrib-less" spec="~0.10.0" args=["grunt-contrib-less","~0.10.0"]
+422 verbose parsed url { protocol: null,
+422 verbose parsed url   slashes: null,
+422 verbose parsed url   auth: null,
+422 verbose parsed url   host: null,
+422 verbose parsed url   port: null,
+422 verbose parsed url   hostname: null,
+422 verbose parsed url   hash: null,
+422 verbose parsed url   search: null,
+422 verbose parsed url   query: null,
+422 verbose parsed url   pathname: '~0.10.0',
+422 verbose parsed url   path: '~0.10.0',
+422 verbose parsed url   href: '~0.10.0' }
+423 verbose addNamed [ 'grunt-contrib-less', '~0.10.0' ]
+424 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+425 silly lockFile f46fc629-grunt-contrib-less-0-10-0 grunt-contrib-less@~0.10.0
+426 verbose lock grunt-contrib-less@~0.10.0 /Users/mimclaren/.npm/f46fc629-grunt-contrib-less-0-10-0.lock
+427 verbose cache add name="coffee-script" spec="~1.7.1" args=["coffee-script","~1.7.1"]
+428 verbose parsed url { protocol: null,
+428 verbose parsed url   slashes: null,
+428 verbose parsed url   auth: null,
+428 verbose parsed url   host: null,
+428 verbose parsed url   port: null,
+428 verbose parsed url   hostname: null,
+428 verbose parsed url   hash: null,
+428 verbose parsed url   search: null,
+428 verbose parsed url   query: null,
+428 verbose parsed url   pathname: '~1.7.1',
+428 verbose parsed url   path: '~1.7.1',
+428 verbose parsed url   href: '~1.7.1' }
+429 verbose addNamed [ 'coffee-script', '~1.7.1' ]
+430 verbose addNamed [ null, '>=1.7.1-0 <1.8.0-0' ]
+431 silly lockFile f260707c-coffee-script-1-7-1 coffee-script@~1.7.1
+432 verbose lock coffee-script@~1.7.1 /Users/mimclaren/.npm/f260707c-coffee-script-1-7-1.lock
+433 silly addNameRange { name: 'grunt-contrib-less',
+433 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+433 silly addNameRange   hasData: false }
+434 silly addNameRange { name: 'coffee-script',
+434 silly addNameRange   range: '>=1.7.1-0 <1.8.0-0',
+434 silly addNameRange   hasData: false }
+435 http 304 https://registry.npmjs.org/underscore
+436 silly registry.get cb [ 304,
+436 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+436 silly registry.get     server: 'Apache',
+436 silly registry.get     via: '1.1 varnish',
+436 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+436 silly registry.get     'cache-control': 'max-age=30',
+436 silly registry.get     etag: '"8V4P3GOOX5WDTWWV9LHMN3CRO"',
+436 silly registry.get     'x-served-by': 'cache-dfw1820-DFW',
+436 silly registry.get     'x-cache': 'HIT',
+436 silly registry.get     'x-cache-hits': '1',
+436 silly registry.get     'x-timer': 'S1404955785.094890,VS0,VE0',
+436 silly registry.get     vary: 'Accept',
+436 silly registry.get     'content-length': '0',
+436 silly registry.get     'keep-alive': 'timeout=10, max=50',
+436 silly registry.get     connection: 'Keep-Alive' } ]
+437 verbose etag https://registry.npmjs.org/underscore from cache
+438 verbose request where is /grunt-angular-templates
+439 verbose request registry https://registry.npmjs.org/
+440 verbose url raw /grunt-angular-templates
+441 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-angular-templates' ]
+442 verbose url resolved https://registry.npmjs.org/grunt-angular-templates
+443 verbose request where is https://registry.npmjs.org/grunt-angular-templates
+444 info trying registry request attempt 1 at 20:29:45
+445 verbose etag "A724K2N0V2B7GY2PGL5S841HH"
+446 http GET https://registry.npmjs.org/grunt-angular-templates
+447 verbose request where is /grunt-ngmin
+448 verbose request registry https://registry.npmjs.org/
+449 verbose url raw /grunt-ngmin
+450 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-ngmin' ]
+451 verbose url resolved https://registry.npmjs.org/grunt-ngmin
+452 verbose request where is https://registry.npmjs.org/grunt-ngmin
+453 info trying registry request attempt 1 at 20:29:45
+454 verbose etag "DQ5Y8CYLGZNF1UDT3K32GBROJ"
+455 http GET https://registry.npmjs.org/grunt-ngmin
+456 silly gunzTarPerm extractEntry archetype/config/spec.json
+457 silly gunzTarPerm extractEntry archetype/spec/hello-spec.js
+458 verbose registry.get https://registry.npmjs.org/coffee-script not expired, no request
+459 silly addNameRange number 2 { name: 'coffee-script',
+459 silly addNameRange   range: '>=1.7.1-0 <1.8.0-0',
+459 silly addNameRange   hasData: true }
+460 silly addNameRange versions [ 'coffee-script',
+460 silly addNameRange   [ '0.7.0',
+460 silly addNameRange     '0.7.1',
+460 silly addNameRange     '0.7.2',
+460 silly addNameRange     '0.9.0',
+460 silly addNameRange     '0.9.1',
+460 silly addNameRange     '0.9.2',
+460 silly addNameRange     '0.9.3',
+460 silly addNameRange     '0.9.4',
+460 silly addNameRange     '0.9.5',
+460 silly addNameRange     '0.9.6',
+460 silly addNameRange     '1.0.0',
+460 silly addNameRange     '1.0.1',
+460 silly addNameRange     '1.1.0',
+460 silly addNameRange     '1.1.1',
+460 silly addNameRange     '1.1.2',
+460 silly addNameRange     '1.1.3',
+460 silly addNameRange     '1.2.0',
+460 silly addNameRange     '1.3.0',
+460 silly addNameRange     '1.3.1',
+460 silly addNameRange     '1.3.2',
+460 silly addNameRange     '1.3.3',
+460 silly addNameRange     '1.4.0',
+460 silly addNameRange     '1.5.0',
+460 silly addNameRange     '1.6.0',
+460 silly addNameRange     '1.6.1',
+460 silly addNameRange     '1.6.2',
+460 silly addNameRange     '1.6.3',
+460 silly addNameRange     '1.7.0',
+460 silly addNameRange     '1.7.1' ] ]
+461 verbose addNamed [ 'coffee-script', '1.7.1' ]
+462 verbose addNamed [ '1.7.1', '1.7.1' ]
+463 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+464 verbose lock coffee-script@1.7.1 /Users/mimclaren/.npm/66cb63a1-coffee-script-1-7-1.lock
+465 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+466 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+467 silly addNameRange number 2 { name: 'underscore',
+467 silly addNameRange   range: '>=1.5.2-0 <1.6.0-0',
+467 silly addNameRange   hasData: true }
+468 silly addNameRange versions [ 'underscore',
+468 silly addNameRange   [ '1.0.3',
+468 silly addNameRange     '1.0.4',
+468 silly addNameRange     '1.1.0',
+468 silly addNameRange     '1.1.1',
+468 silly addNameRange     '1.1.2',
+468 silly addNameRange     '1.1.3',
+468 silly addNameRange     '1.1.4',
+468 silly addNameRange     '1.1.5',
+468 silly addNameRange     '1.1.6',
+468 silly addNameRange     '1.1.7',
+468 silly addNameRange     '1.2.0',
+468 silly addNameRange     '1.2.1',
+468 silly addNameRange     '1.2.2',
+468 silly addNameRange     '1.2.3',
+468 silly addNameRange     '1.2.4',
+468 silly addNameRange     '1.3.0',
+468 silly addNameRange     '1.3.1',
+468 silly addNameRange     '1.3.2',
+468 silly addNameRange     '1.3.3',
+468 silly addNameRange     '1.4.0',
+468 silly addNameRange     '1.4.1',
+468 silly addNameRange     '1.4.2',
+468 silly addNameRange     '1.4.3',
+468 silly addNameRange     '1.4.4',
+468 silly addNameRange     '1.5.0',
+468 silly addNameRange     '1.5.1',
+468 silly addNameRange     '1.5.2',
+468 silly addNameRange     '1.6.0' ] ]
+469 verbose addNamed [ 'underscore', '1.5.2' ]
+470 verbose addNamed [ '1.5.2', '1.5.2' ]
+471 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+472 verbose lock underscore@1.5.2 /Users/mimclaren/.npm/669f6cbc-underscore-1-5-2.lock
+473 silly gunzTarPerm extractEntry docs/getting-started.md
+474 silly gunzTarPerm extractEntry docs/library-only.md
+475 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+476 silly lockFile 66cb63a1-coffee-script-1-7-1 coffee-script@1.7.1
+477 silly lockFile f260707c-coffee-script-1-7-1 coffee-script@~1.7.1
+478 silly lockFile f260707c-coffee-script-1-7-1 coffee-script@~1.7.1
+479 verbose request where is /grunt-contrib-less
+480 verbose request registry https://registry.npmjs.org/
+481 verbose url raw /grunt-contrib-less
+482 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-contrib-less' ]
+483 verbose url resolved https://registry.npmjs.org/grunt-contrib-less
+484 verbose request where is https://registry.npmjs.org/grunt-contrib-less
+485 info trying registry request attempt 1 at 20:29:45
+486 verbose etag "7H395JNW68DSISWXMWFPWZHKD"
+487 http GET https://registry.npmjs.org/grunt-contrib-less
+488 silly gunzTarPerm extractEntry archetype/spec/helpers/helper.js
+489 silly gunzTarPerm extractEntry archetype/spec/helpers/jasmine-fixture.js
+490 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+491 silly lockFile 669f6cbc-underscore-1-5-2 underscore@1.5.2
+492 verbose request where is /find-root-package
+493 verbose request registry https://registry.npmjs.org/
+494 verbose url raw /find-root-package
+495 verbose url resolving [ 'https://registry.npmjs.org/', './find-root-package' ]
+496 verbose url resolved https://registry.npmjs.org/find-root-package
+497 verbose request where is https://registry.npmjs.org/find-root-package
+498 info trying registry request attempt 1 at 20:29:45
+499 verbose etag "DN8PMDG44O9SLQSFYKOP8F8W2"
+500 http GET https://registry.npmjs.org/find-root-package
+501 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+502 silly lockFile dba44b4a-underscore-1-5-2 underscore@~1.5.2
+503 silly gunzTarPerm extractEntry docs/processors/add-links.js
+504 silly gunzTarPerm extractEntry docs/processors/add-toc.js
+505 silly gunzTarPerm extractEntry archetype/spec/helpers/jasmine-given.js
+506 silly gunzTarPerm extractEntry archetype/spec/helpers/jasmine-only.js
+507 silly gunzTarPerm extractEntry archetype/spec/helpers/jasmine-stealth.js
+508 silly gunzTarPerm extractEntry archetype/tasks/.keep
+509 silly gunzTarPerm extractEntry archetype/vendor/css/.keep
+510 silly gunzTarPerm extractEntry archetype/vendor/img/.keep
+511 silly gunzTarPerm extractEntry docs/processors/filter-jsdoc.js
+512 silly gunzTarPerm extractEntry docs/processors/tag-fixer.js
+513 silly gunzTarPerm extractEntry archetype/vendor/js/underscore.js
+514 silly gunzTarPerm extractEntry archetype/vendor/static/.keep
+515 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+516 silly gunzTarPerm extractEntry docs/spec/add-links-spec.js
+517 silly gunzTarPerm extractEntry docs/spec/tag-fixer-spec.js
+518 silly gunzTarPerm extractEntry .travis.yml
+519 silly gunzTarPerm extractEntry config/spec.js
+520 http 200 https://registry.npmjs.org/grunt-ngmin
+521 silly registry.get cb [ 200,
+521 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+521 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+521 silly registry.get     etag: '"7HO9UNXAI7ATWL2ZH7JPRBC3E"',
+521 silly registry.get     'content-type': 'application/json',
+521 silly registry.get     'cache-control': 'max-age=30',
+521 silly registry.get     'content-length': '5035',
+521 silly registry.get     'accept-ranges': 'bytes',
+521 silly registry.get     via: '1.1 varnish',
+521 silly registry.get     age: '77',
+521 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+521 silly registry.get     'x-cache': 'MISS',
+521 silly registry.get     'x-cache-hits': '0',
+521 silly registry.get     'x-timer': 'S1404955785.134835,VS0,VE46',
+521 silly registry.get     vary: 'Accept',
+521 silly registry.get     'keep-alive': 'timeout=10, max=50',
+521 silly registry.get     connection: 'Keep-Alive' } ]
+522 silly gunzTarPerm extractEntry config/application.coffee
+523 silly gunzTarPerm extractEntry config/files.coffee
+524 silly addNameRange number 2 { name: 'grunt-ngmin',
+524 silly addNameRange   range: '>=0.0.3-0 <0.1.0-0',
+524 silly addNameRange   hasData: true }
+525 silly addNameRange versions [ 'grunt-ngmin', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+526 verbose addNamed [ 'grunt-ngmin', '0.0.3' ]
+527 verbose addNamed [ '0.0.3', '0.0.3' ]
+528 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+529 verbose lock grunt-ngmin@0.0.3 /Users/mimclaren/.npm/129b7627-grunt-ngmin-0-0-3.lock
+530 http 200 https://registry.npmjs.org/grunt-angular-templates
+531 silly registry.get cb [ 200,
+531 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+531 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+531 silly registry.get     etag: '"6VDQ99OWQN1G68XH0DBSWH3HJ"',
+531 silly registry.get     'content-type': 'application/json',
+531 silly registry.get     'cache-control': 'max-age=30',
+531 silly registry.get     'content-length': '65641',
+531 silly registry.get     'accept-ranges': 'bytes',
+531 silly registry.get     via: '1.1 varnish',
+531 silly registry.get     age: '7273',
+531 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+531 silly registry.get     'x-cache': 'MISS',
+531 silly registry.get     'x-cache-hits': '0',
+531 silly registry.get     'x-timer': 'S1404955785.129804,VS0,VE53',
+531 silly registry.get     vary: 'Accept',
+531 silly registry.get     'keep-alive': 'timeout=10, max=50',
+531 silly registry.get     connection: 'Keep-Alive' } ]
+532 http 200 https://registry.npmjs.org/find-root-package
+533 silly registry.get cb [ 200,
+533 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+533 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+533 silly registry.get     etag: '"4FQ1YCUKD9AHWNM2TP9CAVWZ6"',
+533 silly registry.get     'content-type': 'application/json',
+533 silly registry.get     'cache-control': 'max-age=30',
+533 silly registry.get     'content-length': '1814',
+533 silly registry.get     'accept-ranges': 'bytes',
+533 silly registry.get     via: '1.1 varnish',
+533 silly registry.get     age: '0',
+533 silly registry.get     'x-served-by': 'cache-dfw1835-DFW',
+533 silly registry.get     'x-cache': 'MISS',
+533 silly registry.get     'x-cache-hits': '0',
+533 silly registry.get     'x-timer': 'S1404955785.164331,VS0,VE54',
+533 silly registry.get     vary: 'Accept',
+533 silly registry.get     'keep-alive': 'timeout=10, max=50',
+533 silly registry.get     connection: 'Keep-Alive' } ]
+534 silly gunzTarPerm extractEntry docs/templates/api-template.md
+535 silly gunzTarPerm extractEntry docs/templates/toc-template.md
+536 silly addNameRange number 2 { name: 'grunt-angular-templates',
+536 silly addNameRange   range: '>=0.3.8-0 <0.4.0-0',
+536 silly addNameRange   hasData: true }
+537 silly addNameRange versions [ 'grunt-angular-templates',
+537 silly addNameRange   [ '0.1.0',
+537 silly addNameRange     '0.1.1',
+537 silly addNameRange     '0.1.2',
+537 silly addNameRange     '0.1.3',
+537 silly addNameRange     '0.2.1',
+537 silly addNameRange     '0.2.2',
+537 silly addNameRange     '0.3.0',
+537 silly addNameRange     '0.3.1',
+537 silly addNameRange     '0.3.2',
+537 silly addNameRange     '0.3.3',
+537 silly addNameRange     '0.3.4',
+537 silly addNameRange     '0.3.6',
+537 silly addNameRange     '0.3.7',
+537 silly addNameRange     '0.3.8',
+537 silly addNameRange     '0.3.9',
+537 silly addNameRange     '0.3.10',
+537 silly addNameRange     '0.3.11',
+537 silly addNameRange     '0.3.12',
+537 silly addNameRange     '0.4.0',
+537 silly addNameRange     '0.4.1',
+537 silly addNameRange     '0.4.2',
+537 silly addNameRange     '0.4.3',
+537 silly addNameRange     '0.4.4',
+537 silly addNameRange     '0.4.5',
+537 silly addNameRange     '0.4.6',
+537 silly addNameRange     '0.4.7',
+537 silly addNameRange     '0.4.9',
+537 silly addNameRange     '0.5.0',
+537 silly addNameRange     '0.4.10',
+537 silly addNameRange     '0.5.1',
+537 silly addNameRange     '0.5.2',
+537 silly addNameRange     '0.5.3',
+537 silly addNameRange     '0.5.4',
+537 silly addNameRange     '0.5.5',
+537 silly addNameRange     '0.5.6' ] ]
+538 verbose addNamed [ 'grunt-angular-templates', '0.3.12' ]
+539 verbose addNamed [ '0.3.12', '0.3.12' ]
+540 silly lockFile 0bcf04fd-grunt-angular-templates-0-3-12 grunt-angular-templates@0.3.12
+541 verbose lock grunt-angular-templates@0.3.12 /Users/mimclaren/.npm/0bcf04fd-grunt-angular-templates-0-3-12.lock
+542 http 200 https://registry.npmjs.org/grunt-contrib-less
+543 silly registry.get cb [ 200,
+543 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+543 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+543 silly registry.get     etag: '"6PLFDONS83KZL7O26SMXBIJH4"',
+543 silly registry.get     'content-type': 'application/json',
+543 silly registry.get     'cache-control': 'max-age=30',
+543 silly registry.get     'content-length': '57560',
+543 silly registry.get     'accept-ranges': 'bytes',
+543 silly registry.get     via: '1.1 varnish',
+543 silly registry.get     age: '1298',
+543 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+543 silly registry.get     'x-cache': 'HIT',
+543 silly registry.get     'x-cache-hits': '1',
+543 silly registry.get     'x-timer': 'S1404955785.161746,VS0,VE58',
+543 silly registry.get     vary: 'Accept',
+543 silly registry.get     'keep-alive': 'timeout=10, max=50',
+543 silly registry.get     connection: 'Keep-Alive' } ]
+544 silly gunzTarPerm extractEntry config/grunt.coffee
+545 silly gunzTarPerm extractEntry config/plugins/jshint.coffee
+546 silly lockFile cb049e9e-kage-find-root-package-0-0-1-tgz https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+547 verbose lock https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz /Users/mimclaren/.npm/cb049e9e-kage-find-root-package-0-0-1-tgz.lock
+548 verbose addRemoteTarball [ 'https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz',
+548 verbose addRemoteTarball   'ab5d592006b4d76d6f61e930573512818733d23d' ]
+549 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+550 silly lockFile 129b7627-grunt-ngmin-0-0-3 grunt-ngmin@0.0.3
+551 silly gunzTarPerm extractEntry docs/using-mocha.md
+552 silly gunzTarPerm extractEntry CHANGELOG.md
+553 silly lockFile aa0b4617-grunt-ngmin-0-0-3 grunt-ngmin@~0.0.3
+554 silly lockFile aa0b4617-grunt-ngmin-0-0-3 grunt-ngmin@~0.0.3
+555 info retry fetch attempt 1 at 20:29:45
+556 verbose fetch to= /var/folders/s7/ccngl_g111v7y5zqr67r0qc80000gp/T/npm-1772-CyNOHM7f/registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+557 silly addNameRange number 2 { name: 'grunt-contrib-less',
+557 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+557 silly addNameRange   hasData: true }
+558 silly addNameRange versions [ 'grunt-contrib-less',
+558 silly addNameRange   [ '0.1.0',
+558 silly addNameRange     '0.2.0',
+558 silly addNameRange     '0.2.1',
+558 silly addNameRange     '0.2.2',
+558 silly addNameRange     '0.3.0',
+558 silly addNameRange     '0.3.1',
+558 silly addNameRange     '0.3.2',
+558 silly addNameRange     '0.5.0',
+558 silly addNameRange     '0.5.1',
+558 silly addNameRange     '0.5.2',
+558 silly addNameRange     '0.6.0',
+558 silly addNameRange     '0.6.1',
+558 silly addNameRange     '0.6.2',
+558 silly addNameRange     '0.6.3',
+558 silly addNameRange     '0.6.4',
+558 silly addNameRange     '0.6.5',
+558 silly addNameRange     '0.7.0',
+558 silly addNameRange     '0.8.0',
+558 silly addNameRange     '0.8.1',
+558 silly addNameRange     '0.8.2',
+558 silly addNameRange     '0.8.3',
+558 silly addNameRange     '0.9.0',
+558 silly addNameRange     '0.10.0',
+558 silly addNameRange     '0.11.0',
+558 silly addNameRange     '0.11.1',
+558 silly addNameRange     '0.11.2',
+558 silly addNameRange     '0.11.3',
+558 silly addNameRange     '0.5.0-rc7' ] ]
+559 verbose addNamed [ 'grunt-contrib-less', '0.10.0' ]
+560 verbose addNamed [ '0.10.0', '0.10.0' ]
+561 silly lockFile 7a1e167a-grunt-contrib-less-0-10-0 grunt-contrib-less@0.10.0
+562 verbose lock grunt-contrib-less@0.10.0 /Users/mimclaren/.npm/7a1e167a-grunt-contrib-less-0-10-0.lock
+563 http GET https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+564 silly gunzTarPerm extractEntry config/plugins/asset-fingerprint.coffee
+565 silly gunzTarPerm extractEntry config/plugins/coffee.coffee
+566 silly gunzTarPerm extractEntry jasminewd/index.js
+567 silly gunzTarPerm extractEntry jasminewd/spec/adapterSpec.js
+568 silly gunzTarPerm extractEntry config/plugins/concat_sourcemap.coffee
+569 silly gunzTarPerm extractEntry config/plugins/copy.coffee
+570 silly gunzTarPerm extractEntry config/plugins/cssmin.coffee
+571 silly gunzTarPerm extractEntry config/plugins/handlebars.coffee
+572 silly lockFile 0bcf04fd-grunt-angular-templates-0-3-12 grunt-angular-templates@0.3.12
+573 silly lockFile 0bcf04fd-grunt-angular-templates-0-3-12 grunt-angular-templates@0.3.12
+574 silly lockFile f8c6855b-grunt-angular-templates-0-3-8 grunt-angular-templates@~0.3.8
+575 silly lockFile f8c6855b-grunt-angular-templates-0-3-8 grunt-angular-templates@~0.3.8
+576 silly gunzTarPerm extractEntry config/plugins/images.coffee
+577 silly gunzTarPerm extractEntry config/plugins/clean.coffee
+578 silly gunzTarPerm extractEntry lib/cli.js
+579 silly gunzTarPerm extractEntry lib/clientsidescripts.js
+580 http 200 https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+581 silly lockFile 7a1e167a-grunt-contrib-less-0-10-0 grunt-contrib-less@0.10.0
+582 silly lockFile 7a1e167a-grunt-contrib-less-0-10-0 grunt-contrib-less@0.10.0
+583 silly lockFile f46fc629-grunt-contrib-less-0-10-0 grunt-contrib-less@~0.10.0
+584 silly lockFile f46fc629-grunt-contrib-less-0-10-0 grunt-contrib-less@~0.10.0
+585 silly resolved [ { name: 'underscore',
+585 silly resolved     description: 'JavaScript\'s functional programming helper library.',
+585 silly resolved     homepage: 'http://underscorejs.org',
+585 silly resolved     keywords: [ 'util', 'functional', 'server', 'client', 'browser' ],
+585 silly resolved     author: { name: 'Jeremy Ashkenas', email: 'jeremy@documentcloud.org' },
+585 silly resolved     repository:
+585 silly resolved      { type: 'git',
+585 silly resolved        url: 'git://github.com/jashkenas/underscore.git' },
+585 silly resolved     main: 'underscore.js',
+585 silly resolved     version: '1.5.2',
+585 silly resolved     devDependencies: { phantomjs: '1.9.0-1' },
+585 silly resolved     scripts: { test: 'phantomjs test/vendor/runner.js test/index.html?noglobals=true' },
+585 silly resolved     licenses: [ [Object] ],
+585 silly resolved     files: [ 'underscore.js', 'underscore-min.js', 'LICENSE' ],
+585 silly resolved     bugs: { url: 'https://github.com/jashkenas/underscore/issues' },
+585 silly resolved     _id: 'underscore@1.5.2',
+585 silly resolved     dist:
+585 silly resolved      { shasum: '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08',
+585 silly resolved        tarball: 'http://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz' },
+585 silly resolved     _from: 'underscore@~1.5.2',
+585 silly resolved     _npmVersion: '1.3.5',
+585 silly resolved     _npmUser: { name: 'jashkenas', email: 'jashkenas@gmail.com' },
+585 silly resolved     maintainers: [ [Object] ],
+585 silly resolved     directories: {},
+585 silly resolved     _shasum: '1335c5e4f5e6d33bbb4b006ba8c86a00f556de08',
+585 silly resolved     _resolved: 'https://registry.npmjs.org/underscore/-/underscore-1.5.2.tgz',
+585 silly resolved     readme: 'ERROR: No README data found!' },
+585 silly resolved   { name: 'grunt-ngmin',
+585 silly resolved     version: '0.0.3',
+585 silly resolved     description: 'Grunt task for minifying AngularJS projects',
+585 silly resolved     main: 'Gruntfile.js',
+585 silly resolved     scripts: { test: 'grunt test' },
+585 silly resolved     devDependencies:
+585 silly resolved      { grunt: '~0.4.0',
+585 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+585 silly resolved        'grunt-contrib-clean': '~0.4.0',
+585 silly resolved        'grunt-mocha-cli': '~1.0.1',
+585 silly resolved        should: '~1.2.2',
+585 silly resolved        'grunt-release': '~0.3.1' },
+585 silly resolved     repository: { type: 'git', url: 'git://github.com/btford/grunt-ngmin' },
+585 silly resolved     keywords: [ 'grunt', 'angular', 'angularjs', 'minify' ],
+585 silly resolved     author: { name: 'Brian Ford' },
+585 silly resolved     license: 'BSD',
+585 silly resolved     dependencies: { ngmin: '~0.4.0' },
+585 silly resolved     bugs: { url: 'https://github.com/btford/grunt-ngmin/issues' },
+585 silly resolved     _id: 'grunt-ngmin@0.0.3',
+585 silly resolved     dist:
+585 silly resolved      { shasum: 'bbc09ef4fe7591d674cc5324f7a5e459d92711d7',
+585 silly resolved        tarball: 'http://registry.npmjs.org/grunt-ngmin/-/grunt-ngmin-0.0.3.tgz' },
+585 silly resolved     _from: 'grunt-ngmin@~0.0.3',
+585 silly resolved     _npmVersion: '1.2.32',
+585 silly resolved     _npmUser: { name: 'btford', email: 'briantford@gmail.com' },
+585 silly resolved     maintainers: [ [Object], [Object] ],
+585 silly resolved     directories: {},
+585 silly resolved     _shasum: 'bbc09ef4fe7591d674cc5324f7a5e459d92711d7',
+585 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-ngmin/-/grunt-ngmin-0.0.3.tgz',
+585 silly resolved     readme: 'ERROR: No README data found!',
+585 silly resolved     homepage: 'https://github.com/btford/grunt-ngmin' },
+585 silly resolved   { name: 'grunt-angular-templates',
+585 silly resolved     description: 'Grunt build task to concatenate & register your AngularJS templates in the $templateCache',
+585 silly resolved     version: '0.3.12',
+585 silly resolved     homepage: 'https://github.com/ericclemmons/grunt-angular-templates',
+585 silly resolved     author: { name: 'Eric Clemmons', email: 'eric@smarterspam.com' },
+585 silly resolved     repository:
+585 silly resolved      { type: 'git',
+585 silly resolved        url: 'git://github.com/ericclemmons/grunt-angular-templates.git' },
+585 silly resolved     bugs: { url: 'https://github.com/ericclemmons/grunt-angular-templates/issues' },
+585 silly resolved     licenses: [ [Object] ],
+585 silly resolved     main: 'Gruntfile.js',
+585 silly resolved     engines: { node: '>= 0.8.0' },
+585 silly resolved     scripts: { test: 'grunt' },
+585 silly resolved     dependencies: { 'html-minifier': '~0.5.2' },
+585 silly resolved     devDependencies:
+585 silly resolved      { grunt: '~0.4.0',
+585 silly resolved        'grunt-contrib-concat': '~0.3.0',
+585 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+585 silly resolved        'grunt-contrib-nodeunit': '~0.1.2',
+585 silly resolved        'grunt-cli': '~0.1.6' },
+585 silly resolved     keywords: [ 'gruntplugin', 'angular', 'template', 'templates', 'concat' ],
+585 silly resolved     _id: 'grunt-angular-templates@0.3.12',
+585 silly resolved     dist:
+585 silly resolved      { shasum: '639e4790af4212e9b2e77f6a62a4ab57a7e7912f',
+585 silly resolved        tarball: 'http://registry.npmjs.org/grunt-angular-templates/-/grunt-angular-templates-0.3.12.tgz' },
+585 silly resolved     _from: 'grunt-angular-templates@~0.3.8',
+585 silly resolved     _npmVersion: '1.2.32',
+585 silly resolved     _npmUser: { name: 'ericclemmons', email: 'eric@smarterspam.com' },
+585 silly resolved     maintainers: [ [Object] ],
+585 silly resolved     directories: {},
+585 silly resolved     _shasum: '639e4790af4212e9b2e77f6a62a4ab57a7e7912f',
+585 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-angular-templates/-/grunt-angular-templates-0.3.12.tgz',
+585 silly resolved     readme: 'ERROR: No README data found!' } ]
+586 info install underscore@1.5.2 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+587 info install grunt-ngmin@0.0.3 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+588 info install grunt-angular-templates@0.3.12 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+589 info installOne underscore@1.5.2
+590 info installOne grunt-ngmin@0.0.3
+591 info installOne grunt-angular-templates@0.3.12
+592 silly gunzTarPerm extractEntry config/plugins/jst.coffee
+593 silly gunzTarPerm extractEntry config/plugins/pages.coffee
+594 verbose node_modules/lineman-angular/node_modules/grunt-ngmin unbuild
+595 verbose node_modules/lineman-angular/node_modules/underscore unbuild
+596 verbose node_modules/lineman-angular/node_modules/grunt-angular-templates unbuild
+597 verbose tar unpack /Users/mimclaren/.npm/grunt-ngmin/0.0.3/package.tgz
+598 silly lockFile c30df29e-angular-node-modules-grunt-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin
+599 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin /Users/mimclaren/.npm/c30df29e-angular-node-modules-grunt-ngmin.lock
+600 silly lockFile 5728964f-pm-grunt-ngmin-0-0-3-package-tgz tar:///Users/mimclaren/.npm/grunt-ngmin/0.0.3/package.tgz
+601 verbose lock tar:///Users/mimclaren/.npm/grunt-ngmin/0.0.3/package.tgz /Users/mimclaren/.npm/5728964f-pm-grunt-ngmin-0-0-3-package-tgz.lock
+602 verbose tar unpack /Users/mimclaren/.npm/underscore/1.5.2/package.tgz
+603 silly lockFile ce40ccd5--angular-node-modules-underscore tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore
+604 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore /Users/mimclaren/.npm/ce40ccd5--angular-node-modules-underscore.lock
+605 silly lockFile b4bac728-npm-underscore-1-5-2-package-tgz tar:///Users/mimclaren/.npm/underscore/1.5.2/package.tgz
+606 verbose lock tar:///Users/mimclaren/.npm/underscore/1.5.2/package.tgz /Users/mimclaren/.npm/b4bac728-npm-underscore-1-5-2-package-tgz.lock
+607 verbose tar unpack /Users/mimclaren/.npm/grunt-angular-templates/0.3.12/package.tgz
+608 silly lockFile ae2c59df--modules-grunt-angular-templates tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates
+609 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates /Users/mimclaren/.npm/ae2c59df--modules-grunt-angular-templates.lock
+610 silly lockFile 7b7d25bd-lar-templates-0-3-12-package-tgz tar:///Users/mimclaren/.npm/grunt-angular-templates/0.3.12/package.tgz
+611 verbose lock tar:///Users/mimclaren/.npm/grunt-angular-templates/0.3.12/package.tgz /Users/mimclaren/.npm/7b7d25bd-lar-templates-0-3-12-package-tgz.lock
+612 silly gunzTarPerm modes [ '755', '644' ]
+613 silly gunzTarPerm modes [ '755', '644' ]
+614 silly gunzTarPerm modes [ '755', '644' ]
+615 silly lockFile cb049e9e-kage-find-root-package-0-0-1-tgz https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+616 silly lockFile cb049e9e-kage-find-root-package-0-0-1-tgz https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz
+617 silly gunzTarPerm extractEntry config/plugins/sass.coffee
+618 silly gunzTarPerm extractEntry config/plugins/server.coffee
+619 silly lockFile ee4bfc3a-find-root-package-0-0-1 find-root-package@0.0.1
+620 silly lockFile ee4bfc3a-find-root-package-0-0-1 find-root-package@0.0.1
+621 silly gunzTarPerm extractEntry package.json
+622 silly gunzTarPerm extractEntry README.md
+623 silly gunzTarPerm extractEntry LICENSE
+624 silly lockFile a965f964-d-app-node-modules-jasmine-given tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+625 silly lockFile a965f964-d-app-node-modules-jasmine-given tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+626 silly gunzTarPerm extractEntry underscore-min.js
+627 silly gunzTarPerm extractEntry underscore.js
+628 silly lockFile 22ef9014--jasmine-given-2-1-0-package-tgz tar:///Users/mimclaren/.npm/jasmine-given/2.1.0/package.tgz
+629 silly lockFile 22ef9014--jasmine-given-2-1-0-package-tgz tar:///Users/mimclaren/.npm/jasmine-given/2.1.0/package.tgz
+630 info preinstall jasmine-given@2.1.0
+631 verbose readDependencies using package.json deps
+632 verbose readDependencies using package.json deps
+633 verbose cache add [ 'minijasminenode@~0.2.4', null ]
+634 verbose cache add name=undefined spec="minijasminenode@~0.2.4" args=["minijasminenode@~0.2.4",null]
+635 verbose parsed url { protocol: null,
+635 verbose parsed url   slashes: null,
+635 verbose parsed url   auth: null,
+635 verbose parsed url   host: null,
+635 verbose parsed url   port: null,
+635 verbose parsed url   hostname: null,
+635 verbose parsed url   hash: null,
+635 verbose parsed url   search: null,
+635 verbose parsed url   query: null,
+635 verbose parsed url   pathname: 'minijasminenode@~0.2.4',
+635 verbose parsed url   path: 'minijasminenode@~0.2.4',
+635 verbose parsed url   href: 'minijasminenode@~0.2.4' }
+636 verbose cache add name="minijasminenode" spec="~0.2.4" args=["minijasminenode","~0.2.4"]
+637 verbose parsed url { protocol: null,
+637 verbose parsed url   slashes: null,
+637 verbose parsed url   auth: null,
+637 verbose parsed url   host: null,
+637 verbose parsed url   port: null,
+637 verbose parsed url   hostname: null,
+637 verbose parsed url   hash: null,
+637 verbose parsed url   search: null,
+637 verbose parsed url   query: null,
+637 verbose parsed url   pathname: '~0.2.4',
+637 verbose parsed url   path: '~0.2.4',
+637 verbose parsed url   href: '~0.2.4' }
+638 verbose addNamed [ 'minijasminenode', '~0.2.4' ]
+639 verbose addNamed [ null, '>=0.2.4-0 <0.3.0-0' ]
+640 silly lockFile 23a264da-minijasminenode-0-2-4 minijasminenode@~0.2.4
+641 verbose lock minijasminenode@~0.2.4 /Users/mimclaren/.npm/23a264da-minijasminenode-0-2-4.lock
+642 silly addNameRange { name: 'minijasminenode',
+642 silly addNameRange   range: '>=0.2.4-0 <0.3.0-0',
+642 silly addNameRange   hasData: false }
+643 silly gunzTarPerm extractEntry config/plugins/spec.coffee
+644 silly gunzTarPerm extractEntry config/plugins/uglify.coffee
+645 silly gunzTarPerm extractEntry package.json
+646 silly gunzTarPerm extractEntry .npmignore
+647 silly gunzTarPerm extractEntry README.md
+648 silly gunzTarPerm extractEntry Gruntfile.js
+649 silly gunzTarPerm extractEntry tasks/ngmin.js
+650 silly gunzTarPerm extractEntry test/grunt-ngmin-test.js
+651 silly gunzTarPerm extractEntry test/src/controllers/one.js
+652 silly gunzTarPerm extractEntry config/plugins/watch.coffee
+653 silly gunzTarPerm extractEntry config/plugins/webfonts.coffee
+654 silly gunzTarPerm extractEntry test/src/directives/one.js
+655 silly gunzTarPerm extractEntry package.json
+656 silly gunzTarPerm extractEntry .npmignore
+657 silly gunzTarPerm extractEntry README.md
+658 silly resolved [ { name: 'coffee-script',
+658 silly resolved     description: 'Unfancy JavaScript',
+658 silly resolved     keywords: [ 'javascript', 'language', 'coffeescript', 'compiler' ],
+658 silly resolved     author: { name: 'Jeremy Ashkenas' },
+658 silly resolved     version: '1.7.1',
+658 silly resolved     license: 'MIT',
+658 silly resolved     engines: { node: '>=0.8.0' },
+658 silly resolved     directories: { lib: './lib/coffee-script' },
+658 silly resolved     main: './lib/coffee-script/coffee-script',
+658 silly resolved     bin: { coffee: './bin/coffee', cake: './bin/cake' },
+658 silly resolved     scripts: { test: 'node ./bin/cake test' },
+658 silly resolved     homepage: 'http://coffeescript.org',
+658 silly resolved     bugs: { url: 'https://github.com/jashkenas/coffee-script/issues' },
+658 silly resolved     repository:
+658 silly resolved      { type: 'git',
+658 silly resolved        url: 'git://github.com/jashkenas/coffee-script.git' },
+658 silly resolved     devDependencies:
+658 silly resolved      { 'uglify-js': '~2.2',
+658 silly resolved        jison: '>=0.2.0',
+658 silly resolved        'highlight.js': '~8.0.0',
+658 silly resolved        underscore: '~1.5.2' },
+658 silly resolved     dependencies: { mkdirp: '~0.3.5' },
+658 silly resolved     _id: 'coffee-script@1.7.1',
+658 silly resolved     dist:
+658 silly resolved      { shasum: '62996a861780c75e6d5069d13822723b73404bfc',
+658 silly resolved        tarball: 'http://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz' },
+658 silly resolved     _from: 'coffee-script@~1.7.1',
+658 silly resolved     _npmVersion: '1.3.24',
+658 silly resolved     _npmUser: { name: 'michaelficarra', email: 'npm@michael.ficarra.me' },
+658 silly resolved     maintainers: [ [Object] ],
+658 silly resolved     _shasum: '62996a861780c75e6d5069d13822723b73404bfc',
+658 silly resolved     _resolved: 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.7.1.tgz',
+658 silly resolved     readme: 'ERROR: No README data found!' },
+658 silly resolved   { name: 'grunt-contrib-less',
+658 silly resolved     description: 'Compile LESS files to CSS.',
+658 silly resolved     version: '0.10.0',
+658 silly resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-less',
+658 silly resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+658 silly resolved     repository:
+658 silly resolved      { type: 'git',
+658 silly resolved        url: 'git://github.com/gruntjs/grunt-contrib-less.git' },
+658 silly resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-less/issues' },
+658 silly resolved     licenses: [ [Object] ],
+658 silly resolved     engines: { node: '>= 0.8.0' },
+658 silly resolved     scripts: { test: 'grunt test' },
+658 silly resolved     dependencies:
+658 silly resolved      { less: '~1.7.0',
+658 silly resolved        'grunt-lib-contrib': '~0.6.1',
+658 silly resolved        chalk: '~0.4.0' },
+658 silly resolved     devDependencies:
+658 silly resolved      { 'grunt-contrib-jshint': '~0.6.2',
+658 silly resolved        'grunt-contrib-nodeunit': '~0.2.0',
+658 silly resolved        'grunt-contrib-clean': '~0.5.0',
+658 silly resolved        'grunt-contrib-internal': '~0.4.5',
+658 silly resolved        grunt: '~0.4.0' },
+658 silly resolved     peerDependencies: { grunt: '~0.4.0' },
+658 silly resolved     keywords: [ 'gruntplugin' ],
+658 silly resolved     files: [ 'tasks', 'LICENSE-MIT' ],
+658 silly resolved     _id: 'grunt-contrib-less@0.10.0',
+658 silly resolved     dist:
+658 silly resolved      { shasum: '542bf636ffb35f6e14c2e931855c1151b4a291b3',
+658 silly resolved        tarball: 'http://registry.npmjs.org/grunt-contrib-less/-/grunt-contrib-less-0.10.0.tgz' },
+658 silly resolved     _from: 'grunt-contrib-less@~0.10.0',
+658 silly resolved     _npmVersion: '1.4.3',
+658 silly resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+658 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+658 silly resolved     directories: {},
+658 silly resolved     _shasum: '542bf636ffb35f6e14c2e931855c1151b4a291b3',
+658 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-less/-/grunt-contrib-less-0.10.0.tgz',
+658 silly resolved     readme: 'ERROR: No README data found!' },
+658 silly resolved   { name: 'find-root-package',
+658 silly resolved     version: '0.0.1',
+658 silly resolved     description: 'Find the furthest package.json',
+658 silly resolved     author: { name: 'Justin Searls' },
+658 silly resolved     contributors: [ [Object] ],
+658 silly resolved     main: 'lib/find_root_package.coffee',
+658 silly resolved     repository:
+658 silly resolved      { type: 'git',
+658 silly resolved        url: 'https://github.com/jasonkarns/node-find-root-package.git' },
+658 silly resolved     bugs: { url: 'https://github.com/jasonkarns/node-find-root-package/issues' },
+658 silly resolved     scripts: { test: 'grunt spec' },
+658 silly resolved     dependencies: { 'coffee-script': '~1.7.1' },
+658 silly resolved     devDependencies:
+658 silly resolved      { grunt: '~0.4.2',
+658 silly resolved        'grunt-jasmine-bundle': '~0.2.0',
+658 silly resolved        temp: '~0.7.0',
+658 silly resolved        mkdirp: '~0.3.5' },
+658 silly resolved     licenses: [ [Object] ],
+658 silly resolved     homepage: 'https://github.com/jasonkarns/node-find-root-package',
+658 silly resolved     _id: 'find-root-package@0.0.1',
+658 silly resolved     dist:
+658 silly resolved      { shasum: 'ab5d592006b4d76d6f61e930573512818733d23d',
+658 silly resolved        tarball: 'http://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz' },
+658 silly resolved     _from: 'find-root-package@0.0.1',
+658 silly resolved     _npmVersion: '1.3.24',
+658 silly resolved     _npmUser: { name: 'jasonkarns', email: 'jason@karns.name' },
+658 silly resolved     maintainers: [ [Object] ],
+658 silly resolved     directories: {},
+658 silly resolved     _shasum: 'ab5d592006b4d76d6f61e930573512818733d23d',
+658 silly resolved     _resolved: 'https://registry.npmjs.org/find-root-package/-/find-root-package-0.0.1.tgz' } ]
+659 info install coffee-script@1.7.1 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+660 info install grunt-contrib-less@0.10.0 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+661 info install find-root-package@0.0.1 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less
+662 info installOne coffee-script@1.7.1
+663 info installOne grunt-contrib-less@0.10.0
+664 info installOne find-root-package@0.0.1
+665 verbose request where is /minijasminenode
+666 verbose request registry https://registry.npmjs.org/
+667 verbose url raw /minijasminenode
+668 verbose url resolving [ 'https://registry.npmjs.org/', './minijasminenode' ]
+669 verbose url resolved https://registry.npmjs.org/minijasminenode
+670 verbose request where is https://registry.npmjs.org/minijasminenode
+671 info trying registry request attempt 1 at 20:29:45
+672 verbose etag "4Y8C4SPYOCL9CLA5WHEBLI9J1"
+673 http GET https://registry.npmjs.org/minijasminenode
+674 verbose node_modules/lineman-less/node_modules/coffee-script unbuild
+675 verbose node_modules/lineman-less/node_modules/grunt-contrib-less unbuild
+676 silly gunzTarPerm extractEntry finds-lineman-dir.coffee
+677 silly gunzTarPerm extractEntry lib/gather-tasks.coffee
+678 verbose tar unpack /Users/mimclaren/.npm/coffee-script/1.7.1/package.tgz
+679 silly lockFile 00464d8e--less-node-modules-coffee-script tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/coffee-script
+680 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/coffee-script /Users/mimclaren/.npm/00464d8e--less-node-modules-coffee-script.lock
+681 silly lockFile e70b29d0--coffee-script-1-7-1-package-tgz tar:///Users/mimclaren/.npm/coffee-script/1.7.1/package.tgz
+682 verbose lock tar:///Users/mimclaren/.npm/coffee-script/1.7.1/package.tgz /Users/mimclaren/.npm/e70b29d0--coffee-script-1-7-1-package-tgz.lock
+683 verbose tar unpack /Users/mimclaren/.npm/grunt-contrib-less/0.10.0/package.tgz
+684 silly lockFile fc4d1b81--node-modules-grunt-contrib-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/grunt-contrib-less
+685 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/grunt-contrib-less /Users/mimclaren/.npm/fc4d1b81--node-modules-grunt-contrib-less.lock
+686 silly lockFile a0978f44--contrib-less-0-10-0-package-tgz tar:///Users/mimclaren/.npm/grunt-contrib-less/0.10.0/package.tgz
+687 verbose lock tar:///Users/mimclaren/.npm/grunt-contrib-less/0.10.0/package.tgz /Users/mimclaren/.npm/a0978f44--contrib-less-0-10-0-package-tgz.lock
+688 verbose node_modules/lineman-less/node_modules/find-root-package unbuild
+689 silly gunzTarPerm modes [ '755', '644' ]
+690 silly gunzTarPerm modes [ '755', '644' ]
+691 silly gunzTarPerm extractEntry LICENSE
+692 silly gunzTarPerm extractEntry Gruntfile.js
+693 verbose tar unpack /Users/mimclaren/.npm/find-root-package/0.0.1/package.tgz
+694 silly lockFile 44a48e20-s-node-modules-find-root-package tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package
+695 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package /Users/mimclaren/.npm/44a48e20-s-node-modules-find-root-package.lock
+696 silly lockFile 05152983-d-root-package-0-0-1-package-tgz tar:///Users/mimclaren/.npm/find-root-package/0.0.1/package.tgz
+697 verbose lock tar:///Users/mimclaren/.npm/find-root-package/0.0.1/package.tgz /Users/mimclaren/.npm/05152983-d-root-package-0-0-1-package-tgz.lock
+698 silly gunzTarPerm extractEntry package.json
+699 silly gunzTarPerm modes [ '755', '644' ]
+700 silly gunzTarPerm extractEntry package.json
+701 silly gunzTarPerm extractEntry .npmignore
+702 silly gunzTarPerm extractEntry README
+703 silly gunzTarPerm extractEntry .jshintrc
+704 silly gunzTarPerm extractEntry README.md
+705 silly gunzTarPerm extractEntry LICENSE-MIT
+706 silly gunzTarPerm extractEntry package.json
+707 silly gunzTarPerm extractEntry lib/accumulates-streams.coffee
+708 silly gunzTarPerm extractEntry lib/cli/ensure-appropriate-version.coffee
+709 silly gunzTarPerm extractEntry .npmignore
+710 silly gunzTarPerm extractEntry Gruntfile.coffee
+711 silly gunzTarPerm extractEntry LICENSE
+712 silly gunzTarPerm extractEntry register.js
+713 silly gunzTarPerm extractEntry tasks/less.js
+714 silly gunzTarPerm extractEntry lib/find_root_package.coffee
+715 silly gunzTarPerm extractEntry spec/find_root_package_spec.coffee
+716 silly gunzTarPerm extractEntry lib/cli/lineman-fetch.coffee
+717 silly gunzTarPerm extractEntry lib/cli/lineman-new.coffee
+718 silly gunzTarPerm extractEntry CNAME
+719 silly gunzTarPerm extractEntry CONTRIBUTING.md
+720 silly gunzTarPerm extractEntry .travis.yml
+721 silly gunzTarPerm extractEntry CONTRIBUTORS.md
+722 silly gunzTarPerm extractEntry lib/cli/main.coffee
+723 silly gunzTarPerm extractEntry lib/cli/runs-next-command.coffee
+724 silly gunzTarPerm extractEntry bin/cake
+725 silly gunzTarPerm extractEntry bin/coffee
+726 silly lockFile c30df29e-angular-node-modules-grunt-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin
+727 silly lockFile c30df29e-angular-node-modules-grunt-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin
+728 silly gunzTarPerm extractEntry tasks/angular-templates.js
+729 silly gunzTarPerm extractEntry tasks/lib/compiler.js
+730 silly lockFile 5728964f-pm-grunt-ngmin-0-0-3-package-tgz tar:///Users/mimclaren/.npm/grunt-ngmin/0.0.3/package.tgz
+731 silly lockFile 5728964f-pm-grunt-ngmin-0-0-3-package-tgz tar:///Users/mimclaren/.npm/grunt-ngmin/0.0.3/package.tgz
+732 silly gunzTarPerm extractEntry lib/cli/setup-env.coffee
+733 silly gunzTarPerm extractEntry lib/cli/setup-options.coffee
+734 info preinstall grunt-ngmin@0.0.3
+735 silly gunzTarPerm extractEntry lib/coffee-script/browser.js
+736 silly gunzTarPerm extractEntry lib/coffee-script/grammar.js
+737 verbose readDependencies using package.json deps
+738 verbose readDependencies using package.json deps
+739 verbose cache add [ 'ngmin@~0.4.0', null ]
+740 verbose cache add name=undefined spec="ngmin@~0.4.0" args=["ngmin@~0.4.0",null]
+741 verbose parsed url { protocol: null,
+741 verbose parsed url   slashes: null,
+741 verbose parsed url   auth: null,
+741 verbose parsed url   host: null,
+741 verbose parsed url   port: null,
+741 verbose parsed url   hostname: null,
+741 verbose parsed url   hash: null,
+741 verbose parsed url   search: null,
+741 verbose parsed url   query: null,
+741 verbose parsed url   pathname: 'ngmin@~0.4.0',
+741 verbose parsed url   path: 'ngmin@~0.4.0',
+741 verbose parsed url   href: 'ngmin@~0.4.0' }
+742 verbose cache add name="ngmin" spec="~0.4.0" args=["ngmin","~0.4.0"]
+743 verbose parsed url { protocol: null,
+743 verbose parsed url   slashes: null,
+743 verbose parsed url   auth: null,
+743 verbose parsed url   host: null,
+743 verbose parsed url   port: null,
+743 verbose parsed url   hostname: null,
+743 verbose parsed url   hash: null,
+743 verbose parsed url   search: null,
+743 verbose parsed url   query: null,
+743 verbose parsed url   pathname: '~0.4.0',
+743 verbose parsed url   path: '~0.4.0',
+743 verbose parsed url   href: '~0.4.0' }
+744 verbose addNamed [ 'ngmin', '~0.4.0' ]
+745 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+746 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+747 verbose lock ngmin@~0.4.0 /Users/mimclaren/.npm/29dc7218-ngmin-0-4-0.lock
+748 silly addNameRange { name: 'ngmin', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+749 silly gunzTarPerm extractEntry lib/coffee-script/helpers.js
+750 silly gunzTarPerm extractEntry lib/coffee-script/index.js
+751 silly gunzTarPerm extractEntry test/angular-templates_test.js
+752 silly gunzTarPerm extractEntry test/expected/markup.js
+753 silly lockFile 44a48e20-s-node-modules-find-root-package tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package
+754 silly lockFile 44a48e20-s-node-modules-find-root-package tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package
+755 silly lockFile 05152983-d-root-package-0-0-1-package-tgz tar:///Users/mimclaren/.npm/find-root-package/0.0.1/package.tgz
+756 silly lockFile 05152983-d-root-package-0-0-1-package-tgz tar:///Users/mimclaren/.npm/find-root-package/0.0.1/package.tgz
+757 silly gunzTarPerm extractEntry lib/coffee-script/lexer.js
+758 silly gunzTarPerm extractEntry lib/coffee-script/command.js
+759 silly gunzTarPerm extractEntry test/expected/markup_options.js
+760 silly gunzTarPerm extractEntry test/expected/module_option_object.js
+761 info preinstall find-root-package@0.0.1
+762 silly gunzTarPerm extractEntry lib/configParser.js
+763 silly gunzTarPerm extractEntry lib/launcher.js
+764 verbose readDependencies using package.json deps
+765 verbose readDependencies using package.json deps
+766 silly resolved []
+767 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package
+768 info build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/find-root-package
+769 verbose linkStuff [ false,
+769 verbose linkStuff   false,
+769 verbose linkStuff   false,
+769 verbose linkStuff   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules' ]
+770 info linkStuff find-root-package@0.0.1
+771 verbose linkBins find-root-package@0.0.1
+772 verbose linkMans find-root-package@0.0.1
+773 verbose rebuildBundles find-root-package@0.0.1
+774 silly gunzTarPerm extractEntry lib/coffee-script/optparse.js
+775 silly gunzTarPerm extractEntry lib/coffee-script/parser.js
+776 info install find-root-package@0.0.1
+777 silly gunzTarPerm extractEntry test/expected/module_option_object_define.js
+778 silly gunzTarPerm extractEntry test/expected/module_option_string.js
+779 info postinstall find-root-package@0.0.1
+780 silly lockFile fc4d1b81--node-modules-grunt-contrib-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/grunt-contrib-less
+781 silly lockFile fc4d1b81--node-modules-grunt-contrib-less tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-less/node_modules/grunt-contrib-less
+782 silly lockFile ce40ccd5--angular-node-modules-underscore tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore
+783 silly lockFile ce40ccd5--angular-node-modules-underscore tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore
+784 silly lockFile a0978f44--contrib-less-0-10-0-package-tgz tar:///Users/mimclaren/.npm/grunt-contrib-less/0.10.0/package.tgz
+785 silly lockFile a0978f44--contrib-less-0-10-0-package-tgz tar:///Users/mimclaren/.npm/grunt-contrib-less/0.10.0/package.tgz
+786 silly lockFile b4bac728-npm-underscore-1-5-2-package-tgz tar:///Users/mimclaren/.npm/underscore/1.5.2/package.tgz
+787 silly lockFile b4bac728-npm-underscore-1-5-2-package-tgz tar:///Users/mimclaren/.npm/underscore/1.5.2/package.tgz
+788 silly gunzTarPerm extractEntry lib/coffee-script/register.js
+789 http 200 https://registry.npmjs.org/minijasminenode
+790 silly registry.get cb [ 200,
+790 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+790 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+790 silly registry.get     etag: '"8XZ5V8KECDHIAKEXO9ZJTESMX"',
+790 silly registry.get     'content-type': 'application/json',
+790 silly registry.get     'cache-control': 'max-age=30',
+790 silly registry.get     'content-length': '16973',
+790 silly registry.get     'accept-ranges': 'bytes',
+790 silly registry.get     via: '1.1 varnish',
+790 silly registry.get     age: '1204',
+790 silly registry.get     'x-served-by': 'cache-dfw1823-DFW',
+790 silly registry.get     'x-cache': 'MISS',
+790 silly registry.get     'x-cache-hits': '0',
+790 silly registry.get     'x-timer': 'S1404955785.417772,VS0,VE53',
+790 silly registry.get     vary: 'Accept',
+790 silly registry.get     'keep-alive': 'timeout=10, max=50',
+790 silly registry.get     connection: 'Keep-Alive' } ]
+791 silly gunzTarPerm extractEntry test/expected/multiple.js
+792 silly gunzTarPerm extractEntry test/expected/noConflict_option.js
+793 info preinstall grunt-contrib-less@0.10.0
+794 info preinstall underscore@1.5.2
+795 verbose request where is /ngmin
+796 verbose request registry https://registry.npmjs.org/
+797 verbose url raw /ngmin
+798 verbose url resolving [ 'https://registry.npmjs.org/', './ngmin' ]
+799 verbose url resolved https://registry.npmjs.org/ngmin
+800 verbose request where is https://registry.npmjs.org/ngmin
+801 info trying registry request attempt 1 at 20:29:45
+802 verbose etag "30A5U3X7IKGV8Y1DTTMQXZ1UP"
+803 http GET https://registry.npmjs.org/ngmin
+804 verbose readDependencies using package.json deps
+805 verbose readDependencies using package.json deps
+806 verbose readDependencies using package.json deps
+807 verbose readDependencies using package.json deps
+808 silly resolved []
+809 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore
+810 info build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/underscore
+811 verbose linkStuff [ false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   false,
+811 verbose linkStuff   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules' ]
+812 info linkStuff underscore@1.5.2
+813 verbose linkBins underscore@1.5.2
+814 verbose linkMans underscore@1.5.2
+815 verbose rebuildBundles underscore@1.5.2
+816 verbose cache add [ 'chalk@~0.4.0', null ]
+817 verbose cache add name=undefined spec="chalk@~0.4.0" args=["chalk@~0.4.0",null]
+818 verbose parsed url { protocol: null,
+818 verbose parsed url   slashes: null,
+818 verbose parsed url   auth: null,
+818 verbose parsed url   host: null,
+818 verbose parsed url   port: null,
+818 verbose parsed url   hostname: null,
+818 verbose parsed url   hash: null,
+818 verbose parsed url   search: null,
+818 verbose parsed url   query: null,
+818 verbose parsed url   pathname: 'chalk@~0.4.0',
+818 verbose parsed url   path: 'chalk@~0.4.0',
+818 verbose parsed url   href: 'chalk@~0.4.0' }
+819 verbose cache add [ 'less@~1.7.0', null ]
+820 verbose cache add name=undefined spec="less@~1.7.0" args=["less@~1.7.0",null]
+821 verbose parsed url { protocol: null,
+821 verbose parsed url   slashes: null,
+821 verbose parsed url   auth: null,
+821 verbose parsed url   host: null,
+821 verbose parsed url   port: null,
+821 verbose parsed url   hostname: null,
+821 verbose parsed url   hash: null,
+821 verbose parsed url   search: null,
+821 verbose parsed url   query: null,
+821 verbose parsed url   pathname: 'less@~1.7.0',
+821 verbose parsed url   path: 'less@~1.7.0',
+821 verbose parsed url   href: 'less@~1.7.0' }
+822 verbose cache add [ 'grunt-lib-contrib@~0.6.1', null ]
+823 verbose cache add name=undefined spec="grunt-lib-contrib@~0.6.1" args=["grunt-lib-contrib@~0.6.1",null]
+824 verbose parsed url { protocol: null,
+824 verbose parsed url   slashes: null,
+824 verbose parsed url   auth: null,
+824 verbose parsed url   host: null,
+824 verbose parsed url   port: null,
+824 verbose parsed url   hostname: null,
+824 verbose parsed url   hash: null,
+824 verbose parsed url   search: null,
+824 verbose parsed url   query: null,
+824 verbose parsed url   pathname: 'grunt-lib-contrib@~0.6.1',
+824 verbose parsed url   path: 'grunt-lib-contrib@~0.6.1',
+824 verbose parsed url   href: 'grunt-lib-contrib@~0.6.1' }
+825 silly addNameRange number 2 { name: 'minijasminenode',
+825 silly addNameRange   range: '>=0.2.4-0 <0.3.0-0',
+825 silly addNameRange   hasData: true }
+826 silly addNameRange versions [ 'minijasminenode',
+826 silly addNameRange   [ '0.2.0',
+826 silly addNameRange     '0.2.2',
+826 silly addNameRange     '0.2.3',
+826 silly addNameRange     '0.2.4',
+826 silly addNameRange     '0.2.5',
+826 silly addNameRange     '0.2.6',
+826 silly addNameRange     '0.2.7',
+826 silly addNameRange     '0.3.0',
+826 silly addNameRange     '0.4.0',
+826 silly addNameRange     '1.0.0-alpha.1',
+826 silly addNameRange     '1.0.0',
+826 silly addNameRange     '1.1.0',
+826 silly addNameRange     '1.1.1' ] ]
+827 verbose addNamed [ 'minijasminenode', '0.2.7' ]
+828 verbose addNamed [ '0.2.7', '0.2.7' ]
+829 silly lockFile d8edf132-minijasminenode-0-2-7 minijasminenode@0.2.7
+830 verbose lock minijasminenode@0.2.7 /Users/mimclaren/.npm/d8edf132-minijasminenode-0-2-7.lock
+831 info install underscore@1.5.2
+832 verbose cache add name="chalk" spec="~0.4.0" args=["chalk","~0.4.0"]
+833 verbose parsed url { protocol: null,
+833 verbose parsed url   slashes: null,
+833 verbose parsed url   auth: null,
+833 verbose parsed url   host: null,
+833 verbose parsed url   port: null,
+833 verbose parsed url   hostname: null,
+833 verbose parsed url   hash: null,
+833 verbose parsed url   search: null,
+833 verbose parsed url   query: null,
+833 verbose parsed url   pathname: '~0.4.0',
+833 verbose parsed url   path: '~0.4.0',
+833 verbose parsed url   href: '~0.4.0' }
+834 verbose addNamed [ 'chalk', '~0.4.0' ]
+835 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+836 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+837 verbose lock chalk@~0.4.0 /Users/mimclaren/.npm/bc9fb696-chalk-0-4-0.lock
+838 verbose cache add name="less" spec="~1.7.0" args=["less","~1.7.0"]
+839 verbose parsed url { protocol: null,
+839 verbose parsed url   slashes: null,
+839 verbose parsed url   auth: null,
+839 verbose parsed url   host: null,
+839 verbose parsed url   port: null,
+839 verbose parsed url   hostname: null,
+839 verbose parsed url   hash: null,
+839 verbose parsed url   search: null,
+839 verbose parsed url   query: null,
+839 verbose parsed url   pathname: '~1.7.0',
+839 verbose parsed url   path: '~1.7.0',
+839 verbose parsed url   href: '~1.7.0' }
+840 verbose addNamed [ 'less', '~1.7.0' ]
+841 verbose addNamed [ null, '>=1.7.0-0 <1.8.0-0' ]
+842 silly lockFile 1e2f306d-less-1-7-0 less@~1.7.0
+843 verbose lock less@~1.7.0 /Users/mimclaren/.npm/1e2f306d-less-1-7-0.lock
+844 verbose cache add name="grunt-lib-contrib" spec="~0.6.1" args=["grunt-lib-contrib","~0.6.1"]
+845 verbose parsed url { protocol: null,
+845 verbose parsed url   slashes: null,
+845 verbose parsed url   auth: null,
+845 verbose parsed url   host: null,
+845 verbose parsed url   port: null,
+845 verbose parsed url   hostname: null,
+845 verbose parsed url   hash: null,
+845 verbose parsed url   search: null,
+845 verbose parsed url   query: null,
+845 verbose parsed url   pathname: '~0.6.1',
+845 verbose parsed url   path: '~0.6.1',
+845 verbose parsed url   href: '~0.6.1' }
+846 verbose addNamed [ 'grunt-lib-contrib', '~0.6.1' ]
+847 verbose addNamed [ null, '>=0.6.1-0 <0.7.0-0' ]
+848 silly lockFile a97902f4-grunt-lib-contrib-0-6-1 grunt-lib-contrib@~0.6.1
+849 verbose lock grunt-lib-contrib@~0.6.1 /Users/mimclaren/.npm/a97902f4-grunt-lib-contrib-0-6-1.lock
+850 silly gunzTarPerm extractEntry lib/coffee-script/repl.js
+851 silly gunzTarPerm extractEntry lib/coffee-script/rewriter.js
+852 info postinstall underscore@1.5.2
+853 silly addNameRange { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+854 silly addNameRange { name: 'less', range: '>=1.7.0-0 <1.8.0-0', hasData: false }
+855 silly addNameRange { name: 'grunt-lib-contrib',
+855 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+855 silly addNameRange   hasData: false }
+856 verbose request where is /chalk
+857 verbose request registry https://registry.npmjs.org/
+858 verbose url raw /chalk
+859 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+860 verbose url resolved https://registry.npmjs.org/chalk
+861 verbose request where is https://registry.npmjs.org/chalk
+862 info trying registry request attempt 1 at 20:29:45
+863 verbose etag "2WAU2PYET55FDUZTJJDLKGLYH"
+864 http GET https://registry.npmjs.org/chalk
+865 verbose request where is /grunt-lib-contrib
+866 verbose request registry https://registry.npmjs.org/
+867 verbose url raw /grunt-lib-contrib
+868 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-lib-contrib' ]
+869 verbose url resolved https://registry.npmjs.org/grunt-lib-contrib
+870 verbose request where is https://registry.npmjs.org/grunt-lib-contrib
+871 info trying registry request attempt 1 at 20:29:45
+872 verbose etag "CR75248KLCRJ1R4KXSAV2K54P"
+873 http GET https://registry.npmjs.org/grunt-lib-contrib
+874 silly gunzTarPerm extractEntry test/expected/simple.js
+875 silly gunzTarPerm extractEntry test/expected/simple_prepend.js
+876 silly gunzTarPerm extractEntry lib/locators.js
+877 silly gunzTarPerm extractEntry lib/protractor.js
+878 verbose request where is /less
+879 verbose request registry https://registry.npmjs.org/
+880 verbose url raw /less
+881 verbose url resolving [ 'https://registry.npmjs.org/', './less' ]
+882 verbose url resolved https://registry.npmjs.org/less
+883 verbose request where is https://registry.npmjs.org/less
+884 info trying registry request attempt 1 at 20:29:45
+885 verbose etag "5387751T4WTLGKMDSYL1HDDEZ"
+886 http GET https://registry.npmjs.org/less
+887 silly gunzTarPerm extractEntry lib/coffee-script/coffee-script.js
+888 silly gunzTarPerm extractEntry lib/coffee-script/scope.js
+889 silly gunzTarPerm extractEntry test/fixtures/markup.html
+890 silly gunzTarPerm extractEntry test/fixtures/multiple/one.html
+891 silly lockFile d8edf132-minijasminenode-0-2-7 minijasminenode@0.2.7
+892 silly lockFile d8edf132-minijasminenode-0-2-7 minijasminenode@0.2.7
+893 silly lockFile 23a264da-minijasminenode-0-2-4 minijasminenode@~0.2.4
+894 silly lockFile 23a264da-minijasminenode-0-2-4 minijasminenode@~0.2.4
+895 silly gunzTarPerm extractEntry test/fixtures/multiple/two/two.html
+896 silly gunzTarPerm extractEntry test/fixtures/simple.html
+897 silly resolved [ { name: 'minijasminenode',
+897 silly resolved     version: '0.2.7',
+897 silly resolved     description: 'Super simple wrapper around Jasmine for Node',
+897 silly resolved     homepage: 'https://github.com/juliemr/minijasminenode',
+897 silly resolved     repository:
+897 silly resolved      { type: 'git',
+897 silly resolved        url: 'https://github.com/juliemr/minijasminenode.git' },
+897 silly resolved     keywords: [ 'testing', 'bdd' ],
+897 silly resolved     author: { name: 'Julie Ralph', email: 'ju.ralph@gmail.com' },
+897 silly resolved     licenses: [ 'MIT' ],
+897 silly resolved     dependencies: {},
+897 silly resolved     main: 'lib/index.js',
+897 silly resolved     bin: { minijasminenode: 'bin/minijn' },
+897 silly resolved     scripts: { test: 'node lib/cli.js spec/*_spec.js' },
+897 silly resolved     devDependencies: {},
+897 silly resolved     bugs: { url: 'https://github.com/juliemr/minijasminenode/issues' },
+897 silly resolved     _id: 'minijasminenode@0.2.7',
+897 silly resolved     dist:
+897 silly resolved      { shasum: '534fd4550199ac68f2a70dc87c62daae9393e681',
+897 silly resolved        tarball: 'http://registry.npmjs.org/minijasminenode/-/minijasminenode-0.2.7.tgz' },
+897 silly resolved     _from: 'minijasminenode@~0.2.4',
+897 silly resolved     _npmVersion: '1.3.11',
+897 silly resolved     _npmUser: { name: 'juliemr', email: 'ju.ralph@gmail.com' },
+897 silly resolved     maintainers: [ [Object] ],
+897 silly resolved     directories: {},
+897 silly resolved     _shasum: '534fd4550199ac68f2a70dc87c62daae9393e681',
+897 silly resolved     _resolved: 'https://registry.npmjs.org/minijasminenode/-/minijasminenode-0.2.7.tgz',
+897 silly resolved     readme: 'ERROR: No README data found!' } ]
+898 info install minijasminenode@0.2.7 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+899 info installOne minijasminenode@0.2.7
+900 verbose node_modules/jasmine-given/node_modules/minijasminenode unbuild
+901 silly gunzTarPerm extractEntry lib/runFromLauncher.js
+902 silly gunzTarPerm extractEntry lib/runner.js
+903 http 200 https://registry.npmjs.org/ngmin
+904 silly registry.get cb [ 200,
+904 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+904 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+904 silly registry.get     etag: '"CW8H7ZNOZNDVK38A8OY9IFDQA"',
+904 silly registry.get     'content-type': 'application/json',
+904 silly registry.get     'cache-control': 'max-age=30',
+904 silly registry.get     'content-length': '20593',
+904 silly registry.get     'accept-ranges': 'bytes',
+904 silly registry.get     via: '1.1 varnish',
+904 silly registry.get     age: '200',
+904 silly registry.get     'x-served-by': 'cache-dfw1821-DFW',
+904 silly registry.get     'x-cache': 'MISS',
+904 silly registry.get     'x-cache-hits': '0',
+904 silly registry.get     'x-timer': 'S1404955785.511484,VS0,VE41',
+904 silly registry.get     vary: 'Accept',
+904 silly registry.get     'keep-alive': 'timeout=10, max=50',
+904 silly registry.get     connection: 'Keep-Alive' } ]
+905 verbose tar unpack /Users/mimclaren/.npm/minijasminenode/0.2.7/package.tgz
+906 silly lockFile cc21ab2d-ven-node-modules-minijasminenode tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode
+907 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode /Users/mimclaren/.npm/cc21ab2d-ven-node-modules-minijasminenode.lock
+908 silly lockFile e3dd90b1-inijasminenode-0-2-7-package-tgz tar:///Users/mimclaren/.npm/minijasminenode/0.2.7/package.tgz
+909 verbose lock tar:///Users/mimclaren/.npm/minijasminenode/0.2.7/package.tgz /Users/mimclaren/.npm/e3dd90b1-inijasminenode-0-2-7-package-tgz.lock
+910 silly gunzTarPerm modes [ '755', '644' ]
+911 silly gunzTarPerm extractEntry lib/coffeeifies-archetype.coffee
+912 silly gunzTarPerm extractEntry lib/extend.coffee
+913 silly gunzTarPerm extractEntry lib/wddebugger.js
+914 silly gunzTarPerm extractEntry lib/driverProviders/chrome.dp.js
+915 silly addNameRange number 2 { name: 'ngmin', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+916 silly addNameRange versions [ 'ngmin',
+916 silly addNameRange   [ '0.0.1',
+916 silly addNameRange     '0.0.2',
+916 silly addNameRange     '0.0.3',
+916 silly addNameRange     '0.0.4',
+916 silly addNameRange     '0.2.0',
+916 silly addNameRange     '0.3.0',
+916 silly addNameRange     '0.3.1',
+916 silly addNameRange     '0.3.2',
+916 silly addNameRange     '0.3.3',
+916 silly addNameRange     '0.3.4',
+916 silly addNameRange     '0.3.5',
+916 silly addNameRange     '0.3.6',
+916 silly addNameRange     '0.3.7',
+916 silly addNameRange     '0.3.8',
+916 silly addNameRange     '0.4.0',
+916 silly addNameRange     '0.4.1',
+916 silly addNameRange     '0.5.0' ] ]
+917 verbose addNamed [ 'ngmin', '0.4.1' ]
+918 verbose addNamed [ '0.4.1', '0.4.1' ]
+919 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+920 verbose lock ngmin@0.4.1 /Users/mimclaren/.npm/47835ebf-ngmin-0-4-1.lock
+921 silly gunzTarPerm extractEntry lib/file-utils.coffee
+922 silly gunzTarPerm extractEntry lib/finds-forwarded-args.coffee
+923 silly gunzTarPerm extractEntry lib/driverProviders/hosted.dp.js
+924 silly gunzTarPerm extractEntry lib/driverProviders/local.dp.js
+925 http 200 https://registry.npmjs.org/less
+926 silly registry.get cb [ 200,
+926 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+926 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+926 silly registry.get     etag: '"BVYJESOSNGMGZABCHM0YIQELC"',
+926 silly registry.get     'content-type': 'application/json',
+926 silly registry.get     'cache-control': 'max-age=30',
+926 silly registry.get     'content-length': '61866',
+926 silly registry.get     'accept-ranges': 'bytes',
+926 silly registry.get     via: '1.1 varnish',
+926 silly registry.get     age: '543',
+926 silly registry.get     'x-served-by': 'cache-dfw1828-DFW',
+926 silly registry.get     'x-cache': 'HIT',
+926 silly registry.get     'x-cache-hits': '1',
+926 silly registry.get     'x-timer': 'S1404955785.565638,VS0,VE0',
+926 silly registry.get     vary: 'Accept',
+926 silly registry.get     'keep-alive': 'timeout=10, max=50',
+926 silly registry.get     connection: 'Keep-Alive' } ]
+927 silly gunzTarPerm extractEntry lib/finds-plugin-modules.coffee
+928 silly gunzTarPerm extractEntry lib/builds-app-config.coffee
+929 silly gunzTarPerm extractEntry lib/coffee-script/cake.js
+930 silly gunzTarPerm extractEntry lib/coffee-script/sourcemap.js
+931 silly addNameRange number 2 { name: 'less', range: '>=1.7.0-0 <1.8.0-0', hasData: true }
+932 silly addNameRange versions [ 'less',
+932 silly addNameRange   [ '1.0.10',
+932 silly addNameRange     '1.0.11',
+932 silly addNameRange     '1.0.14',
+932 silly addNameRange     '1.0.18',
+932 silly addNameRange     '1.0.19',
+932 silly addNameRange     '1.0.21',
+932 silly addNameRange     '1.0.32',
+932 silly addNameRange     '1.0.36',
+932 silly addNameRange     '1.0.5',
+932 silly addNameRange     '1.0.40',
+932 silly addNameRange     '1.0.41',
+932 silly addNameRange     '1.0.44',
+932 silly addNameRange     '1.1.0',
+932 silly addNameRange     '1.1.1',
+932 silly addNameRange     '1.1.2',
+932 silly addNameRange     '1.1.4',
+932 silly addNameRange     '1.1.5',
+932 silly addNameRange     '1.1.6',
+932 silly addNameRange     '1.2.0',
+932 silly addNameRange     '1.2.1',
+932 silly addNameRange     '1.2.2',
+932 silly addNameRange     '1.3.0',
+932 silly addNameRange     '1.3.1',
+932 silly addNameRange     '1.3.2',
+932 silly addNameRange     '1.3.3',
+932 silly addNameRange     '1.4.0-b1',
+932 silly addNameRange     '1.4.0-b2',
+932 silly addNameRange     '1.4.0-b3',
+932 silly addNameRange     '1.4.0-b4',
+932 silly addNameRange     '1.4.0',
+932 silly addNameRange     '1.4.1',
+932 silly addNameRange     '1.4.2',
+932 silly addNameRange     '1.5.0-b1',
+932 silly addNameRange     '1.5.0-b2',
+932 silly addNameRange     '1.5.0-b3',
+932 silly addNameRange     '1.5.0-b4',
+932 silly addNameRange     '1.5.0',
+932 silly addNameRange     '1.5.1',
+932 silly addNameRange     '1.6.0',
+932 silly addNameRange     '1.6.1',
+932 silly addNameRange     '1.6.2',
+932 silly addNameRange     '1.6.3',
+932 silly addNameRange     '1.7.0',
+932 silly addNameRange     '1.7.1',
+932 silly addNameRange     '1.7.3' ] ]
+933 verbose addNamed [ 'less', '1.7.3' ]
+934 verbose addNamed [ '1.7.3', '1.7.3' ]
+935 silly lockFile aea7864b-less-1-7-3 less@1.7.3
+936 verbose lock less@1.7.3 /Users/mimclaren/.npm/aea7864b-less-1-7-3.lock
+937 silly gunzTarPerm extractEntry lib/driverProviders/sauce.dp.js
+938 silly gunzTarPerm extractEntry .jshintrc
+939 silly gunzTarPerm extractEntry lib/hooks.coffee
+940 silly gunzTarPerm extractEntry lib/npm-utils.coffee
+941 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+942 silly lockFile 47835ebf-ngmin-0-4-1 ngmin@0.4.1
+943 silly lockFile 9e251649-ry-npmjs-org-less-less-1-7-3-tgz https://registry.npmjs.org/less/-/less-1.7.3.tgz
+944 verbose lock https://registry.npmjs.org/less/-/less-1.7.3.tgz /Users/mimclaren/.npm/9e251649-ry-npmjs-org-less-less-1-7-3-tgz.lock
+945 silly gunzTarPerm extractEntry package.json
+946 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+947 silly lockFile 29dc7218-ngmin-0-4-0 ngmin@~0.4.0
+948 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-1.7.3.tgz',
+948 verbose addRemoteTarball   '89acc0e8adcdb1934aa21c7611d35b97b52652a6' ]
+949 http 304 https://registry.npmjs.org/chalk
+950 silly registry.get cb [ 304,
+950 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+950 silly registry.get     server: 'Apache',
+950 silly registry.get     via: '1.1 varnish',
+950 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+950 silly registry.get     'cache-control': 'max-age=30',
+950 silly registry.get     etag: '"2WAU2PYET55FDUZTJJDLKGLYH"',
+950 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+950 silly registry.get     'x-cache': 'HIT',
+950 silly registry.get     'x-cache-hits': '1',
+950 silly registry.get     'x-timer': 'S1404955785.552442,VS0,VE41',
+950 silly registry.get     vary: 'Accept',
+950 silly registry.get     'content-length': '0',
+950 silly registry.get     'keep-alive': 'timeout=10, max=50',
+950 silly registry.get     connection: 'Keep-Alive' } ]
+951 verbose etag https://registry.npmjs.org/chalk from cache
+952 silly gunzTarPerm extractEntry .npmignore
+953 silly gunzTarPerm extractEntry README.md
+954 info retry fetch attempt 1 at 20:29:45
+955 verbose fetch to= /var/folders/s7/ccngl_g111v7y5zqr67r0qc80000gp/T/npm-1772-CyNOHM7f/registry.npmjs.org/less/-/less-1.7.3.tgz
+956 http GET https://registry.npmjs.org/less/-/less-1.7.3.tgz
+957 silly gunzTarPerm extractEntry CONTRIBUTING.md
+958 silly gunzTarPerm extractEntry scripts/generate-docs.js
+959 silly gunzTarPerm extractEntry lib/pretty-prints-value.coffee
+960 silly gunzTarPerm extractEntry lib/reads-configuration.coffee
+961 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+962 silly addNameRange versions [ 'chalk',
+962 silly addNameRange   [ '0.1.0',
+962 silly addNameRange     '0.1.1',
+962 silly addNameRange     '0.2.0',
+962 silly addNameRange     '0.2.1',
+962 silly addNameRange     '0.3.0',
+962 silly addNameRange     '0.4.0',
+962 silly addNameRange     '0.5.0',
+962 silly addNameRange     '0.5.1' ] ]
+963 verbose addNamed [ 'chalk', '0.4.0' ]
+964 verbose addNamed [ '0.4.0', '0.4.0' ]
+965 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+966 verbose lock chalk@0.4.0 /Users/mimclaren/.npm/1efe4790-chalk-0-4-0.lock
+967 silly gunzTarPerm extractEntry lib/coffee-script/nodes.js
+968 silly resolved [ { name: 'ngmin',
+968 silly resolved     description: 'AngularJS Minifier',
+968 silly resolved     version: '0.4.1',
+968 silly resolved     author: { name: 'Brian Ford' },
+968 silly resolved     license: 'MIT',
+968 silly resolved     main: 'main.js',
+968 silly resolved     dependencies:
+968 silly resolved      { astral: '~0.1.0',
+968 silly resolved        'astral-angular-annotate': '~0.0.1',
+968 silly resolved        escodegen: '~0.0.15',
+968 silly resolved        esprima: '~1.0.2',
+968 silly resolved        commander: '~1.1.1',
+968 silly resolved        clone: '~0.1.6' },
+968 silly resolved     devDependencies: { should: '~1.2.1', mocha: '~1.5.0' },
+968 silly resolved     keywords: [ 'angularjs', 'minifier' ],
+968 silly resolved     repository: { type: 'git', url: 'git://github.com/btford/ngmin' },
+968 silly resolved     bin: { ngmin: './bin/ngmin' },
+968 silly resolved     scripts: { test: 'mocha' },
+968 silly resolved     bugs: { url: 'https://github.com/btford/ngmin/issues' },
+968 silly resolved     homepage: 'https://github.com/btford/ngmin',
+968 silly resolved     _id: 'ngmin@0.4.1',
+968 silly resolved     dist:
+968 silly resolved      { shasum: 'bfc1cf4b077f1574f6c0ad6e136729dad6abe19f',
+968 silly resolved        tarball: 'http://registry.npmjs.org/ngmin/-/ngmin-0.4.1.tgz' },
+968 silly resolved     _from: 'ngmin@~0.4.0',
+968 silly resolved     _npmVersion: '1.3.24',
+968 silly resolved     _npmUser: { name: 'btford', email: 'briantford@gmail.com' },
+968 silly resolved     maintainers: [ [Object] ],
+968 silly resolved     directories: {},
+968 silly resolved     _shasum: 'bfc1cf4b077f1574f6c0ad6e136729dad6abe19f',
+968 silly resolved     _resolved: 'https://registry.npmjs.org/ngmin/-/ngmin-0.4.1.tgz',
+968 silly resolved     readme: 'ERROR: No README data found!' } ]
+969 info install ngmin@0.4.1 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin
+970 info installOne ngmin@0.4.1
+971 verbose node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin unbuild
+972 silly gunzTarPerm extractEntry LICENSE
+973 silly gunzTarPerm extractEntry bin/minijn
+974 verbose tar unpack /Users/mimclaren/.npm/ngmin/0.4.1/package.tgz
+975 silly lockFile 7f68269c-s-grunt-ngmin-node-modules-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin
+976 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin /Users/mimclaren/.npm/7f68269c-s-grunt-ngmin-node-modules-ngmin.lock
+977 silly lockFile 7782ca50-aren-npm-ngmin-0-4-1-package-tgz tar:///Users/mimclaren/.npm/ngmin/0.4.1/package.tgz
+978 verbose lock tar:///Users/mimclaren/.npm/ngmin/0.4.1/package.tgz /Users/mimclaren/.npm/7782ca50-aren-npm-ngmin-0-4-1-package-tgz.lock
+979 silly gunzTarPerm modes [ '755', '644' ]
+980 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+981 silly lockFile 1efe4790-chalk-0-4-0 chalk@0.4.0
+982 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+983 silly lockFile bc9fb696-chalk-0-4-0 chalk@~0.4.0
+984 silly gunzTarPerm extractEntry lib/requires-grunt.coffee
+985 silly gunzTarPerm extractEntry lib/resolves-quietly.coffee
+986 silly gunzTarPerm extractEntry scripts/test.js
+987 silly gunzTarPerm extractEntry scripts/sauce_connect_setup.sh
+988 silly gunzTarPerm extractEntry lib/async-callback.js
+989 silly gunzTarPerm extractEntry lib/cli.js
+990 silly gunzTarPerm extractEntry lib/testem-utils.coffee
+991 silly gunzTarPerm extractEntry Gruntfile.coffee
+992 silly gunzTarPerm extractEntry lib/index.js
+993 silly gunzTarPerm extractEntry lib/jasmine-1.3.1.js
+994 silly gunzTarPerm extractEntry lib/reporter.js
+995 silly gunzTarPerm extractEntry spec/async-callback_spec.js
+996 silly gunzTarPerm extractEntry spec/failure_egs.js
+997 silly gunzTarPerm extractEntry spec/reporter_spec.js
+998 silly gunzTarPerm extractEntry spec/sample_spec.js
+999 silly gunzTarPerm extractEntry spec/syntax-error_spec.js
+1000 silly gunzTarPerm extractEntry spec/syntax_error.js
+1001 silly gunzTarPerm extractEntry spec/test_spec.js
+1002 silly gunzTarPerm extractEntry spec/timer_spec.js
+1003 silly gunzTarPerm extractEntry specs.sh
+1004 silly gunzTarPerm extractEntry CHANGELOG
+1005 silly gunzTarPerm extractEntry tasks/load-stuff.coffee
+1006 silly gunzTarPerm extractEntry scripts/testonsauce.sh
+1007 silly gunzTarPerm extractEntry scripts/testserver.sh
+1008 silly gunzTarPerm extractEntry package.json
+1009 silly gunzTarPerm extractEntry README.md
+1010 silly gunzTarPerm extractEntry main.js
+1011 silly gunzTarPerm extractEntry tasks/common.coffee
+1012 silly gunzTarPerm extractEntry tasks/dist.coffee
+1013 http 200 https://registry.npmjs.org/less/-/less-1.7.3.tgz
+1014 silly gunzTarPerm extractEntry scripts/wait_for_browser_provider.sh
+1015 silly gunzTarPerm extractEntry testapp/app.js
+1016 silly gunzTarPerm extractEntry tasks/fetch.coffee
+1017 silly gunzTarPerm extractEntry tasks/images.coffee
+1018 silly gunzTarPerm extractEntry .travis.yml
+1019 silly gunzTarPerm extractEntry bin/ngmin
+1020 silly gunzTarPerm extractEntry testapp/favicon.ico
+1021 silly gunzTarPerm extractEntry testapp/alt_root_index.html
+1022 silly gunzTarPerm extractEntry tasks/learn-about-lineman-plugin.coffee
+1023 silly gunzTarPerm extractEntry tasks/dev.coffee
+1024 silly gunzTarPerm extractEntry testapp/async/async.js
+1025 silly gunzTarPerm extractEntry testapp/async/async.html
+1026 silly gunzTarPerm extractEntry test/chain.js
+1027 silly gunzTarPerm extractEntry test/directive.js
+1028 silly gunzTarPerm extractEntry test/loader.js
+1029 silly gunzTarPerm extractEntry test/reference.js
+1030 silly gunzTarPerm extractEntry test/route-provider.js
+1031 silly gunzTarPerm extractEntry test/simple.js
+1032 silly gunzTarPerm extractEntry test/util.js
+1033 silly gunzTarPerm extractEntry tasks/pages.coffee
+1034 silly gunzTarPerm extractEntry tasks/server.coffee
+1035 silly gunzTarPerm extractEntry testapp/bindings/bindings.js
+1036 silly gunzTarPerm extractEntry testapp/bindings/bindings.html
+1037 silly gunzTarPerm extractEntry tasks/spec-ci.coffee
+1038 silly gunzTarPerm extractEntry tasks/spec.coffee
+1039 silly lockFile ae2c59df--modules-grunt-angular-templates tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates
+1040 silly lockFile ae2c59df--modules-grunt-angular-templates tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates
+1041 silly lockFile 7b7d25bd-lar-templates-0-3-12-package-tgz tar:///Users/mimclaren/.npm/grunt-angular-templates/0.3.12/package.tgz
+1042 silly lockFile 7b7d25bd-lar-templates-0-3-12-package-tgz tar:///Users/mimclaren/.npm/grunt-angular-templates/0.3.12/package.tgz
+1043 silly gunzTarPerm extractEntry tasks/webfonts.coffee
+1044 info preinstall grunt-angular-templates@0.3.12
+1045 verbose readDependencies using package.json deps
+1046 verbose readDependencies using package.json deps
+1047 verbose cache add [ 'html-minifier@~0.5.2', null ]
+1048 verbose cache add name=undefined spec="html-minifier@~0.5.2" args=["html-minifier@~0.5.2",null]
+1049 verbose parsed url { protocol: null,
+1049 verbose parsed url   slashes: null,
+1049 verbose parsed url   auth: null,
+1049 verbose parsed url   host: null,
+1049 verbose parsed url   port: null,
+1049 verbose parsed url   hostname: null,
+1049 verbose parsed url   hash: null,
+1049 verbose parsed url   search: null,
+1049 verbose parsed url   query: null,
+1049 verbose parsed url   pathname: 'html-minifier@~0.5.2',
+1049 verbose parsed url   path: 'html-minifier@~0.5.2',
+1049 verbose parsed url   href: 'html-minifier@~0.5.2' }
+1050 verbose cache add name="html-minifier" spec="~0.5.2" args=["html-minifier","~0.5.2"]
+1051 verbose parsed url { protocol: null,
+1051 verbose parsed url   slashes: null,
+1051 verbose parsed url   auth: null,
+1051 verbose parsed url   host: null,
+1051 verbose parsed url   port: null,
+1051 verbose parsed url   hostname: null,
+1051 verbose parsed url   hash: null,
+1051 verbose parsed url   search: null,
+1051 verbose parsed url   query: null,
+1051 verbose parsed url   pathname: '~0.5.2',
+1051 verbose parsed url   path: '~0.5.2',
+1051 verbose parsed url   href: '~0.5.2' }
+1052 verbose addNamed [ 'html-minifier', '~0.5.2' ]
+1053 verbose addNamed [ null, '>=0.5.2-0 <0.6.0-0' ]
+1054 silly lockFile 94672432-html-minifier-0-5-2 html-minifier@~0.5.2
+1055 verbose lock html-minifier@~0.5.2 /Users/mimclaren/.npm/94672432-html-minifier-0-5-2.lock
+1056 silly addNameRange { name: 'html-minifier',
+1056 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+1056 silly addNameRange   hasData: false }
+1057 verbose request where is /html-minifier
+1058 verbose request registry https://registry.npmjs.org/
+1059 verbose url raw /html-minifier
+1060 verbose url resolving [ 'https://registry.npmjs.org/', './html-minifier' ]
+1061 verbose url resolved https://registry.npmjs.org/html-minifier
+1062 verbose request where is https://registry.npmjs.org/html-minifier
+1063 info trying registry request attempt 1 at 20:29:45
+1064 verbose etag "EVNRD2UVHLPND6AZ6K52RZ7CE"
+1065 http GET https://registry.npmjs.org/html-minifier
+1066 silly gunzTarPerm extractEntry testapp/components/app-version.js
+1067 silly gunzTarPerm extractEntry testapp/conflict/conflict.js
+1068 http 304 https://registry.npmjs.org/grunt-lib-contrib
+1069 silly registry.get cb [ 304,
+1069 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1069 silly registry.get     server: 'Apache',
+1069 silly registry.get     via: '1.1 varnish',
+1069 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+1069 silly registry.get     'cache-control': 'max-age=30',
+1069 silly registry.get     etag: '"CR75248KLCRJ1R4KXSAV2K54P"',
+1069 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+1069 silly registry.get     'x-cache': 'HIT',
+1069 silly registry.get     'x-cache-hits': '1',
+1069 silly registry.get     'x-timer': 'S1404955785.553983,VS0,VE234',
+1069 silly registry.get     vary: 'Accept',
+1069 silly registry.get     'content-length': '0',
+1069 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1069 silly registry.get     connection: 'Keep-Alive' } ]
+1070 verbose etag https://registry.npmjs.org/grunt-lib-contrib from cache
+1071 silly lockFile 7f68269c-s-grunt-ngmin-node-modules-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin
+1072 silly lockFile 7f68269c-s-grunt-ngmin-node-modules-ngmin tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin
+1073 silly lockFile 7782ca50-aren-npm-ngmin-0-4-1-package-tgz tar:///Users/mimclaren/.npm/ngmin/0.4.1/package.tgz
+1074 silly lockFile 7782ca50-aren-npm-ngmin-0-4-1-package-tgz tar:///Users/mimclaren/.npm/ngmin/0.4.1/package.tgz
+1075 silly addNameRange number 2 { name: 'grunt-lib-contrib',
+1075 silly addNameRange   range: '>=0.6.1-0 <0.7.0-0',
+1075 silly addNameRange   hasData: true }
+1076 silly addNameRange versions [ 'grunt-lib-contrib',
+1076 silly addNameRange   [ '0.3.0',
+1076 silly addNameRange     '0.3.1',
+1076 silly addNameRange     '0.4.0',
+1076 silly addNameRange     '0.5.1',
+1076 silly addNameRange     '0.5.2',
+1076 silly addNameRange     '0.5.3',
+1076 silly addNameRange     '0.6.0',
+1076 silly addNameRange     '0.6.1',
+1076 silly addNameRange     '0.7.0',
+1076 silly addNameRange     '0.7.1' ] ]
+1077 verbose addNamed [ 'grunt-lib-contrib', '0.6.1' ]
+1078 verbose addNamed [ '0.6.1', '0.6.1' ]
+1079 silly lockFile 0ef65a81-grunt-lib-contrib-0-6-1 grunt-lib-contrib@0.6.1
+1080 verbose lock grunt-lib-contrib@0.6.1 /Users/mimclaren/.npm/0ef65a81-grunt-lib-contrib-0-6-1.lock
+1081 info preinstall ngmin@0.4.1
+1082 silly gunzTarPerm extractEntry testapp/conflict/conflict.html
+1083 silly gunzTarPerm extractEntry testapp/app.css
+1084 verbose readDependencies using package.json deps
+1085 verbose readDependencies using package.json deps
+1086 verbose cache add [ 'astral@~0.1.0', null ]
+1087 verbose cache add name=undefined spec="astral@~0.1.0" args=["astral@~0.1.0",null]
+1088 verbose parsed url { protocol: null,
+1088 verbose parsed url   slashes: null,
+1088 verbose parsed url   auth: null,
+1088 verbose parsed url   host: null,
+1088 verbose parsed url   port: null,
+1088 verbose parsed url   hostname: null,
+1088 verbose parsed url   hash: null,
+1088 verbose parsed url   search: null,
+1088 verbose parsed url   query: null,
+1088 verbose parsed url   pathname: 'astral@~0.1.0',
+1088 verbose parsed url   path: 'astral@~0.1.0',
+1088 verbose parsed url   href: 'astral@~0.1.0' }
+1089 verbose cache add [ 'astral-angular-annotate@~0.0.1', null ]
+1090 verbose cache add name=undefined spec="astral-angular-annotate@~0.0.1" args=["astral-angular-annotate@~0.0.1",null]
+1091 verbose parsed url { protocol: null,
+1091 verbose parsed url   slashes: null,
+1091 verbose parsed url   auth: null,
+1091 verbose parsed url   host: null,
+1091 verbose parsed url   port: null,
+1091 verbose parsed url   hostname: null,
+1091 verbose parsed url   hash: null,
+1091 verbose parsed url   search: null,
+1091 verbose parsed url   query: null,
+1091 verbose parsed url   pathname: 'astral-angular-annotate@~0.0.1',
+1091 verbose parsed url   path: 'astral-angular-annotate@~0.0.1',
+1091 verbose parsed url   href: 'astral-angular-annotate@~0.0.1' }
+1092 verbose cache add name="astral" spec="~0.1.0" args=["astral","~0.1.0"]
+1093 verbose parsed url { protocol: null,
+1093 verbose parsed url   slashes: null,
+1093 verbose parsed url   auth: null,
+1093 verbose parsed url   host: null,
+1093 verbose parsed url   port: null,
+1093 verbose parsed url   hostname: null,
+1093 verbose parsed url   hash: null,
+1093 verbose parsed url   search: null,
+1093 verbose parsed url   query: null,
+1093 verbose parsed url   pathname: '~0.1.0',
+1093 verbose parsed url   path: '~0.1.0',
+1093 verbose parsed url   href: '~0.1.0' }
+1094 verbose addNamed [ 'astral', '~0.1.0' ]
+1095 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+1096 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+1097 verbose lock astral@~0.1.0 /Users/mimclaren/.npm/8a786c2e-astral-0-1-0.lock
+1098 verbose cache add name="astral-angular-annotate" spec="~0.0.1" args=["astral-angular-annotate","~0.0.1"]
+1099 verbose parsed url { protocol: null,
+1099 verbose parsed url   slashes: null,
+1099 verbose parsed url   auth: null,
+1099 verbose parsed url   host: null,
+1099 verbose parsed url   port: null,
+1099 verbose parsed url   hostname: null,
+1099 verbose parsed url   hash: null,
+1099 verbose parsed url   search: null,
+1099 verbose parsed url   query: null,
+1099 verbose parsed url   pathname: '~0.0.1',
+1099 verbose parsed url   path: '~0.0.1',
+1099 verbose parsed url   href: '~0.0.1' }
+1100 verbose addNamed [ 'astral-angular-annotate', '~0.0.1' ]
+1101 verbose addNamed [ null, '>=0.0.1-0 <0.1.0-0' ]
+1102 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+1103 verbose lock astral-angular-annotate@~0.0.1 /Users/mimclaren/.npm/255d5822-astral-angular-annotate-0-0-1.lock
+1104 verbose cache add [ 'escodegen@~0.0.15', null ]
+1105 verbose cache add name=undefined spec="escodegen@~0.0.15" args=["escodegen@~0.0.15",null]
+1106 verbose parsed url { protocol: null,
+1106 verbose parsed url   slashes: null,
+1106 verbose parsed url   auth: null,
+1106 verbose parsed url   host: null,
+1106 verbose parsed url   port: null,
+1106 verbose parsed url   hostname: null,
+1106 verbose parsed url   hash: null,
+1106 verbose parsed url   search: null,
+1106 verbose parsed url   query: null,
+1106 verbose parsed url   pathname: 'escodegen@~0.0.15',
+1106 verbose parsed url   path: 'escodegen@~0.0.15',
+1106 verbose parsed url   href: 'escodegen@~0.0.15' }
+1107 verbose cache add [ 'esprima@~1.0.2', null ]
+1108 verbose cache add name=undefined spec="esprima@~1.0.2" args=["esprima@~1.0.2",null]
+1109 verbose parsed url { protocol: null,
+1109 verbose parsed url   slashes: null,
+1109 verbose parsed url   auth: null,
+1109 verbose parsed url   host: null,
+1109 verbose parsed url   port: null,
+1109 verbose parsed url   hostname: null,
+1109 verbose parsed url   hash: null,
+1109 verbose parsed url   search: null,
+1109 verbose parsed url   query: null,
+1109 verbose parsed url   pathname: 'esprima@~1.0.2',
+1109 verbose parsed url   path: 'esprima@~1.0.2',
+1109 verbose parsed url   href: 'esprima@~1.0.2' }
+1110 verbose cache add name="escodegen" spec="~0.0.15" args=["escodegen","~0.0.15"]
+1111 verbose parsed url { protocol: null,
+1111 verbose parsed url   slashes: null,
+1111 verbose parsed url   auth: null,
+1111 verbose parsed url   host: null,
+1111 verbose parsed url   port: null,
+1111 verbose parsed url   hostname: null,
+1111 verbose parsed url   hash: null,
+1111 verbose parsed url   search: null,
+1111 verbose parsed url   query: null,
+1111 verbose parsed url   pathname: '~0.0.15',
+1111 verbose parsed url   path: '~0.0.15',
+1111 verbose parsed url   href: '~0.0.15' }
+1112 verbose addNamed [ 'escodegen', '~0.0.15' ]
+1113 verbose addNamed [ null, '>=0.0.15-0 <0.1.0-0' ]
+1114 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+1115 verbose lock escodegen@~0.0.15 /Users/mimclaren/.npm/cbc3c76c-escodegen-0-0-15.lock
+1116 verbose cache add name="esprima" spec="~1.0.2" args=["esprima","~1.0.2"]
+1117 verbose parsed url { protocol: null,
+1117 verbose parsed url   slashes: null,
+1117 verbose parsed url   auth: null,
+1117 verbose parsed url   host: null,
+1117 verbose parsed url   port: null,
+1117 verbose parsed url   hostname: null,
+1117 verbose parsed url   hash: null,
+1117 verbose parsed url   search: null,
+1117 verbose parsed url   query: null,
+1117 verbose parsed url   pathname: '~1.0.2',
+1117 verbose parsed url   path: '~1.0.2',
+1117 verbose parsed url   href: '~1.0.2' }
+1118 verbose addNamed [ 'esprima', '~1.0.2' ]
+1119 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+1120 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+1121 verbose lock esprima@~1.0.2 /Users/mimclaren/.npm/de249c7a-esprima-1-0-2.lock
+1122 verbose cache add [ 'commander@~1.1.1', null ]
+1123 verbose cache add name=undefined spec="commander@~1.1.1" args=["commander@~1.1.1",null]
+1124 verbose parsed url { protocol: null,
+1124 verbose parsed url   slashes: null,
+1124 verbose parsed url   auth: null,
+1124 verbose parsed url   host: null,
+1124 verbose parsed url   port: null,
+1124 verbose parsed url   hostname: null,
+1124 verbose parsed url   hash: null,
+1124 verbose parsed url   search: null,
+1124 verbose parsed url   query: null,
+1124 verbose parsed url   pathname: 'commander@~1.1.1',
+1124 verbose parsed url   path: 'commander@~1.1.1',
+1124 verbose parsed url   href: 'commander@~1.1.1' }
+1125 verbose cache add [ 'clone@~0.1.6', null ]
+1126 verbose cache add name=undefined spec="clone@~0.1.6" args=["clone@~0.1.6",null]
+1127 verbose parsed url { protocol: null,
+1127 verbose parsed url   slashes: null,
+1127 verbose parsed url   auth: null,
+1127 verbose parsed url   host: null,
+1127 verbose parsed url   port: null,
+1127 verbose parsed url   hostname: null,
+1127 verbose parsed url   hash: null,
+1127 verbose parsed url   search: null,
+1127 verbose parsed url   query: null,
+1127 verbose parsed url   pathname: 'clone@~0.1.6',
+1127 verbose parsed url   path: 'clone@~0.1.6',
+1127 verbose parsed url   href: 'clone@~0.1.6' }
+1128 silly lockFile 0ef65a81-grunt-lib-contrib-0-6-1 grunt-lib-contrib@0.6.1
+1129 silly lockFile 0ef65a81-grunt-lib-contrib-0-6-1 grunt-lib-contrib@0.6.1
+1130 silly addNameRange { name: 'astral', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+1131 silly addNameRange { name: 'astral-angular-annotate',
+1131 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
+1131 silly addNameRange   hasData: false }
+1132 verbose cache add name="commander" spec="~1.1.1" args=["commander","~1.1.1"]
+1133 verbose parsed url { protocol: null,
+1133 verbose parsed url   slashes: null,
+1133 verbose parsed url   auth: null,
+1133 verbose parsed url   host: null,
+1133 verbose parsed url   port: null,
+1133 verbose parsed url   hostname: null,
+1133 verbose parsed url   hash: null,
+1133 verbose parsed url   search: null,
+1133 verbose parsed url   query: null,
+1133 verbose parsed url   pathname: '~1.1.1',
+1133 verbose parsed url   path: '~1.1.1',
+1133 verbose parsed url   href: '~1.1.1' }
+1134 verbose addNamed [ 'commander', '~1.1.1' ]
+1135 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+1136 silly lockFile f812655f-commander-1-1-1 commander@~1.1.1
+1137 verbose lock commander@~1.1.1 /Users/mimclaren/.npm/f812655f-commander-1-1-1.lock
+1138 verbose cache add name="clone" spec="~0.1.6" args=["clone","~0.1.6"]
+1139 verbose parsed url { protocol: null,
+1139 verbose parsed url   slashes: null,
+1139 verbose parsed url   auth: null,
+1139 verbose parsed url   host: null,
+1139 verbose parsed url   port: null,
+1139 verbose parsed url   hostname: null,
+1139 verbose parsed url   hash: null,
+1139 verbose parsed url   search: null,
+1139 verbose parsed url   query: null,
+1139 verbose parsed url   pathname: '~0.1.6',
+1139 verbose parsed url   path: '~0.1.6',
+1139 verbose parsed url   href: '~0.1.6' }
+1140 verbose addNamed [ 'clone', '~0.1.6' ]
+1141 verbose addNamed [ null, '>=0.1.6-0 <0.2.0-0' ]
+1142 silly lockFile de9ce9f0-clone-0-1-6 clone@~0.1.6
+1143 verbose lock clone@~0.1.6 /Users/mimclaren/.npm/de9ce9f0-clone-0-1-6.lock
+1144 silly lockFile a97902f4-grunt-lib-contrib-0-6-1 grunt-lib-contrib@~0.6.1
+1145 silly lockFile a97902f4-grunt-lib-contrib-0-6-1 grunt-lib-contrib@~0.6.1
+1146 silly addNameRange { name: 'escodegen',
+1146 silly addNameRange   range: '>=0.0.15-0 <0.1.0-0',
+1146 silly addNameRange   hasData: false }
+1147 silly addNameRange { name: 'esprima', range: '>=1.0.2-0 <1.1.0-0', hasData: false }
+1148 silly addNameRange { name: 'commander',
+1148 silly addNameRange   range: '>=1.1.1-0 <1.2.0-0',
+1148 silly addNameRange   hasData: false }
+1149 silly addNameRange { name: 'clone', range: '>=0.1.6-0 <0.2.0-0', hasData: false }
+1150 verbose request where is /escodegen
+1151 verbose request registry https://registry.npmjs.org/
+1152 verbose url raw /escodegen
+1153 verbose url resolving [ 'https://registry.npmjs.org/', './escodegen' ]
+1154 verbose url resolved https://registry.npmjs.org/escodegen
+1155 verbose request where is https://registry.npmjs.org/escodegen
+1156 info trying registry request attempt 1 at 20:29:45
+1157 verbose etag "6RKM8VQ2U9K1JNZNLMKHN5TFD"
+1158 http GET https://registry.npmjs.org/escodegen
+1159 verbose request where is /esprima
+1160 verbose request registry https://registry.npmjs.org/
+1161 verbose url raw /esprima
+1162 verbose url resolving [ 'https://registry.npmjs.org/', './esprima' ]
+1163 verbose url resolved https://registry.npmjs.org/esprima
+1164 verbose request where is https://registry.npmjs.org/esprima
+1165 info trying registry request attempt 1 at 20:29:45
+1166 verbose etag "1ZE7DWQXN82BV2Z5T0VQ58XGK"
+1167 http GET https://registry.npmjs.org/esprima
+1168 verbose request where is /commander
+1169 verbose request registry https://registry.npmjs.org/
+1170 verbose url raw /commander
+1171 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+1172 verbose url resolved https://registry.npmjs.org/commander
+1173 verbose request where is https://registry.npmjs.org/commander
+1174 info trying registry request attempt 1 at 20:29:45
+1175 verbose etag "6SM5AD5SPV9GX44JXSXD6G9JL"
+1176 http GET https://registry.npmjs.org/commander
+1177 verbose request where is /astral
+1178 verbose request registry https://registry.npmjs.org/
+1179 verbose url raw /astral
+1180 verbose url resolving [ 'https://registry.npmjs.org/', './astral' ]
+1181 verbose url resolved https://registry.npmjs.org/astral
+1182 verbose request where is https://registry.npmjs.org/astral
+1183 info trying registry request attempt 1 at 20:29:45
+1184 verbose etag "BICCAVEB7NS5HBYMENSNC8JLP"
+1185 http GET https://registry.npmjs.org/astral
+1186 verbose request where is /astral-angular-annotate
+1187 verbose request registry https://registry.npmjs.org/
+1188 verbose url raw /astral-angular-annotate
+1189 verbose url resolving [ 'https://registry.npmjs.org/', './astral-angular-annotate' ]
+1190 verbose url resolved https://registry.npmjs.org/astral-angular-annotate
+1191 verbose request where is https://registry.npmjs.org/astral-angular-annotate
+1192 info trying registry request attempt 1 at 20:29:45
+1193 verbose etag "7WZPM0QYLYMOATBVTO8I7JBLF"
+1194 http GET https://registry.npmjs.org/astral-angular-annotate
+1195 http 200 https://registry.npmjs.org/html-minifier
+1196 silly registry.get cb [ 200,
+1196 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1196 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1196 silly registry.get     etag: '"6RLGR1CVPNDVVXPYI1QXSCHGR"',
+1196 silly registry.get     'content-type': 'application/json',
+1196 silly registry.get     'cache-control': 'max-age=30',
+1196 silly registry.get     'content-length': '29376',
+1196 silly registry.get     'accept-ranges': 'bytes',
+1196 silly registry.get     via: '1.1 varnish',
+1196 silly registry.get     age: '166',
+1196 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+1196 silly registry.get     'x-cache': 'HIT',
+1196 silly registry.get     'x-cache-hits': '1',
+1196 silly registry.get     'x-timer': 'S1404955785.775254,VS0,VE54',
+1196 silly registry.get     vary: 'Accept',
+1196 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1196 silly registry.get     connection: 'Keep-Alive' } ]
+1197 silly gunzTarPerm extractEntry testapp/form/form.js
+1198 silly gunzTarPerm extractEntry testapp/form/form.html
+1199 verbose request where is /clone
+1200 verbose request registry https://registry.npmjs.org/
+1201 verbose url raw /clone
+1202 verbose url resolving [ 'https://registry.npmjs.org/', './clone' ]
+1203 verbose url resolved https://registry.npmjs.org/clone
+1204 verbose request where is https://registry.npmjs.org/clone
+1205 info trying registry request attempt 1 at 20:29:45
+1206 verbose etag "9HE45549RWOM1STBOVA2GSHKF"
+1207 http GET https://registry.npmjs.org/clone
+1208 silly addNameRange number 2 { name: 'html-minifier',
+1208 silly addNameRange   range: '>=0.5.2-0 <0.6.0-0',
+1208 silly addNameRange   hasData: true }
+1209 silly addNameRange versions [ 'html-minifier',
+1209 silly addNameRange   [ '0.4.3',
+1209 silly addNameRange     '0.4.4',
+1209 silly addNameRange     '0.4.5',
+1209 silly addNameRange     '0.5.0',
+1209 silly addNameRange     '0.5.1',
+1209 silly addNameRange     '0.5.2',
+1209 silly addNameRange     '0.5.4',
+1209 silly addNameRange     '0.5.5',
+1209 silly addNameRange     '0.5.6',
+1209 silly addNameRange     '0.6.0',
+1209 silly addNameRange     '0.6.1',
+1209 silly addNameRange     '0.6.2',
+1209 silly addNameRange     '0.6.3',
+1209 silly addNameRange     '0.6.4',
+1209 silly addNameRange     '0.6.5' ] ]
+1210 verbose addNamed [ 'html-minifier', '0.5.6' ]
+1211 verbose addNamed [ '0.5.6', '0.5.6' ]
+1212 silly lockFile 7f50e329-html-minifier-0-5-6 html-minifier@0.5.6
+1213 verbose lock html-minifier@0.5.6 /Users/mimclaren/.npm/7f50e329-html-minifier-0-5-6.lock
+1214 http 200 https://registry.npmjs.org/astral-angular-annotate
+1215 silly registry.get cb [ 200,
+1215 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1215 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1215 silly registry.get     etag: '"8JBAJHPROUA0L1YMK7D1U45M"',
+1215 silly registry.get     'content-type': 'application/json',
+1215 silly registry.get     'cache-control': 'max-age=30',
+1215 silly registry.get     'content-length': '6868',
+1215 silly registry.get     'accept-ranges': 'bytes',
+1215 silly registry.get     via: '1.1 varnish',
+1215 silly registry.get     age: '199',
+1215 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+1215 silly registry.get     'x-cache': 'HIT',
+1215 silly registry.get     'x-cache-hits': '1',
+1215 silly registry.get     'x-timer': 'S1404955785.857051,VS0,VE0',
+1215 silly registry.get     vary: 'Accept',
+1215 silly registry.get     'keep-alive': 'timeout=10, max=49',
+1215 silly registry.get     connection: 'Keep-Alive' } ]
+1216 silly addNameRange number 2 { name: 'astral-angular-annotate',
+1216 silly addNameRange   range: '>=0.0.1-0 <0.1.0-0',
+1216 silly addNameRange   hasData: true }
+1217 silly addNameRange versions [ 'astral-angular-annotate', [ '0.0.1', '0.0.2' ] ]
+1218 verbose addNamed [ 'astral-angular-annotate', '0.0.2' ]
+1219 verbose addNamed [ '0.0.2', '0.0.2' ]
+1220 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+1221 verbose lock astral-angular-annotate@0.0.2 /Users/mimclaren/.npm/cf538833-astral-angular-annotate-0-0-2.lock
+1222 silly lockFile 7f50e329-html-minifier-0-5-6 html-minifier@0.5.6
+1223 silly lockFile 7f50e329-html-minifier-0-5-6 html-minifier@0.5.6
+1224 http 304 https://registry.npmjs.org/esprima
+1225 silly registry.get cb [ 304,
+1225 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1225 silly registry.get     server: 'Apache',
+1225 silly registry.get     via: '1.1 varnish',
+1225 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+1225 silly registry.get     'cache-control': 'max-age=30',
+1225 silly registry.get     etag: '"1ZE7DWQXN82BV2Z5T0VQ58XGK"',
+1225 silly registry.get     'x-served-by': 'cache-dfw1826-DFW',
+1225 silly registry.get     'x-cache': 'HIT',
+1225 silly registry.get     'x-cache-hits': '1',
+1225 silly registry.get     'x-timer': 'S1404955785.880901,VS0,VE0',
+1225 silly registry.get     vary: 'Accept',
+1225 silly registry.get     'content-length': '0',
+1225 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1225 silly registry.get     connection: 'Keep-Alive' } ]
+1226 verbose etag https://registry.npmjs.org/esprima from cache
+1227 silly lockFile 94672432-html-minifier-0-5-2 html-minifier@~0.5.2
+1228 silly lockFile 94672432-html-minifier-0-5-2 html-minifier@~0.5.2
+1229 http 304 https://registry.npmjs.org/commander
+1230 silly registry.get cb [ 304,
+1230 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1230 silly registry.get     server: 'Apache',
+1230 silly registry.get     via: '1.1 varnish',
+1230 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+1230 silly registry.get     'cache-control': 'max-age=30',
+1230 silly registry.get     etag: '"6SM5AD5SPV9GX44JXSXD6G9JL"',
+1230 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+1230 silly registry.get     'x-cache': 'HIT',
+1230 silly registry.get     'x-cache-hits': '1',
+1230 silly registry.get     'x-timer': 'S1404955785.883615,VS0,VE0',
+1230 silly registry.get     vary: 'Accept',
+1230 silly registry.get     'content-length': '0',
+1230 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1230 silly registry.get     connection: 'Keep-Alive' } ]
+1231 verbose etag https://registry.npmjs.org/commander from cache
+1232 silly gunzTarPerm extractEntry testapp/index.html
+1233 silly gunzTarPerm extractEntry testapp/lib/angular_v1.2.0/angular-route.js
+1234 http 200 https://registry.npmjs.org/astral
+1235 silly registry.get cb [ 200,
+1235 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1235 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1235 silly registry.get     etag: '"6SNSMUP8PH1FF3KEH6KDV4CTE"',
+1235 silly registry.get     'content-type': 'application/json',
+1235 silly registry.get     'cache-control': 'max-age=30',
+1235 silly registry.get     'content-length': '7180',
+1235 silly registry.get     'accept-ranges': 'bytes',
+1235 silly registry.get     via: '1.1 varnish',
+1235 silly registry.get     age: '1777',
+1235 silly registry.get     'x-served-by': 'cache-dfw1824-DFW',
+1235 silly registry.get     'x-cache': 'HIT',
+1235 silly registry.get     'x-cache-hits': '1',
+1235 silly registry.get     'x-timer': 'S1404955785.892071,VS0,VE0',
+1235 silly registry.get     vary: 'Accept',
+1235 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1235 silly registry.get     connection: 'Keep-Alive' } ]
+1236 http 304 https://registry.npmjs.org/escodegen
+1237 silly registry.get cb [ 304,
+1237 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1237 silly registry.get     server: 'Apache',
+1237 silly registry.get     via: '1.1 varnish',
+1237 silly registry.get     'last-modified': 'Thu, 10 Jul 2014 01:29:45 GMT',
+1237 silly registry.get     'cache-control': 'max-age=30',
+1237 silly registry.get     etag: '"6RKM8VQ2U9K1JNZNLMKHN5TFD"',
+1237 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+1237 silly registry.get     'x-cache': 'HIT',
+1237 silly registry.get     'x-cache-hits': '1',
+1237 silly registry.get     'x-timer': 'S1404955785.902833,VS0,VE0',
+1237 silly registry.get     vary: 'Accept',
+1237 silly registry.get     'content-length': '0',
+1237 silly registry.get     'keep-alive': 'timeout=10, max=50',
+1237 silly registry.get     connection: 'Keep-Alive' } ]
+1238 verbose etag https://registry.npmjs.org/escodegen from cache
+1239 http 200 https://registry.npmjs.org/clone
+1240 silly registry.get cb [ 200,
+1240 silly registry.get   { date: 'Thu, 10 Jul 2014 01:29:45 GMT',
+1240 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+1240 silly registry.get     etag: '"5NYDFL4UHKD785TM2BNI24SPE"',
+1240 silly registry.get     'content-type': 'application/json',
+1240 silly registry.get     'cache-control': 'max-age=30',
+1240 silly registry.get     'content-length': '42178',
+1240 silly registry.get     'accept-ranges': 'bytes',
+1240 silly registry.get     via: '1.1 varnish',
+1240 silly registry.get     age: '113',
+1240 silly registry.get     'x-served-by': 'cache-dfw1829-DFW',
+1240 silly registry.get     'x-cache': 'HIT',
+1240 silly registry.get     'x-cache-hits': '1',
+1240 silly registry.get     'x-timer': 'S1404955785.877797,VS0,VE0',
+1240 silly registry.get     vary: 'Accept',
+1240 silly registry.get     'keep-alive': 'timeout=10, max=48',
+1240 silly registry.get     connection: 'Keep-Alive' } ]
+1241 silly addNameRange number 2 { name: 'esprima', range: '>=1.0.2-0 <1.1.0-0', hasData: true }
+1242 silly addNameRange versions [ 'esprima',
+1242 silly addNameRange   [ '0.7.0',
+1242 silly addNameRange     '0.8.0',
+1242 silly addNameRange     '0.8.1',
+1242 silly addNameRange     '0.8.2',
+1242 silly addNameRange     '0.9.0',
+1242 silly addNameRange     '0.9.1',
+1242 silly addNameRange     '0.9.2',
+1242 silly addNameRange     '0.9.3',
+1242 silly addNameRange     '0.9.4',
+1242 silly addNameRange     '0.9.5',
+1242 silly addNameRange     '0.9.6',
+1242 silly addNameRange     '0.9.7',
+1242 silly addNameRange     '0.9.8',
+1242 silly addNameRange     '0.9.9',
+1242 silly addNameRange     '1.0.0',
+1242 silly addNameRange     '1.0.1',
+1242 silly addNameRange     '1.0.2',
+1242 silly addNameRange     '1.0.3',
+1242 silly addNameRange     '1.0.4',
+1242 silly addNameRange     '1.1.0',
+1242 silly addNameRange     '1.1.1',
+1242 silly addNameRange     '1.2.0',
+1242 silly addNameRange     '1.2.1',
+1242 silly addNameRange     '1.2.2' ] ]
+1243 verbose addNamed [ 'esprima', '1.0.4' ]
+1244 verbose addNamed [ '1.0.4', '1.0.4' ]
+1245 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+1246 verbose lock esprima@1.0.4 /Users/mimclaren/.npm/758953aa-esprima-1-0-4.lock
+1247 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+1248 silly lockFile cf538833-astral-angular-annotate-0-0-2 astral-angular-annotate@0.0.2
+1249 silly addNameRange number 2 { name: 'commander', range: '>=1.1.1-0 <1.2.0-0', hasData: true }
+1250 silly addNameRange versions [ 'commander',
+1250 silly addNameRange   [ '0.0.1',
+1250 silly addNameRange     '0.0.3',
+1250 silly addNameRange     '0.0.4',
+1250 silly addNameRange     '0.0.5',
+1250 silly addNameRange     '0.1.0',
+1250 silly addNameRange     '0.2.0',
+1250 silly addNameRange     '0.2.1',
+1250 silly addNameRange     '0.3.0',
+1250 silly addNameRange     '0.3.1',
+1250 silly addNameRange     '0.3.2',
+1250 silly addNameRange     '0.3.3',
+1250 silly addNameRange     '0.4.0',
+1250 silly addNameRange     '0.4.1',
+1250 silly addNameRange     '0.4.2',
+1250 silly addNameRange     '0.4.3',
+1250 silly addNameRange     '0.5.0',
+1250 silly addNameRange     '0.5.1',
+1250 silly addNameRange     '0.6.0',
+1250 silly addNameRange     '0.6.1',
+1250 silly addNameRange     '0.5.2',
+1250 silly addNameRange     '1.0.0',
+1250 silly addNameRange     '1.0.1',
+1250 silly addNameRange     '1.0.2',
+1250 silly addNameRange     '1.0.3',
+1250 silly addNameRange     '1.0.4',
+1250 silly addNameRange     '1.0.5',
+1250 silly addNameRange     '1.1.0',
+1250 silly addNameRange     '1.1.1',
+1250 silly addNameRange     '1.2.0',
+1250 silly addNameRange     '1.3.0',
+1250 silly addNameRange     '1.3.1',
+1250 silly addNameRange     '1.3.2',
+1250 silly addNameRange     '2.0.0',
+1250 silly addNameRange     '2.1.0',
+1250 silly addNameRange     '2.2.0' ] ]
+1251 verbose addNamed [ 'commander', '1.1.1' ]
+1252 verbose addNamed [ '1.1.1', '1.1.1' ]
+1253 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+1254 verbose lock commander@1.1.1 /Users/mimclaren/.npm/e890879a-commander-1-1-1.lock
+1255 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+1256 silly lockFile 255d5822-astral-angular-annotate-0-0-1 astral-angular-annotate@~0.0.1
+1257 silly resolved [ { name: 'html-minifier',
+1257 silly resolved     description: 'HTML minifier with lint-like capabilities.',
+1257 silly resolved     version: '0.5.6',
+1257 silly resolved     keywords: [ 'html', 'minifier', 'lint' ],
+1257 silly resolved     url: 'http://github.com/kangax/html-minifier',
+1257 silly resolved     homepage: 'http://kangax.github.io/html-minifier/',
+1257 silly resolved     author: { name: 'Juriy "kangax" Zaytsev' },
+1257 silly resolved     maintainers: [ [Object] ],
+1257 silly resolved     contributors: [ [Object], [Object] ],
+1257 silly resolved     license:
+1257 silly resolved      { type: 'MIT',
+1257 silly resolved        url: 'https://github.com/kangax/html-minifier/blob/gh-pages/LICENSE' },
+1257 silly resolved     repository: { type: 'git', url: 'git://github.com/kangax/html-minifier' },
+1257 silly resolved     bugs: { url: 'https://github.com/kangax/html-minifier/issues' },
+1257 silly resolved     engines: { node: '>=0.8.0' },
+1257 silly resolved     directories: { test: 'tests' },
+1257 silly resolved     scripts: { test: 'grunt test' },
+1257 silly resolved     devDependencies:
+1257 silly resolved      { grunt: '0.4.x',
+1257 silly resolved        'grunt-contrib-concat': '0.3.x',
+1257 silly resolved        'grunt-contrib-jshint': '0.8.x',
+1257 silly resolved        'grunt-contrib-qunit': '0.4.x',
+1257 silly resolved        'grunt-contrib-uglify': '0.3.x',
+1257 silly resolved        'grunt-exec': '0.4.x',
+1257 silly resolved        'grunt-jscs-checker': '0.4.x',
+1257 silly resolved        'load-grunt-tasks': '0.3.x',
+1257 silly resolved        qunit: '0.5.x',
+1257 silly resolved        'time-grunt': '0.2.x' },
+1257 silly resolved     files: [ 'dist', 'LICENSE' ],
+1257 silly resolved     main: './dist/htmlminifier.js',
+1257 silly resolved     _id: 'html-minifier@0.5.6',
+1257 silly resolved     dist:
+1257 silly resolved      { shasum: '0f15b437c27b5ce9aa84a44ca2850880e9257996',
+1257 silly resolved        tarball: 'http://registry.npmjs.org/html-minifier/-/html-minifier-0.5.6.tgz' },
+1257 silly resolved     _from: 'html-minifier@~0.5.2',
+1257 silly resolved     _npmVersion: '1.3.11',
+1257 silly resolved     _npmUser: { name: 'kangax', email: 'kangax@gmail.com' },
+1257 silly resolved     _shasum: '0f15b437c27b5ce9aa84a44ca2850880e9257996',
+1257 silly resolved     _resolved: 'https://registry.npmjs.org/html-minifier/-/html-minifier-0.5.6.tgz',
+1257 silly resolved     readme: 'ERROR: No README data found!' } ]
+1258 info install html-minifier@0.5.6 into /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates
+1259 info installOne html-minifier@0.5.6
+1260 silly addNameRange number 2 { name: 'astral', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+1261 silly addNameRange versions [ 'astral', [ '0.0.1', '0.1.0' ] ]
+1262 verbose addNamed [ 'astral', '0.1.0' ]
+1263 verbose addNamed [ '0.1.0', '0.1.0' ]
+1264 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+1265 verbose lock astral@0.1.0 /Users/mimclaren/.npm/fae66955-astral-0-1-0.lock
+1266 verbose node_modules/lineman-angular/node_modules/grunt-angular-templates/node_modules/html-minifier unbuild
+1267 silly addNameRange number 2 { name: 'escodegen',
+1267 silly addNameRange   range: '>=0.0.15-0 <0.1.0-0',
+1267 silly addNameRange   hasData: true }
+1268 silly addNameRange versions [ 'escodegen',
+1268 silly addNameRange   [ '0.0.1',
+1268 silly addNameRange     '0.0.2',
+1268 silly addNameRange     '0.0.3',
+1268 silly addNameRange     '0.0.4',
+1268 silly addNameRange     '0.0.5',
+1268 silly addNameRange     '0.0.6',
+1268 silly addNameRange     '0.0.7',
+1268 silly addNameRange     '0.0.8',
+1268 silly addNameRange     '0.0.9',
+1268 silly addNameRange     '0.0.10',
+1268 silly addNameRange     '0.0.11',
+1268 silly addNameRange     '0.0.12',
+1268 silly addNameRange     '0.0.14',
+1268 silly addNameRange     '0.0.15',
+1268 silly addNameRange     '0.0.16',
+1268 silly addNameRange     '0.0.17',
+1268 silly addNameRange     '0.0.18',
+1268 silly addNameRange     '0.0.19',
+1268 silly addNameRange     '0.0.20',
+1268 silly addNameRange     '0.0.21',
+1268 silly addNameRange     '0.0.22',
+1268 silly addNameRange     '0.0.23',
+1268 silly addNameRange     '0.0.24',
+1268 silly addNameRange     '0.0.25',
+1268 silly addNameRange     '0.0.26',
+1268 silly addNameRange     '0.0.27',
+1268 silly addNameRange     '0.0.28',
+1268 silly addNameRange     '1.0.0',
+1268 silly addNameRange     '1.0.1',
+1268 silly addNameRange     '1.1.0',
+1268 silly addNameRange     '1.2.0',
+1268 silly addNameRange     '1.3.0',
+1268 silly addNameRange     '1.3.1',
+1268 silly addNameRange     '1.3.2',
+1268 silly addNameRange     '1.3.3' ] ]
+1269 verbose addNamed [ 'escodegen', '0.0.28' ]
+1270 verbose addNamed [ '0.0.28', '0.0.28' ]
+1271 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+1272 verbose lock escodegen@0.0.28 /Users/mimclaren/.npm/cb311dc7-escodegen-0-0-28.lock
+1273 silly addNameRange number 2 { name: 'clone', range: '>=0.1.6-0 <0.2.0-0', hasData: true }
+1274 silly addNameRange versions [ 'clone',
+1274 silly addNameRange   [ '0.0.0',
+1274 silly addNameRange     '0.0.1',
+1274 silly addNameRange     '0.0.2',
+1274 silly addNameRange     '0.0.3',
+1274 silly addNameRange     '0.0.4',
+1274 silly addNameRange     '0.0.5',
+1274 silly addNameRange     '0.0.6',
+1274 silly addNameRange     '0.0.7',
+1274 silly addNameRange     '0.1.0',
+1274 silly addNameRange     '0.1.1',
+1274 silly addNameRange     '0.1.2',
+1274 silly addNameRange     '0.1.3',
+1274 silly addNameRange     '0.1.4',
+1274 silly addNameRange     '0.1.5',
+1274 silly addNameRange     '0.1.6',
+1274 silly addNameRange     '0.1.7',
+1274 silly addNameRange     '0.1.8',
+1274 silly addNameRange     '0.1.9',
+1274 silly addNameRange     '0.1.10',
+1274 silly addNameRange     '0.1.11',
+1274 silly addNameRange     '0.1.12',
+1274 silly addNameRange     '0.1.13',
+1274 silly addNameRange     '0.1.14',
+1274 silly addNameRange     '0.1.15',
+1274 silly addNameRange     '0.1.16',
+1274 silly addNameRange     '0.1.17' ] ]
+1275 verbose addNamed [ 'clone', '0.1.17' ]
+1276 verbose addNamed [ '0.1.17', '0.1.17' ]
+1277 silly lockFile f64a3532-clone-0-1-17 clone@0.1.17
+1278 verbose lock clone@0.1.17 /Users/mimclaren/.npm/f64a3532-clone-0-1-17.lock
+1279 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+1280 silly lockFile 758953aa-esprima-1-0-4 esprima@1.0.4
+1281 verbose tar unpack /Users/mimclaren/.npm/html-minifier/0.5.6/package.tgz
+1282 silly lockFile 29a0ca7d-lates-node-modules-html-minifier tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates/node_modules/html-minifier
+1283 verbose lock tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-angular-templates/node_modules/html-minifier /Users/mimclaren/.npm/29a0ca7d-lates-node-modules-html-minifier.lock
+1284 silly lockFile f8a3f95e--html-minifier-0-5-6-package-tgz tar:///Users/mimclaren/.npm/html-minifier/0.5.6/package.tgz
+1285 verbose lock tar:///Users/mimclaren/.npm/html-minifier/0.5.6/package.tgz /Users/mimclaren/.npm/f8a3f95e--html-minifier-0-5-6-package-tgz.lock
+1286 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+1287 silly lockFile de249c7a-esprima-1-0-2 esprima@~1.0.2
+1288 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+1289 silly lockFile e890879a-commander-1-1-1 commander@1.1.1
+1290 silly lockFile fe6153e1-npmjs-org-clone-clone-0-1-17-tgz https://registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1291 verbose lock https://registry.npmjs.org/clone/-/clone-0.1.17.tgz /Users/mimclaren/.npm/fe6153e1-npmjs-org-clone-clone-0-1-17-tgz.lock
+1292 silly gunzTarPerm modes [ '755', '644' ]
+1293 silly lockFile f812655f-commander-1-1-1 commander@~1.1.1
+1294 silly lockFile f812655f-commander-1-1-1 commander@~1.1.1
+1295 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+1296 silly lockFile fae66955-astral-0-1-0 astral@0.1.0
+1297 verbose addRemoteTarball [ 'https://registry.npmjs.org/clone/-/clone-0.1.17.tgz',
+1297 verbose addRemoteTarball   '14410993a603bfdbc42b465a585d3727b6536ac7' ]
+1298 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+1299 silly lockFile 8a786c2e-astral-0-1-0 astral@~0.1.0
+1300 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+1301 silly lockFile cb311dc7-escodegen-0-0-28 escodegen@0.0.28
+1302 info retry fetch attempt 1 at 20:29:45
+1303 verbose fetch to= /var/folders/s7/ccngl_g111v7y5zqr67r0qc80000gp/T/npm-1772-CyNOHM7f/registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1304 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+1305 silly lockFile cbc3c76c-escodegen-0-0-15 escodegen@~0.0.15
+1306 http GET https://registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1307 silly gunzTarPerm extractEntry package.json
+1308 silly gunzTarPerm extractEntry README.md
+1309 silly gunzTarPerm extractEntry LICENSE
+1310 http 200 https://registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1311 silly gunzTarPerm extractEntry testapp/lib/angular_v1.2.0/angular.js
+1312 silly gunzTarPerm extractEntry dist/htmlminifier.js
+1313 silly gunzTarPerm extractEntry dist/htmlminifier.min.js
+1314 silly gunzTarPerm extractEntry testapp/lib/angular_v1.2.0/angular.min.js
+1315 silly gunzTarPerm extractEntry testapp/lib/angular_v1.2.9/angular-route.min.js
+1316 silly lockFile fe6153e1-npmjs-org-clone-clone-0-1-17-tgz https://registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1317 silly lockFile fe6153e1-npmjs-org-clone-clone-0-1-17-tgz https://registry.npmjs.org/clone/-/clone-0.1.17.tgz
+1318 silly lockFile f64a3532-clone-0-1-17 clone@0.1.17
+1319 silly lockFile f64a3532-clone-0-1-17 clone@0.1.17
+1320 silly lockFile de9ce9f0-clone-0-1-6 clone@~0.1.6
+1321 silly lockFile de9ce9f0-clone-0-1-6 clone@~0.1.6
+1322 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin
+1323 verbose node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/ngmin unbuild
+1324 info preuninstall ngmin@0.4.1
+1325 info uninstall ngmin@0.4.1
+1326 verbose false,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules unbuild ngmin@0.4.1
+1327 verbose /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin/node_modules/.bin,[object Object] binRoot
+1328 info postuninstall ngmin@0.4.1
+1329 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules/grunt-ngmin
+1330 verbose node_modules/lineman-angular/node_modules/grunt-ngmin unbuild
+1331 info preuninstall grunt-ngmin@0.0.3
+1332 info uninstall grunt-ngmin@0.0.3
+1333 verbose false,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular/node_modules unbuild grunt-ngmin@0.0.3
+1334 info postuninstall grunt-ngmin@0.0.3
+1335 silly gunzTarPerm extractEntry testapp/lib/angular_v1.2.9/angular.min.js
+1336 silly gunzTarPerm extractEntry testapp/login.html
+1337 silly gunzTarPerm extractEntry testapp/polling/polling.js
+1338 silly gunzTarPerm extractEntry testapp/polling/polling.html
+1339 silly gunzTarPerm extractEntry testapp/repeater/repeater.js
+1340 silly gunzTarPerm extractEntry testapp/repeater/repeater.html
+1341 silly gunzTarPerm extractEntry testapp/scripts/web-server.js
+1342 silly lockFile 9793da66-d-app-node-modules-coffee-script tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script
+1343 silly lockFile 9793da66-d-app-node-modules-coffee-script tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script
+1344 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/lineman-angular
+1345 verbose node_modules/lineman-angular unbuild
+1346 info preuninstall lineman-angular@0.2.0
+1347 silly lockFile 0749d419--coffee-script-1-6-3-package-tgz tar:///Users/mimclaren/.npm/coffee-script/1.6.3/package.tgz
+1348 silly lockFile 0749d419--coffee-script-1-6-3-package-tgz tar:///Users/mimclaren/.npm/coffee-script/1.6.3/package.tgz
+1349 info uninstall lineman-angular@0.2.0
+1350 verbose true,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules,/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules unbuild lineman-angular@0.2.0
+1351 info postuninstall lineman-angular@0.2.0
+1352 info preinstall coffee-script@1.6.3
+1353 verbose readDependencies using package.json deps
+1354 verbose readDependencies using package.json deps
+1355 silly resolved []
+1356 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script
+1357 info build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/coffee-script
+1358 verbose linkStuff [ false,
+1358 verbose linkStuff   false,
+1358 verbose linkStuff   false,
+1358 verbose linkStuff   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules' ]
+1359 info linkStuff coffee-script@1.6.3
+1360 verbose linkBins coffee-script@1.6.3
+1361 verbose link bins [ { coffee: './bin/coffee', cake: './bin/cake' },
+1361 verbose link bins   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/.bin',
+1361 verbose link bins   false ]
+1362 verbose linkMans coffee-script@1.6.3
+1363 verbose rebuildBundles coffee-script@1.6.3
+1364 silly lockFile cc21ab2d-ven-node-modules-minijasminenode tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode
+1365 silly lockFile cc21ab2d-ven-node-modules-minijasminenode tar:///Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode
+1366 info install coffee-script@1.6.3
+1367 silly lockFile e3dd90b1-inijasminenode-0-2-7-package-tgz tar:///Users/mimclaren/.npm/minijasminenode/0.2.7/package.tgz
+1368 silly lockFile e3dd90b1-inijasminenode-0-2-7-package-tgz tar:///Users/mimclaren/.npm/minijasminenode/0.2.7/package.tgz
+1369 info postinstall coffee-script@1.6.3
+1370 info preinstall minijasminenode@0.2.7
+1371 verbose readDependencies using package.json deps
+1372 verbose readDependencies using package.json deps
+1373 silly resolved []
+1374 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode
+1375 info build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/minijasminenode
+1376 verbose linkStuff [ false,
+1376 verbose linkStuff   false,
+1376 verbose linkStuff   false,
+1376 verbose linkStuff   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules' ]
+1377 info linkStuff minijasminenode@0.2.7
+1378 verbose linkBins minijasminenode@0.2.7
+1379 verbose link bins [ { minijasminenode: 'bin/minijn' },
+1379 verbose link bins   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given/node_modules/.bin',
+1379 verbose link bins   false ]
+1380 verbose linkMans minijasminenode@0.2.7
+1381 verbose rebuildBundles minijasminenode@0.2.7
+1382 info install minijasminenode@0.2.7
+1383 info postinstall minijasminenode@0.2.7
+1384 verbose about to build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+1385 info build /Users/mimclaren/Sites/hack-night/dartboard-app/node_modules/jasmine-given
+1386 verbose linkStuff [ false,
+1386 verbose linkStuff   false,
+1386 verbose linkStuff   false,
+1386 verbose linkStuff   '/Users/mimclaren/Sites/hack-night/dartboard-app/node_modules' ]
+1387 info linkStuff jasmine-given@2.1.0
+1388 verbose linkBins jasmine-given@2.1.0
+1389 verbose linkMans jasmine-given@2.1.0
+1390 verbose rebuildBundles jasmine-given@2.1.0
+1391 error Error: EACCES, mkdir '/Users/mimclaren/.npm/clone/0.1.17'
+1391 error  { [Error: EACCES, mkdir '/Users/mimclaren/.npm/clone/0.1.17']
+1391 error   errno: 3,
+1391 error   code: 'EACCES',
+1391 error   path: '/Users/mimclaren/.npm/clone/0.1.17',
+1391 error   parent: 'ngmin' }
+1392 error Please try running this command again as root/Administrator.
+1393 error System Darwin 13.1.0
+1394 error command "node" "/usr/local/bin/npm" "install"
+1395 error cwd /Users/mimclaren/Sites/hack-night/dartboard-app
+1396 error node -v v0.10.28
+1397 error npm -v 1.4.16
+1398 error path /Users/mimclaren/.npm/clone/0.1.17
+1399 error code EACCES
+1400 error errno 3
+1401 error stack Error: EACCES, mkdir '/Users/mimclaren/.npm/clone/0.1.17'
+1402 verbose exit [ 3, true ]
